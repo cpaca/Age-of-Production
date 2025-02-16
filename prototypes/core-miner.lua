@@ -64,33 +64,33 @@ data:extend{
             production_type = "input",
             pipe_covers = pipecoverspictures(),
             pipe_picture = assembler2pipepictures(),
-            secondary_draw_orders = { north = -1 },
+            secondary_draw_orders = { west = -1 },
             volume = 1000,
-            pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { -3, -5 } } }
+            pipe_connections = { { flow_direction = "input", direction = defines.direction.west, position = { -5,  3 } } }
         },
         {
             production_type = "input",
             pipe_covers = pipecoverspictures(),
             pipe_picture = assembler2pipepictures(),
-            secondary_draw_orders = { north = -1 },
+            secondary_draw_orders = { west = -1 },
             volume = 1000,
-            pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 3, -5 } } }
+            pipe_connections = { { flow_direction = "input", direction = defines.direction.west, position = { -5, -3 } } }
         },
         {
             production_type = "output",
             pipe_covers = pipecoverspictures(),
             pipe_picture = assembler2pipepictures(),
-            secondary_draw_orders = { north = -1 },
+            secondary_draw_orders = { west = -1 },
             volume = 500,
-            pipe_connections = { { flow_direction = "output", direction = defines.direction.south, position = { -3, 5 } } }
+            pipe_connections = { { flow_direction = "output", direction = defines.direction.east, position = { 5, 3 } } }
         },
         {
             production_type = "output",
             pipe_covers = pipecoverspictures(),
             pipe_picture = assembler2pipepictures(),
-            secondary_draw_orders = { north = -1 },
+            secondary_draw_orders = { west = -1 },
             volume = 500,
-            pipe_connections = { { flow_direction = "output", direction = defines.direction.south, position = { 3, 5 } } }
+            pipe_connections = { { flow_direction = "output", direction = defines.direction.east, position = { 5, -3 } } }
         },
       },
       fluid_boxes_off_when_no_fluid_recipe = false,
@@ -112,7 +112,7 @@ data:extend{
         fixed_recipe = "aop-core-mining",
         show_recipe_icon = false,
         allowed_effects = {"consumption", "speed", "productivity", "pollution", "quality"},
-        vector_to_place_result = {0, -5.75},
+        vector_to_place_result = {0, 5.75},
         graphics_set = {
           animation = {
               layers = {

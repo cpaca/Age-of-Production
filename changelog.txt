@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.0
-Date: 2025-02-15
+Date: 2025-02-16
   Changes:
     - Fixed wrong crafting category for a recipe in the Galore mods compat.
     - New building: Core Miner!! Powerful endgame way to have infnite ore! Mine up Deep Minerals and refine them into ores!
