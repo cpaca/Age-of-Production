@@ -112,7 +112,7 @@ data:extend{
         fixed_recipe = "aop-core-mining",
         show_recipe_icon = false,
         allowed_effects = {"consumption", "speed", "productivity", "pollution", "quality"},
-        vector_to_place_result = {-5.75, 0},
+        vector_to_place_result = {0, -5.75},
         graphics_set = {
           animation = {
               layers = {
