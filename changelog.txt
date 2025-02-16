@@ -1,0 +1,110 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2025-02-??
+  Changes:
+    - Fixed wrong crafting category for a recipe in the Galore mods compat.
+    - New building: Core Miner!! Powerful endgame way to have infnite ore! Mine up Deep Minerals and refine them into ores!
+    - Removed productivity from Salvager.
+    - Also, the mod's on github now!!
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2025-02-15
+  Changes:
+    - Added Supercapacitors and steel to the recipe for the Advanced Assembling Machine.
+    - Reduced the amount of Advanced Assembling Machines needed to craft the Quantum Assembler.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2025-02-14
+  Changes:
+    - Fixed the Scrubber requiring 29 pipes instead of 30. I don't know how this happened.
+    - Added carbon fiber to the scrubber's recipe and moved the tech accordingly.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2025-02-14
+  Changes:
+    - Optimized mod size (Finally i should add.)
+    - Added two new buildings: Salvager and Advanced Assembling Machine! A new Recycler upgrade with base quality and a fourth tier of assembling machines!
+    - Ironically, fixed the changelog itself.
+    - Fixed more recycling issues.
+    - Reworked Hydraulic Plant's progression and recipe, now it's classified as an Aquiloan building.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.12
+Date: 2025-02-11
+  Changes:
+    - Updated Compat with the Galore mods.
+    - Updated the textures of the Greenhouse.
+    - Made the Petrochemical Facility slightly louder.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.11
+Date: 2025-02-06
+  Changes:
+    - Fixed portable fission reactor not being craftable by hand.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.10
+Date: 2025-02-06
+  Changes:
+    - Updated Compat with the Galore mods.
+    - Lowered Quantum Stabilizer's volume even further.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 2025-02-04
+  Changes:
+    - Lowered Quantum Stabilizer's volume.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 2025-02-02
+  Changes:
+    - Added compat with the 5dim (tried to at least)
+    - Rebalanced smeltery recipes.
+    - Fixed some sound effects.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 2025-02-01
+  Changes:
+    - Added compat with the Galore mods! (Sorry for the previous version not working! Was cuz of this.)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2025-02-01
+  Changes:
+    - Tried to fix compatibility issues with mods that add oil processing recipes/crafting machines that do oil processing.
+    - Added hidden pipe imputs to all machines except the Arc Furnace and the Biochemical Plant (There's a lore reason on why it can't make fluid recipes.) for eventual compat with other mods.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2025-01-31
+  Changes:
+    - Fixed more recycling issues.
+    - Removed Legendary Quality as a requirement for Electromechanics.
+    - Rebalanced some recipes.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2025-01-30
+  Changes:
+    - Fixed recycling issues.
+    - Removed quality from Water Freezing and Lava Demineralization.
+    - Reordered Scrubber in menu.
+    - IF VERSION DOESN'T WORK TELL ME IMMEDIATELY. Long story short I couldn't test it!
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2025-01-29
+  Changes:
+    - Allowed Prod Modules in Quantum Stabilizer.
+    - Doubled the base speed of the Quantum Computer.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2025-01-29
+  Changes:
+    - Reordered the two rock synthesis recipes in the crafting menu.
+    - Added the most complicated recipe in the history of Factorio: Water Freezing.
+    - Mod now needs PlanetsLib to work.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2025-01-28
+  Changes:
+    - Tried to fix compatibility issues with mods that add centrifuging recipes/crafting machines that do centrifuging.
+    - Fixed Electromechanics requiring Promethium Science while being unlocked before it.
+    - Tried to fix compatibility file with Foundry Restructuring, goes beyong me how it stopped working after the mod's release while it worked perfectly while testing.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2025-01-27
+  Changes:
+    - Mod Release!!!!

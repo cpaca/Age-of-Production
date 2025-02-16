@@ -1,0 +1,15 @@
+{
+  "name": "Age-of-Production",
+  "version": "1.2.0",
+  "title": "Age of Production",
+  "author": "AndreusAxolotl",
+  "description": "Adding new machines to Space Age for more variety and bigger production!",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base",
+    "space-age",
+    "PlanetsLib",
+    "? foundry-restructuring",
+    "? space_age_galore"
+]
+}

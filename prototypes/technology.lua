@@ -1,0 +1,782 @@
+data:extend{
+{
+    type = "technology",
+    name = "aop-air-scrubbing",
+    icon = "__Age-of-Production__/graphics/technology/air-scrubbing.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-scrubber"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-nauvitian-air-scrubbing"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-gleban-air-scrubbing",
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-nauvitian-waste-water-cleaning",
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-gleban-waste-water-cleaning",
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-calcite-synthesis",
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-stone-synthesis",
+      },
+    },
+    prerequisites = {"carbon-fiber"},
+    unit =
+    {
+      count = 500,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"space-science-pack", 1},
+        {"agricultural-science-pack", 1},
+      },
+      time = 60
+    }
+  }
+}
+data:extend{
+{
+    type = "technology",
+    name = "aop-additional-air-scrubbing",
+    icon = "__Age-of-Production__/graphics/technology/additional-air-scrubbing.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-vulcanusian-air-scrubbing"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-fulgoran-air-scrubbing",
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-aquiloan-air-scrubbing",
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-vulcanusian-waste-water-cleaning",
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-fulgoran-waste-water-cleaning",
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-aquiloan-waste-water-cleaning",
+      },
+    },
+    prerequisites = {"aop-air-scrubbing", "cryogenic-science-pack"},
+    unit =
+    {
+      count = 100,
+      ingredients =
+      {
+        {"metallurgic-science-pack", 1},
+        {"agricultural-science-pack", 1},
+        {"electromagnetic-science-pack", 1},
+        {"cryogenic-science-pack", 1},
+      },
+      time = 60
+    }
+  }
+}
+data:extend{
+{
+    type = "technology",
+    name = "aop-arc-furnace",
+    icon = "__Age-of-Production__/graphics/technology/arc-furnace.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-arc-furnace"
+      },
+    },
+    prerequisites = {"metallurgic-science-pack"},
+    unit =
+    {
+      count = 1000,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"space-science-pack", 1},
+        {"metallurgic-science-pack", 1}
+      },
+      time = 60
+    }
+  }
+}
+data:extend{
+{
+    type = "technology",
+    name = "aop-atomic-enricher",
+    icon = "__Age-of-Production__/graphics/technology/atomic-enricher.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-atomic-enricher"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-uranium-sifting"
+      },
+    },
+    prerequisites = {"atomic-bomb", "quantum-processor"},
+    unit =
+    {
+      count = 2000,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1},
+        {"metallurgic-science-pack", 1},
+        {"cryogenic-science-pack", 1},
+      },
+      time = 60
+    }
+  }
+}
+data:extend{
+{
+    type = "technology",
+    name = "aop-electromechanics",
+    icon = "__Age-of-Production__/graphics/technology/electromechanics.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-electromechanic-facility"
+      },
+    },
+    prerequisites = {"quantum-processor"},
+    unit =
+    {
+      count = 5000,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1},
+        {"metallurgic-science-pack", 1},
+        {"agricultural-science-pack", 1},
+        {"electromagnetic-science-pack", 1},
+        {"cryogenic-science-pack", 1}
+      },
+      time = 60
+    }
+  }
+}
+data:extend{
+{
+    type = "technology",
+    name = "aop-greenhouse",
+    icon = "__Age-of-Production__/graphics/technology/greenhouse.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-greenhouse"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-yumako-planting"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-jellynut-planting"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-tree-planting"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-yumako-seed-removal"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-jellynut-seed-removal"
+      },
+
+    },
+    prerequisites = {"aop-woodworking", "cryogenic-science-pack"},
+    unit =
+    {
+      count = 2000,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1},
+        {"agricultural-science-pack", 1},
+        {"cryogenic-science-pack", 1},
+      },
+      time = 60
+    }
+  }
+}
+data:extend{
+{
+    type = "technology",
+    name = "aop-hybridation",
+    icon = "__Age-of-Production__/graphics/technology/hybridation.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-biochemical-facility"
+      },
+    },
+    prerequisites = {"captive-biter-spawner", "quantum-processor"},
+    unit =
+    {
+      count = 3000,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1},
+        {"metallurgic-science-pack", 1},
+        {"agricultural-science-pack", 1},
+        {"electromagnetic-science-pack", 1},
+        {"cryogenic-science-pack", 1}
+      },
+      time = 60
+    }
+  }
+}
+data:extend{
+{
+    type = "technology",
+    name = "aop-hydraulics",
+    icon = "__Age-of-Production__/graphics/technology/hydraulics.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-hydraulic-plant"
+      },
+    },
+    prerequisites = {"cryogenic-science-pack"},
+    unit =
+    {
+      count = 1000,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1},
+        {"electromagnetic-science-pack", 1},
+        {"cryogenic-science-pack", 1}
+      },
+      time = 60
+    }
+  }
+}
+data:extend{
+{
+    type = "technology",
+    name = "aop-petrochemistry",
+    icon = "__Age-of-Production__/graphics/technology/petrochemistry.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-petrochemical-facility"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-carbon-liquefaction"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-petroleum-gas-dehydrogenation"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-solid-fuel-melting"
+      }
+    },
+    prerequisites = {"electromagnetic-science-pack", "coal-liquefaction"},
+    unit =
+    {
+      count = 1000,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1},
+        {"electromagnetic-science-pack", 1},
+        {"metallurgic-science-pack", 1},        
+      },
+      time = 60
+    }
+  }
+}
+data:extend{
+{
+    type = "technology",
+    name = "aop-quantum-machinery",
+    icon = "__Age-of-Production__/graphics/technology/quantum-machinery.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-quantum-assembler"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-quantum-stabilizer"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-quantum-computer"
+      }
+    },
+    prerequisites = {"aop-electromechanics", "promethium-science-pack", "aop-automation-4"},
+    unit =
+    {
+      count = 7500,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1},
+        {"metallurgic-science-pack", 1},
+        {"agricultural-science-pack", 1},
+        {"electromagnetic-science-pack", 1},
+        {"cryogenic-science-pack", 1},
+        {"promethium-science-pack", 1}
+      },
+      time = 90
+    }
+  }
+}
+data:extend{
+{
+    type = "technology",
+    name = "aop-smeltery",
+    icon = "__Age-of-Production__/graphics/technology/smeltery.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-smeltery"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-direct-molten-copper-from-lava"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-direct-molten-iron-from-lava"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-lava-demineralization"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-direct-molten-copper"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-direct-molten-iron"
+      },
+    },
+    prerequisites = {"quantum-processor"},
+    unit =
+    {
+      count = 5000,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1},
+        {"metallurgic-science-pack", 1},
+        {"cryogenic-science-pack", 1},
+      },
+      time = 90
+    }
+  }
+}
+data:extend{
+{
+    type = "technology",
+    name = "aop-woodworking",
+    icon = "__Age-of-Production__/graphics/technology/woodworking.png",
+    icon_size = 256,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "aop-lumber-mill"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-biomass-from-wood"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-biomass-from-seeds"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-nutrients-from-biomass"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-charcoal"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-wood-rotting"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-wooden-rails"
+      },
+    },
+    prerequisites = {"tree-seeding"},
+    unit =
+    {
+      count = 1000,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"space-science-pack", 1},
+        {"agricultural-science-pack", 1},
+      },
+      time = 60
+    }
+  }
+}
+data:extend{
+  {
+    type = "technology",
+    name = "aop-agriculture-productivity",
+    icons = util.technology_icon_constant_recipe_productivity("__Age-of-Production__/graphics/technology/agriculture-productivity.png"),
+
+    effects =
+    {
+      {
+        type = "change-recipe-productivity",
+        recipe = "aop-yumako-planting",
+        change = 0.1
+      },
+      {
+        type = "change-recipe-productivity",
+        recipe = "aop-jellynut-planting",
+        change = 0.1
+      },
+      {
+        type = "change-recipe-productivity",
+        recipe = "aop-tree-planting",
+        change = 0.1
+      }
+    },
+    prerequisites = {"aop-greenhouse"},
+    unit =
+    {
+      count_formula = "1.75^L*500",
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1},
+        {"agricultural-science-pack", 1},
+        {"cryogenic-science-pack", 1},
+      },
+      time = 60
+    },
+    max_level = "infinite",
+    upgrade = true
+  }
+}
+data:extend{
+  {
+      type = "technology",
+      name = "aop-advanced-recycling",
+      icon = "__Age-of-Production__/graphics/technology/advanced-recycling.png",
+      icon_size = 256,
+      effects =
+      {
+        {
+          type = "unlock-recipe",
+          recipe = "aop-salvager"
+        },
+      },
+      prerequisites = {"carbon-fiber", "quality-module-3"},
+      unit =
+      {
+        count = 1000,
+        ingredients =
+        {
+          {"automation-science-pack", 1},
+          {"logistic-science-pack", 1},
+          {"chemical-science-pack", 1},
+          {"production-science-pack", 1},
+          {"utility-science-pack", 1},
+          {"space-science-pack", 1},
+          {"agricultural-science-pack", 1},
+          {"electromagnetic-science-pack", 1},
+        },
+        time = 60
+      }
+    }
+  }
+data:extend{
+    {
+        type = "technology",
+        name = "aop-automation-4",
+        icon = "__Age-of-Production__/graphics/technology/automation-4.png",
+        icon_size = 256,
+        effects =
+        {
+          {
+            type = "unlock-recipe",
+            recipe = "aop-advanced-assembling-machine"
+          },
+        },
+        prerequisites = {"productivity-module-3", "speed-module-3", "efficiency-module-3", "automation-3"},
+        unit =
+        {
+          count = 2500,
+          ingredients =
+          {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
+            {"production-science-pack", 1},
+            {"utility-science-pack", 1},
+            {"space-science-pack", 1},
+            {"metallurgic-science-pack", 1},
+            {"agricultural-science-pack", 1},
+            {"electromagnetic-science-pack", 1},
+          },
+          time = 90
+        }
+      }
+    }
+data:extend{
+      {
+          type = "technology",
+          name = "aop-core-mining",
+          icon = "__Age-of-Production__/graphics/technology/core-mining.png",
+          icon_size = 256,
+          effects =
+          {
+            {
+              type = "unlock-recipe",
+              recipe = "aop-core-miner"
+            },
+            {
+              type = "unlock-recipe",
+              recipe = "aop-core-mining"
+            },
+            {
+              type = "unlock-recipe",
+              recipe = "aop-mineral-slurry"
+            },
+            {
+              type = "unlock-recipe",
+              recipe = "aop-mineral-slurry-processing"
+            },
+            {
+              type = "unlock-recipe",
+              recipe = "aop-vulcanusian-crushing"
+            },
+            {
+              type = "unlock-recipe",
+              recipe = "aop-nauvitian-crushing"
+            },
+            {
+              type = "unlock-recipe",
+              recipe = "aop-gleban-crushing"
+            },
+            {
+              type = "unlock-recipe",
+              recipe = "aop-fulgoran-crushing"
+            },
+          },
+          prerequisites = {"aop-electromechanics", "promethium-science-pack", "aop-hydraulics"},
+          unit =
+          {
+            count = 10000,
+            ingredients =
+            {
+              {"automation-science-pack", 1},
+              {"logistic-science-pack", 1},
+              {"chemical-science-pack", 1},
+              {"production-science-pack", 1},
+              {"utility-science-pack", 1},
+              {"space-science-pack", 1},
+              {"metallurgic-science-pack", 1},
+              {"agricultural-science-pack", 1},
+              {"electromagnetic-science-pack", 1},
+              {"cryogenic-science-pack", 1},
+              {"promethium-science-pack", 1}
+            },
+            time = 60
+          }
+        }
+      }
+data:extend{
+        {
+          type = "technology",
+          name = "aop-core-mining-productivity",
+          icons = util.technology_icon_constant_recipe_productivity("__Age-of-Production__/graphics/technology/core-mining-productivity.png"),
+      
+          effects =
+          {
+            {
+              type = "change-recipe-productivity",
+              recipe = "aop-core-mining",
+              change = 0.05
+            },
+          },
+          prerequisites = {"aop-core-mining"},
+          unit =
+          {
+            count_formula = "1.5^L*1500",
+            ingredients =
+            {
+              {"automation-science-pack", 1},
+              {"logistic-science-pack", 1},
+              {"chemical-science-pack", 1},
+              {"production-science-pack", 1},
+              {"utility-science-pack", 1},
+              {"space-science-pack", 1},
+              {"metallurgic-science-pack", 1},
+              {"agricultural-science-pack", 1},
+              {"electromagnetic-science-pack", 1},
+              {"cryogenic-science-pack", 1},
+              {"promethium-science-pack", 1}
+            },
+            time = 30
+          },
+          max_level = "infinite",
+          upgrade = true
+        }
+      }
+data:extend{
+        {
+          type = "technology",
+          name = "aop-deep-mineral-refining-productivity",
+          icons = util.technology_icon_constant_recipe_productivity("__Age-of-Production__/graphics/technology/deep-mineral-refining-productivity.png"),
+      
+          effects =
+          {
+            {
+              type = "change-recipe-productivity",
+              recipe = "aop-mineral-slurry-processing",
+              change = 0.1
+            },
+            {
+              type = "change-recipe-productivity",
+              recipe = "aop-vulcanusian-crushing",
+              change = 0.1
+            },
+            {
+              type = "change-recipe-productivity",
+              recipe = "aop-nauvitian-crushing",
+              change = 0.1
+            },
+            {
+              type = "change-recipe-productivity",
+              recipe = "aop-gleban-crushing",
+              change = 0.1
+            },
+            {
+              type = "change-recipe-productivity",
+              recipe = "aop-fulgoran-crushing",
+              change = 0.1
+            },
+          },
+          prerequisites = {"aop-core-mining"},
+          unit =
+          {
+            count_formula = "2^L*1500",
+            ingredients =
+            {
+              {"automation-science-pack", 1},
+              {"logistic-science-pack", 1},
+              {"chemical-science-pack", 1},
+              {"production-science-pack", 1},
+              {"utility-science-pack", 1},
+              {"space-science-pack", 1},
+              {"metallurgic-science-pack", 1},
+              {"agricultural-science-pack", 1},
+              {"electromagnetic-science-pack", 1},
+              {"cryogenic-science-pack", 1},
+              {"promethium-science-pack", 1}
+            },
+            time = 60
+          },
+          max_level = "infinite",
+          upgrade = true
+        }
+      }
