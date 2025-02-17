@@ -95,7 +95,7 @@ data:extend{
         {
           type = "electric",
           usage_priority = "secondary-input",
-          emissions_per_minute = { pollution = -50 },
+          emissions_per_minute = { pollution = -50, spores = -50 },
           drain = "100kW",
         },
         impact_category = "metal",
