@@ -1,6 +1,6 @@
 if not mods["space_age_galore"] then return end
 
-local exclusions = { "vgal-bulk-inserter-chemical-science-pack" } -- Add recipe names to exclude
+local exclusions = { "vgal-bulk-inserter-chemical-science-pack", "vgal-big-mining-drill-calcite-metallurgic-science-pack", "vgal-ammonia-agricultural-science-pack" } -- Add recipe names to exclude
 
 for _, recipe in pairs(data.raw.recipe) do
     if recipe.name:find("^vgal-.*%-science%-pack$") then
@@ -49,7 +49,14 @@ data.raw.recipe["vgal-steam-light-oil-petroleum-gas"].category = "petrochemistry
 data.raw.recipe["vgal-steam-advanced-oil-processing"].category = "petrochemistry"
 data.raw.recipe["vgal-steam-crude-oil-sulfur"].category = "petrochemistry"
 data.raw.recipe["vgal-coal-uranium-235-nuclear-fuel"].category = "advanced-centrifuging"
-
+data.raw.recipe["vgal-jelly-sulfur-lubricant"].category = "hydraulics-or-organic"
+data.raw.recipe["vgal-water-coal-ammonia"].category = "hydraulics-or-chemistry"
+data.raw.recipe["vgal-calcite-sulfuric-acid-ammonia"].category = "hydraulics-or-chemistry"
+data.raw.recipe["vgal-ammonia-water-crude-oil"].category = "petrochemistry-or-organic-or-chemistry"
+data.raw.recipe["vgal-yumako-mash-light-oil"].category = "petrochemistry-or-organic"
+data.raw.recipe["vgal-pentapod-egg-logistic-robot"].category = "organic-or-electromechanics"
+data.raw.recipe["vgal-pentapod-egg-construction-robot"].category = "organic-or-electromechanics"
+data.raw.recipe["vgal-petroleum-gas-coal-heavy-oil"].category = "petrochemistry-or-organic-or-chemistry"
 
 local tech = data.raw.technology["electronics"]
 for i, effect in ipairs(tech.effects) do

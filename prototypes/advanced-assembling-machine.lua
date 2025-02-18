@@ -63,7 +63,7 @@ data:extend{
         },
       },
         fluid_boxes_off_when_no_fluid_recipe = true,
-        crafting_speed = 2.5,
+        crafting_speed = 2,
         energy_source =
         {
           type = "electric",
@@ -74,9 +74,9 @@ data:extend{
         impact_category = "metal",
         open_sound = sounds.metal_large_open,
         close_sound = sounds.metal_large_close,
-        energy_usage = "3MW",
+        energy_usage = "1MW",
         heating_energy = "500kW",
-        module_slots = 6,
+        module_slots = 5,
         source_inventory_size = 1,
         allowed_effects = {"consumption", "speed", "productivity", "pollution", "quality"},
         effect_receiver = {

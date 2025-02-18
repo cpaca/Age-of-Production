@@ -558,15 +558,15 @@ data:extend {{
     type = "recipe",
     name = "aop-advanced-assembling-machine",
     enabled = false,
-    energy_required = 45,
+    energy_required = 60,
     ingredients = {
         {type = "item", name = "assembling-machine-3",   amount = 4},
-        {type = "item", name = "efficiency-module-3",       amount = 2},
-        {type = "item", name = "productivity-module-3", amount = 2},
-        {type = "item", name = "speed-module-3", amount = 2},
+        {type = "item", name = "efficiency-module-3",       amount = 3},
+        {type = "item", name = "productivity-module-3", amount = 3},
+        {type = "item", name = "speed-module-3", amount = 3},
         {type = "item", name = "refined-concrete", amount = 50},
-        {type = "item", name = "supercapacitor", amount = 20},
-        {type = "item", name = "steel-plate", amount = 75},
+        {type = "item", name = "supercapacitor", amount = 25},
+        {type = "item", name = "steel-plate", amount = 100},
     },
     results = {
         {type = "item", name = "aop-advanced-assembling-machine", amount = 1}

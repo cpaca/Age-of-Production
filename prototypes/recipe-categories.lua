@@ -86,6 +86,10 @@ data:extend(
   },
   {
     type = "recipe-category",
+    name = "petrochemistry-or-organic",
+  },
+  {
+    type = "recipe-category",
     name = "petrochemistry-or-chemistry",
   },
   {
@@ -119,6 +123,10 @@ data:extend(
   {
     type = "recipe-category",
     name = "pressing-or-electromechanics",
+  },
+  {
+    type = "recipe-category",
+    name = "organic-or-electromechanics",
   },
   {
     type = "recipe-category",

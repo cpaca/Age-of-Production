@@ -26,7 +26,7 @@ data:extend{
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         --map_color = ei_data.colors.assembler,
-        crafting_categories = {"oil-processing", "petrochemistry", "petrochemistry-or-oil-processing", "petrochemistry-or-organic-or-chemistry", "petrochemistry-or-chemistry", "petrochemistry-or-organic-or-assembling", "petrochemistry-or-chemistry-or-cryogenics"},
+        crafting_categories = {"oil-processing", "petrochemistry", "petrochemistry-or-oil-processing", "petrochemistry-or-organic-or-chemistry", "petrochemistry-or-chemistry", "petrochemistry-or-organic-or-assembling", "petrochemistry-or-chemistry-or-cryogenics", "petrochemistry-or-organic"},
         fluid_boxes =
     {
         {

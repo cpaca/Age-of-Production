@@ -51,7 +51,7 @@ data:extend{
         collision_box = {{-4.1, -4.1}, {4.1, 4.1}},
         selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
         --map_color = ei_data.colors.assembler,
-        crafting_categories = {"electromechanics", "electromechanics-or-crafting", "electronics-or-electromechanics", "pressing-or-electromechanics"},
+        crafting_categories = {"electromechanics", "electromechanics-or-crafting", "electronics-or-electromechanics", "pressing-or-electromechanics", "organic-or-electromechanics"},
         fluid_boxes =
         {
           {
