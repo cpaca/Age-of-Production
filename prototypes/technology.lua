@@ -695,7 +695,7 @@ data:extend{
             {
               type = "change-recipe-productivity",
               recipe = "aop-core-mining",
-              change = 0.05
+              change = 0.1
             },
           },
           prerequisites = {"aop-core-mining"},
@@ -733,27 +733,27 @@ data:extend{
             {
               type = "change-recipe-productivity",
               recipe = "aop-mineral-slurry-processing",
-              change = 0.1
+              change = 0.05
             },
             {
               type = "change-recipe-productivity",
               recipe = "aop-vulcanusian-crushing",
-              change = 0.1
+              change = 0.05
             },
             {
               type = "change-recipe-productivity",
               recipe = "aop-nauvitian-crushing",
-              change = 0.1
+              change = 0.05
             },
             {
               type = "change-recipe-productivity",
               recipe = "aop-gleban-crushing",
-              change = 0.1
+              change = 0.05
             },
             {
               type = "change-recipe-productivity",
               recipe = "aop-fulgoran-crushing",
-              change = 0.1
+              change = 0.05
             },
           },
           prerequisites = {"aop-core-mining"},
