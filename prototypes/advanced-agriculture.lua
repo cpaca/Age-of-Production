@@ -16,6 +16,7 @@ data:extend {{
     allow_productivity = false,
     category = "agriculture",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 2000, max = 2000}}
 }}
 data:extend {{
@@ -36,6 +37,7 @@ data:extend {{
     allow_productivity = false,
     category = "agriculture",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 2000, max = 2000}}
 }}
 data:extend {{
@@ -55,7 +57,8 @@ data:extend {{
     },
     allow_productivity = false,
     category = "agriculture",
-    auto_recycle = false
+    auto_recycle = false,
+    show_amount_in_title = false,
 }}
 data:extend {{
     type = "recipe",
@@ -73,6 +76,7 @@ data:extend {{
     allow_productivity = false,
     category = "biochemistry-or-organic-or-hand-crafting",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 2000, max = 2000}},
     crafting_machine_tint =
     {
@@ -97,6 +101,7 @@ data:extend {{
     allow_productivity = false,
     category = "biochemistry-or-organic-or-hand-crafting",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 2000, max = 2000}},
     crafting_machine_tint =
     {

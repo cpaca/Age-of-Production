@@ -16,5 +16,6 @@ data:extend {{
     order = "e",
     auto_recycle = false,
     allow_quality = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "temperature", max = 320}}
 }}

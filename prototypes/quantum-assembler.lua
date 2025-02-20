@@ -45,22 +45,6 @@ data:extend{
             volume = 1000,
             pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 1, -2 } } }
         },
-        {
-            production_type = "output",
-            pipe_covers = pipecoverspictures(),
-            pipe_picture = assembler2pipepictures(),
-            secondary_draw_orders = { north = -1 },
-            volume = 500,
-            pipe_connections = { { flow_direction = "output", direction = defines.direction.south, position = { -1, 2 } } }
-        },
-        {
-            production_type = "output",
-            pipe_covers = pipecoverspictures(),
-            pipe_picture = assembler2pipepictures(),
-            secondary_draw_orders = { north = -1 },
-            volume = 500,
-            pipe_connections = { { flow_direction = "output", direction = defines.direction.south, position = { 1, 2 } } }
-        },
       },
         fluid_boxes_off_when_no_fluid_recipe = true,
         crafting_speed = 5,
@@ -90,20 +74,20 @@ data:extend{
                   {
                       filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-shadow.png",
                       priority = "high",
-                      width = 520,
-                      height = 500,
+                      width = 1200,
+                      height = 700,
                       frame_count = 1,
                       line_length = 1,
-                      repeat_count = 100,
+                      repeat_count = 80,
                       animation_speed = 0.35,
                       draw_as_shadow = true,
                       scale = 0.5
                   },
                   {
                       priority = "high",
-                      width = 320,
-                      height = 320,
-                      frame_count = 100,
+                      width = 330,
+                      height = 390,
+                      frame_count = 80,
                       lines_per_file = 8,
                       animation_speed = 0.35,
                       scale = 0.5,
@@ -116,7 +100,7 @@ data:extend{
                           {
                               filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-2.png",
                               width_in_frames = 8,
-                              height_in_frames = 5
+                              height_in_frames = 2
                           }
                       }
                   },
@@ -129,9 +113,9 @@ data:extend{
                       layers = {
                           {
                               priority = "high",
-                              width = 320,
-                              height = 320,
-                              frame_count = 100,
+                              width = 330,
+                              height = 390,
+                              frame_count = 80,
                               lines_per_file = 8,
                               animation_speed = 0.35,
                               scale = 0.5,
@@ -144,7 +128,7 @@ data:extend{
                                   {
                                       filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-2.png",
                                       width_in_frames = 8,
-                                      height_in_frames = 5
+                                      height_in_frames = 2
                                   }
                               }
                           },
@@ -152,22 +136,22 @@ data:extend{
                               priority = "high",
                               draw_as_glow = true,
                               blend_mode = "additive",
-                              width = 320,
-                              height = 320,
-                              frame_count = 100,
+                              width = 330,
+                              height = 390,
+                              frame_count = 80,
                               lines_per_file = 8,
                               animation_speed = 0.35,
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-emission-1.png",
+                                      filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
                                       filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-emission-2.png",
                                       width_in_frames = 8,
-                                      height_in_frames = 5
+                                      height_in_frames = 2
                                   }
                               }
                           }
@@ -186,7 +170,7 @@ data:extend{
         --},
         working_sound =
         {
-          sound = {filename = "__Age-of-Production__/sounds/quantum-assembler.ogg", volume = 0.45},
+          sound = {filename = "__space-age__/sound/entity/cryogenic-plant/cryogenic-plant.ogg", volume = 0.45},
           apparent_volume = 0.3,
         },
         created_effect = {

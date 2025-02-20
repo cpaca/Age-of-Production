@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: 2025-02-20
+  Changes:
+    - Added Chinese locale (Thanks isd-1!)
+    - Locked recycling of some recipes.
+    - Updated Salvager textures.
+    - Inverted the textures of the Quantum Assembler and Advanced Assembling Machine. Make it make sense they told me.
+---------------------------------------------------------------------------------------------------
 Version: 1.2.2
 Date: 2025-02-18
   Changes:

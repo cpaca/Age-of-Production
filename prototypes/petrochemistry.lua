@@ -13,7 +13,8 @@ data:extend {{
     },
     allow_productivity = false,
     category = "petrochemistry",
-    auto_recycle = false
+    auto_recycle = false,
+    show_amount_in_title = false,
 }}
 data:extend {{
     type = "recipe",
@@ -32,7 +33,8 @@ data:extend {{
     },
     allow_productivity = true,
     category = "petrochemistry",
-    auto_recycle = false
+    auto_recycle = false,
+    show_amount_in_title = false,
 }}
 data:extend {{
     type = "recipe",
@@ -51,5 +53,6 @@ data:extend {{
     },
     allow_productivity = false,
     category = "petrochemistry",
-    auto_recycle = false
+    auto_recycle = false,
+    show_amount_in_title = false,
 }}

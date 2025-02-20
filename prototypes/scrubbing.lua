@@ -32,6 +32,7 @@ data:extend {{
     allow_quality = false,
     category = "scrubbing",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 4000, max = 4000}}
 }}
 data:extend {{
@@ -52,6 +53,7 @@ data:extend {{
     allow_quality = false,
     category = "scrubbing",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 1000, max = 1000}}
 }}
 data:extend {{
@@ -72,6 +74,7 @@ data:extend {{
     allow_quality = false,
     category = "scrubbing",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 2000, max = 2000}}
 }}
 data:extend {{
@@ -92,6 +95,7 @@ data:extend {{
     allow_quality = false,
     category = "scrubbing",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "magnetic-field", min = 99, max = 99}}
 }}
 data:extend {{
@@ -112,6 +116,7 @@ data:extend {{
     allow_quality = false,
     category = "scrubbing",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 300, max = 300}}
 }}
 data:extend {{

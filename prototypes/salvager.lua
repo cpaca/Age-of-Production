@@ -9,8 +9,8 @@ local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo
 local function animationLayer()
     return {
         priority = "high",
-        width = 260,
-        height = 260,
+        width = 270,
+        height = 282,
         frame_count = 128,
         lines_per_file = 8,
         animation_speed = 1,
@@ -81,8 +81,8 @@ data:extend{
                     {
                         filename = "__Age-of-Production__/graphics/entity/salvager/salvager-hr-shadow.png",
                         priority = "high",
-                        width = 730,
-                        height = 426,
+                        width = 1200,
+                        height = 700,
                         frame_count = 1,
                         line_length = 1,
                         repeat_count = 128,
@@ -104,8 +104,8 @@ data:extend{
                                 priority = "high",
                                 draw_as_glow = true,
                                 blend_mode = "additive",
-                                width = 260,
-                                height = 260,
+                                width = 270,
+                                height = 282,
                                 frame_count = 128,
                                 lines_per_file = 8,
                                 animation_speed = 1,

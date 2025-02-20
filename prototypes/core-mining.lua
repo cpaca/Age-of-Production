@@ -80,6 +80,7 @@ data:extend {{
     allow_productivity = true,
     category = "core-mining",
     auto_recycle = false,
+    show_amount_in_title = false,
 }}
 
 data:extend {{
@@ -99,6 +100,7 @@ data:extend {{
     allow_productivity = false,
     category = "hydraulics-or-chemistry-or-cryogenics",
     auto_recycle = false,
+    show_amount_in_title = false,
     crafting_machine_tint =
     {
         primary = {r = 0.35, g = 0.15, b = 0.07, a = 1.000},
@@ -126,6 +128,7 @@ data:extend {{
     allow_productivity = true,
     category = "chemistry-or-cryogenics",
     auto_recycle = false,
+    show_amount_in_title = false,
     crafting_machine_tint =
     {
         primary = {r = 0.35, g = 0.15, b = 0.07, a = 1.000},
@@ -156,6 +159,7 @@ data:extend {{
     allow_productivity = true,
     category = "crushing",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 4000, max = 4000}},
 }}
 
@@ -178,6 +182,7 @@ data:extend {{
     allow_productivity = true,
     category = "crushing",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 1000, max = 1000}},
 }}
 
@@ -204,6 +209,7 @@ data:extend {{
     allow_productivity = true,
     category = "crushing",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 2000, max = 2000}},
 }}
 
@@ -226,5 +232,6 @@ data:extend {{
     allow_productivity = true,
     category = "crushing",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "magnetic-field", min = 99, max = 99}},
 }}

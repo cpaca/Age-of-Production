@@ -90,22 +90,22 @@ data:extend{
                   {
                       filename = "__Age-of-Production__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-shadow.png",
                       priority = "high",
-                      width = 1200,
-                      height = 700,
+                      width = 520,
+                      height = 500,
                       frame_count = 1,
                       line_length = 1,
-                      repeat_count = 80,
-                      animation_speed = 0.5,
+                      repeat_count = 100,
+                      animation_speed = 0.35,
                       draw_as_shadow = true,
                       scale = 0.5
                   },
                   {
                       priority = "high",
-                      width = 330,
-                      height = 390,
-                      frame_count = 80,
+                      width = 320,
+                      height = 320,
+                      frame_count = 100,
                       lines_per_file = 8,
-                      animation_speed = 0.5,
+                      animation_speed = 0.35,
                       scale = 0.5,
                       stripes = {
                           {
@@ -116,7 +116,7 @@ data:extend{
                           {
                               filename = "__Age-of-Production__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-animation-2.png",
                               width_in_frames = 8,
-                              height_in_frames = 2
+                              height_in_frames = 5
                           }
                       }
                   },
@@ -129,11 +129,11 @@ data:extend{
                       layers = {
                           {
                               priority = "high",
-                              width = 330,
-                              height = 390,
-                              frame_count = 80,
+                              width = 320,
+                              height = 320,
+                              frame_count = 100,
                               lines_per_file = 8,
-                              animation_speed = 0.5,
+                              animation_speed = 0.35,
                               scale = 0.5,
                               stripes = {
                                   {
@@ -144,7 +144,7 @@ data:extend{
                                   {
                                       filename = "__Age-of-Production__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-animation-2.png",
                                       width_in_frames = 8,
-                                      height_in_frames = 2
+                                      height_in_frames = 5
                                   }
                               }
                           },
@@ -152,11 +152,11 @@ data:extend{
                               priority = "high",
                               draw_as_glow = true,
                               blend_mode = "additive",
-                              width = 330,
-                              height = 390,
-                              frame_count = 80,
+                              width = 320,
+                              height = 320,
+                              frame_count = 100,
                               lines_per_file = 8,
-                              animation_speed = 0.5,
+                              animation_speed = 0.35,
                               scale = 0.5,
                               stripes = {
                                   {
@@ -167,7 +167,7 @@ data:extend{
                                   {
                                       filename = "__Age-of-Production__/graphics/entity/advanced-assembling-machine/advanced-assembling-machine-hr-emission-2.png",
                                       width_in_frames = 8,
-                                      height_in_frames = 2
+                                      height_in_frames = 5
                                   }
                               }
                           }
@@ -186,7 +186,7 @@ data:extend{
         --},
         working_sound =
         {
-          sound = {filename = "__space-age__/sound/entity/cryogenic-plant/cryogenic-plant.ogg", volume = 0.45},
+          sound = {filename = "__Age-of-Production__/sounds/advanced-assembling-machine.ogg", volume = 0.45},
           apparent_volume = 0.3,
         },
         created_effect = {

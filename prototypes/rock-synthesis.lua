@@ -17,6 +17,7 @@ data:extend {{
     category = "chemistry",
     order = "n",
     auto_recycle = false,
+    show_amount_in_title = false,
     surface_conditions = {{property = "pressure", min = 1, max = 3999}}
 }}
 data:extend {{
@@ -37,5 +38,6 @@ data:extend {{
     allow_productivity = true,
     category = "chemistry",
     order = "n",
-    auto_recycle = false
+    auto_recycle = false,
+    show_amount_in_title = false,
 }}

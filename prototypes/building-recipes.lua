@@ -76,7 +76,7 @@ data:extend {{
     surface_conditions = {{property = "pressure", min = 1000, max = 1000}},
     main_product = "aop-atomic-enricher",
     category = "advanced-centrifuging-or-centrifuging",
-    auto_recycle = true
+    auto_recycle = false
 }}
 
 data:extend {{
@@ -500,7 +500,7 @@ data:extend {{
     surface_conditions = {{property = "pressure", min = 4000, max = 4000}},
     main_product = "aop-smeltery",
     category = "metallurgy-2-the-return",
-    auto_recycle = true
+    auto_recycle = false
 }}
 
 data:extend {{
@@ -575,7 +575,7 @@ data:extend {{
     surface_conditions = {{property = "pressure", min = 800, max = 800}},
     main_product = "aop-advanced-assembling-machine",
     category = "electromagnetics",
-    auto_recycle = true
+    auto_recycle = false
 }}
 
 data:extend {{
