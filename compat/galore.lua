@@ -57,6 +57,10 @@ data.raw.recipe["vgal-yumako-mash-light-oil"].category = "petrochemistry-or-orga
 data.raw.recipe["vgal-pentapod-egg-logistic-robot"].category = "organic-or-electromechanics"
 data.raw.recipe["vgal-pentapod-egg-construction-robot"].category = "organic-or-electromechanics"
 data.raw.recipe["vgal-petroleum-gas-coal-heavy-oil"].category = "petrochemistry-or-organic-or-chemistry"
+data.raw.recipe["vgal-tungsten-plate-piercing-rounds-magazine"].category = "ammunition-or-crafting"
+data.raw.recipe["vgal-tungsten-plate-cannon-shell"].category = "ammunition-or-crafting"
+data.raw.recipe["vgal-tungsten-plate-explosive-cannon-shell"].category = "ammunition-or-crafting"
+data.raw.recipe["vgal-tungsten-plate-piercing-shotgun-shell"].category = "ammunition-or-crafting"
 
 local tech = data.raw.technology["electronics"]
 for i, effect in ipairs(tech.effects) do

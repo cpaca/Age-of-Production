@@ -148,5 +148,13 @@ data:extend(
     type = "recipe-category",
     name = "core-mining"
   },
+  {
+    type = "recipe-category",
+    name = "ammunition"
+  },
+  {
+    type = "recipe-category",
+    name = "ammunition-or-crafting"
+  },
 }
 )

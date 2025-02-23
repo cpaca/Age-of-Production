@@ -36,5 +36,11 @@ data:extend(
     group = "intermediate-products",
     order = "m"
   },
+  {
+    type = "item-subgroup",
+    name = "aop-specialized-science-pack",
+    group = "intermediate-products",
+    order = "z"
+  },
 }
 )

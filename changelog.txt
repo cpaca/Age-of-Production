@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 2025-02-23
+  Changes:
+    - Add the Armory, new Vulcanus building specialized in crafting ammunition.
+    - Added the Specialized Planetary Science Pack recipes! New alt recipes with special ingredients to make the new packs in the newly added buildings!
+    - Fixed some tech requirements.
+---------------------------------------------------------------------------------------------------
 Version: 1.2.4
 Date: 2025-02-20
   Changes:

@@ -112,7 +112,7 @@ data:extend{
         recipe = "aop-arc-furnace"
       },
     },
-    prerequisites = {"metallurgic-science-pack"},
+    prerequisites = {"metallurgic-science-pack", "production-science-pack"},
     unit =
     {
       count = 1000,
@@ -494,7 +494,7 @@ data:extend{
         recipe = "aop-wooden-rails"
       },
     },
-    prerequisites = {"tree-seeding"},
+    prerequisites = {"tree-seeding", "production-science-pack"},
     unit =
     {
       count = 1000,
@@ -569,7 +569,7 @@ data:extend{
           recipe = "aop-salvager"
         },
       },
-      prerequisites = {"carbon-fiber", "quality-module-3"},
+      prerequisites = {"carbon-fiber", "quality-module-3", "production-science-pack", "utility-science-pack"},
       unit =
       {
         count = 1000,
@@ -601,7 +601,7 @@ data:extend{
             recipe = "aop-advanced-assembling-machine"
           },
         },
-        prerequisites = {"productivity-module-3", "speed-module-3", "efficiency-module-3", "automation-3"},
+        prerequisites = {"productivity-module-3", "speed-module-3", "efficiency-module-3", "automation-3", "utility-science-pack", "electromagnetic-science-pack"},
         unit =
         {
           count = 2500,
@@ -780,3 +780,107 @@ data:extend{
           upgrade = true
         }
       }
+data:extend{
+        {
+            type = "technology",
+            name = "aop-armory",
+            icon = "__Age-of-Production__/graphics/technology/armory.png",
+            icon_size = 256,
+            effects =
+            {
+              {
+                type = "unlock-recipe",
+                recipe = "aop-armory"
+              },
+            },
+            prerequisites = {"metallurgic-science-pack", "utility-science-pack", "uranium-ammo"},
+            unit =
+            {
+              count = 1000,
+              ingredients =
+              {
+                {"automation-science-pack", 1},
+                {"logistic-science-pack", 1},
+                {"military-science-pack", 1},
+                {"chemical-science-pack", 1},
+                {"utility-science-pack", 1},
+                {"space-science-pack", 1},
+                {"metallurgic-science-pack", 1}
+              },
+              time = 60
+            }
+          }
+        }
+data:extend{
+          {
+              type = "technology",
+              name = "aop-specialized-science",
+              icon = "__Age-of-Production__/graphics/technology/specialized-science.png",
+              icon_size = 256,
+              effects =
+              {
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-lithium-fluoride"
+                },
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-lithium-fluoride-casting"
+                },
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-explosive-core"
+                },
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-advanced-artillery-shell-manufacturing"
+                },
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-magnetic-flow-meter"
+                },
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-magnetic-thruster"
+                },
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-hybrid-bacteria"
+                },
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-hybrid-bacteria-cultivation"
+                },
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-hydraulics-specialized-cryogenic-science-pack"
+                },
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-military-specialized-metallurgic-science-pack"
+                },
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-petrochemistry-specialized-electromagnetic-science-pack"
+                },
+                {
+                  type = "unlock-recipe",
+                  recipe = "aop-hybridation-specialized-agricultural-science-pack"
+                },
+              },
+              prerequisites = {"aop-armory", "aop-petrochemistry", "aop-hybridation", "aop-hydraulics"},
+              unit =
+              {
+                count = 5000,
+                ingredients =
+                {
+                  {"space-science-pack", 1},
+                  {"metallurgic-science-pack", 1},
+                  {"agricultural-science-pack", 1},
+                  {"electromagnetic-science-pack", 1},
+                  {"cryogenic-science-pack", 1},
+                },
+                time = 90
+              }
+            }
+          }

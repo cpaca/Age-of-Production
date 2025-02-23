@@ -1,6 +1,6 @@
-data.raw["assembling-machine"]["assembling-machine-1"].crafting_categories = {"crafting", "basic-crafting", "advanced-crafting", "electronics", "pressing", "advanced-centrifuging-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "quantum-assembling-or-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "electronics-or-electromechanics", "pressing-or-electromechanics"}
-data.raw["assembling-machine"]["assembling-machine-2"].crafting_categories = {"basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid", "electronics", "electronics-with-fluid", "pressing", "metallurgy-or-assembling", "organic-or-hand-crafting", "organic-or-assembling", "electronics-or-assembling", "cryogenics-or-assembling", "crafting-with-fluid-or-metallurgy", "advanced-centrifuging-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "quantum-assembling-or-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "biochemistry-or-organic-or-hand-crafting", "biochemistry-or-organic-or-assembling", "woodworking-or-organic-or-assembling", "petrochemistry-or-organic-or-assembling" , "electronics-or-electromechanics", "pressing-or-electromechanics", "quantum-assembling-or-crafting-with-fluid", "advanced-centrifuging-or-crafting-with-fluid"}
-data.raw["assembling-machine"]["assembling-machine-3"].crafting_categories = {"basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid", "electronics", "electronics-with-fluid", "pressing", "metallurgy-or-assembling", "organic-or-hand-crafting", "organic-or-assembling", "electronics-or-assembling", "cryogenics-or-assembling", "crafting-with-fluid-or-metallurgy", "advanced-centrifuging-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "quantum-assembling-or-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "biochemistry-or-organic-or-hand-crafting", "biochemistry-or-organic-or-assembling", "woodworking-or-organic-or-assembling", "petrochemistry-or-organic-or-assembling", "electronics-or-electromechanics", "pressing-or-electromechanics", "quantum-assembling-or-crafting-with-fluid", "advanced-centrifuging-or-crafting-with-fluid"}
+data.raw["assembling-machine"]["assembling-machine-1"].crafting_categories = {"crafting", "basic-crafting", "advanced-crafting", "electronics", "pressing", "advanced-centrifuging-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "quantum-assembling-or-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "electronics-or-electromechanics", "pressing-or-electromechanics", "ammunition-or-crafting"}
+data.raw["assembling-machine"]["assembling-machine-2"].crafting_categories = {"basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid", "electronics", "electronics-with-fluid", "pressing", "metallurgy-or-assembling", "organic-or-hand-crafting", "organic-or-assembling", "electronics-or-assembling", "cryogenics-or-assembling", "crafting-with-fluid-or-metallurgy", "advanced-centrifuging-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "quantum-assembling-or-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "biochemistry-or-organic-or-hand-crafting", "biochemistry-or-organic-or-assembling", "woodworking-or-organic-or-assembling", "petrochemistry-or-organic-or-assembling" , "electronics-or-electromechanics", "pressing-or-electromechanics", "quantum-assembling-or-crafting-with-fluid", "advanced-centrifuging-or-crafting-with-fluid", "ammunition-or-crafting"}
+data.raw["assembling-machine"]["assembling-machine-3"].crafting_categories = {"basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid", "electronics", "electronics-with-fluid", "pressing", "metallurgy-or-assembling", "organic-or-hand-crafting", "organic-or-assembling", "electronics-or-assembling", "cryogenics-or-assembling", "crafting-with-fluid-or-metallurgy", "advanced-centrifuging-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "quantum-assembling-or-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "biochemistry-or-organic-or-hand-crafting", "biochemistry-or-organic-or-assembling", "woodworking-or-organic-or-assembling", "petrochemistry-or-organic-or-assembling", "electronics-or-electromechanics", "pressing-or-electromechanics", "quantum-assembling-or-crafting-with-fluid", "advanced-centrifuging-or-crafting-with-fluid", "ammunition-or-crafting"}
 data.raw["assembling-machine"]["chemical-plant"].crafting_categories = {"chemistry", "chemistry-or-cryogenics", "organic-or-chemistry", "hydraulics-or-chemistry", "hydraulics-or-chemistry-or-cryogenics", "petrochemistry-or-organic-or-chemistry", "petrochemistry-or-chemistry", "petrochemistry-or-chemistry-or-cryogenics"}
 data.raw["assembling-machine"]["centrifuge"].crafting_categories = {"centrifuging", "advanced-centrifuging-or-centrifuging"}
 data.raw["assembling-machine"]["oil-refinery"].crafting_categories = {"oil-processing", "petrochemistry-or-oil-processing"}
@@ -8,7 +8,7 @@ data.raw["assembling-machine"]["biochamber"].crafting_categories = {"organic", "
 data.raw["assembling-machine"]["cryogenic-plant"].crafting_categories = {"cryogenics", "chemistry-or-cryogenics", "cryogenics-or-assembling", "hydraulics-or-chemistry-or-cryogenics", "petrochemistry-or-chemistry-or-cryogenics"}
 data.raw["assembling-machine"]["electromagnetic-plant"].crafting_categories = {"electromagnetics", "electronics", "electronics-with-fluid", "electronics-or-assembling", "electronics-or-electromechanics"}
 data.raw["assembling-machine"]["foundry"].crafting_categories = {"metallurgy", "pressing", "crafting-with-fluid-or-metallurgy", "metallurgy-or-assembling", "pressing-or-electromechanics", "metallurgy-2-the-return"}
-data.raw.character.character.crafting_categories = {"crafting", "electronics", "pressing", "recycling-or-hand-crafting", "organic-or-hand-crafting", "organic-or-assembling", "advanced-centrifuging-or-crafting", "quantum-assembling-or-crafting", "biochemistry-or-organic-or-hand-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics"}
+data.raw.character.character.crafting_categories = {"crafting", "electronics", "pressing", "recycling-or-hand-crafting", "organic-or-hand-crafting", "organic-or-assembling", "advanced-centrifuging-or-crafting", "quantum-assembling-or-crafting", "biochemistry-or-organic-or-hand-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "ammunition-or-crafting"}
 
 local function add_tech_effect(tech_name, effect)
     local tech = data.raw.technology[tech_name]
@@ -102,11 +102,25 @@ data.raw.recipe["modular-armor"].category = "electromechanics-or-crafting"
 data.raw.recipe["power-armor"].category = "electromechanics-or-crafting"
 data.raw.recipe["power-armor-mk2"].category = "electromechanics-or-crafting"
 data.raw.recipe["mech-armor"].category = "electromechanics-or-crafting"
+data.raw.recipe["firearm-magazine"].category = "ammunition-or-crafting"
+data.raw.recipe["piercing-rounds-magazine"].category = "ammunition-or-crafting"
+data.raw.recipe["uranium-rounds-magazine"].category = "ammunition-or-crafting"
+data.raw.recipe["rocket"].category = "ammunition-or-crafting"
+data.raw.recipe["explosive-rocket"].category = "ammunition-or-crafting"
+data.raw.recipe["shotgun-shell"].category = "ammunition-or-crafting"
+data.raw.recipe["piercing-shotgun-shell"].category = "ammunition-or-crafting"
+data.raw.recipe["cannon-shell"].category = "ammunition-or-crafting"
+data.raw.recipe["explosive-cannon-shell"].category = "ammunition-or-crafting"
+data.raw.recipe["uranium-cannon-shell"].category = "ammunition-or-crafting"
+data.raw.recipe["explosive-uranium-cannon-shell"].category = "ammunition-or-crafting"
+data.raw.recipe["railgun-ammo"].category = "ammunition-or-crafting"
+data.raw.recipe["artillery-shell"].category = "ammunition-or-crafting"
 
 require "prototypes.advanced-agriculture"
 require "prototypes.advanced-assembling-machine"
 require "prototypes.advanced-metallurgy"
 require "prototypes.arc-furnace"
+require "prototypes.armory"
 require "prototypes.atomic-enricher"
 require "prototypes.biochemical-facility"
 require "prototypes.biomass"
@@ -130,6 +144,7 @@ require "prototypes.salvager"
 require "prototypes.scrubber"
 require "prototypes.scrubbing"
 require "prototypes.smeltery"
+require "prototypes.specialized-science"
 require "prototypes.technology"
 require "prototypes.uranium-sifting"
 require "prototypes.woodworking"

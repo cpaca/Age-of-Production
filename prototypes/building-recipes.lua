@@ -619,3 +619,40 @@ data:extend {{
     category = "electromechanics",
     auto_recycle = false
 }}
+
+data:extend {{
+    type = "item",
+    name = "aop-armory",
+    subgroup = "production-machine",
+    order = "h[aop-armory]",
+    inventory_move_sound = item_sounds.metal_large_inventory_move,
+    pick_sound = item_sounds.metal_large_inventory_pickup,
+    drop_sound = item_sounds.metal_large_inventory_move,
+    icon = "__Age-of-Production__/graphics/icons/armory.png",
+    icon_size = 64,
+    stack_size = 10,
+    default_import_location = "vulcanus",
+    weight = 200000,
+    place_result = "aop-armory"
+}}
+data:extend {{
+    type = "recipe",
+    name = "aop-armory",
+    enabled = false,
+    energy_required = 60,
+    ingredients = {
+        {type = "item", name = "assembling-machine-2",   amount = 1},
+        {type = "item", name = "advanced-circuit",   amount = 50},
+        {type = "item", name = "refined-concrete", amount = 20},
+        {type = "item", name = "tungsten-plate", amount = 35},
+        {type = "fluid", name = "molten-copper",   amount = 100},
+    },
+    results = {
+        {type = "item", name = "aop-armory", amount = 1}
+    },
+    allow_productivity = false,
+    surface_conditions = {{property = "pressure", min = 4000, max = 4000}},
+    main_product = "aop-armory",
+    category = "metallurgy-2-the-return",
+    auto_recycle = true
+}}
