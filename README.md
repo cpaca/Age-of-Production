@@ -50,14 +50,14 @@ The new additions, per planet, are:
 
 # PLEASE REPORT ANY BUGS YOU FIND
 
-##Compat:
-###Addons (I think that's the term)
+#Compat:
+#Addons (I think that's the term)
 - [AoP Extended Planets](https://mods.factorio.com/mod/AoP-extended-planets): Moves around my new techs if some planet mods are installed.
-###Built-in compat:
+#Built-in compat:
 - [Foundry Restructuring](https://mods.factorio.com/mod/foundry-restructuring): Changes the crafting prototypes of the new recipes so that they can be made in my new machines alongside the changes from FR.
 - [Vanilla Galore Continued](https://mods.factorio.com/mod/vanilla_galore_continued) and [Space Age Galore](https://mods.factorio.com/mod/space_age_galore): Adds support for the recipes added by the mods to my machines.
 - [5Dim's mod - New Automatization](https://mods.factorio.com/mod/5dim_automation): Makes crafting prototypes not broken.
-###Compat from other mods:
+#Compat from other mods:
 - [Extraplanetary Production](https://mods.factorio.com/mod/extraplanetary-production): Mod has support for my machines built in.
 
 ####If your mod has compat for mine and I missed it, tell me! And if you want your mod to be compatible, just do it lol! If you need help tell me!!
