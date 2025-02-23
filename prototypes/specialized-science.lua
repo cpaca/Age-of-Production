@@ -187,14 +187,14 @@ data:extend {{
     icon = "__Age-of-Production__/graphics/icons/magnetic-thruster.png",
     subgroup = "fulgora-processes",
     enabled = false,
-    energy_required = 4,
+    energy_required = 8,
     ingredients = {
         {type = "item", name = "aop-magnetic-flow-meter",      amount = 1},
         {type = "item", name = "steel-plate",      amount = 10},
         {type = "fluid", name = "electrolyte",      amount = 5},
     },
     results = {
-        {type = "item", name = "thruster", amount = 2},
+        {type = "item", name = "thruster", amount = 1},
     },
     allow_productivity = false,
     category = "electromagnetics",
