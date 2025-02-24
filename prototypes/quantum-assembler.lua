@@ -60,7 +60,7 @@ data:extend{
         close_sound = sounds.metal_large_close,
         energy_usage = "5MW",
         heating_energy = "500kW",
-        module_slots = 5,
+        module_slots = 6,
         source_inventory_size = 1,
         allowed_effects = {"consumption", "speed", "productivity", "pollution", "quality"},
         effect_receiver = {

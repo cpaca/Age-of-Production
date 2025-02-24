@@ -57,7 +57,7 @@ data:extend {
         },
         energy_usage = "100MW",
         heating_energy = "500kW",
-        module_slots = 8,
+        module_slots = 10,
         allowed_effects = { "consumption", "speed", "productivity", "pollution", "quality" },
         open_sound = { filename = "__base__/sound/open-close/lab-open.ogg", volume = 0.6 },
         close_sound = { filename = "__base__/sound/open-close/lab-close.ogg", volume = 0.6 },
