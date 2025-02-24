@@ -68,9 +68,9 @@ The new additions, per planet, are:
 - A trailer
 - Adding more stuff maybe idk, you can suggest stuff.
 - Compatibility with other mods.
-- Currently adding some more buildings ;3.
-####Buildings on the way:
-- Convector and Thermal Plant will have their uses revamped as their original ideas are too hard for me to implement (fluid consuming heat reactor and wide area heating). If anyone has any good ideas, please tell me!
+- Currently planning on adding more buildings ;3.
+#### Buildings on the way:
+- The Thermal Plant will have its uses revamped as the original ideas is too hard for me to implement (fluid consuming heat reactor). If anyone has any good ideas, tell me! Currently my ideas is making it something that works with solid fuel recipes, but idk.
 
 ### Credits
 
