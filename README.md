@@ -111,6 +111,9 @@ This mod wouldn't be possible without the help of these amazing people!
 #### Help with the Core Miner, Github and other stuff
 - [Quezler](https://github.com/Quezler)
 
+#### Quantum Stabilizer Nerf
+- [cpaca](https://github.com/cpaca)
+
 #### Various other help and inspiration
 - [SpeckledFleebeedoo](https://mods.factorio.com/user/SpeckledFleebeedoo)
 - [O5MO](https://mods.factorio.com/user/O5MO)
