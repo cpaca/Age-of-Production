@@ -437,6 +437,30 @@ data:extend{
         type = "unlock-recipe",
         recipe = "aop-direct-molten-iron"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-copper-plate-melting"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-iron-plate-melting"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-steel-plate-melting"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-copper-cable-melting"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-iron-gear-wheel-melting"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "aop-iron-stick-melting"
+      },
     },
     prerequisites = {"quantum-processor"},
     unit =
