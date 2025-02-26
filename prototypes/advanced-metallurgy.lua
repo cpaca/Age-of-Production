@@ -1,7 +1,7 @@
 data:extend {{
     type = "recipe",
     name = "aop-direct-molten-copper-from-lava",
-    icon = "__Age-of-Production__/graphics/icons/direct-molten-copper-from-lava.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/direct-molten-copper-from-lava.png",
     subgroup = "aop-advanced-metallurgy",
     enabled = false,
     energy_required = 64,
@@ -20,7 +20,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-direct-molten-iron-from-lava",
-    icon = "__Age-of-Production__/graphics/icons/direct-molten-iron-from-lava.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/direct-molten-iron-from-lava.png",
     subgroup = "aop-advanced-metallurgy",
     enabled = false,
     energy_required = 64,
@@ -39,7 +39,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-lava-demineralization",
-    icon = "__Age-of-Production__/graphics/icons/lava-demineralization.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/lava-demineralization.png",
     subgroup = "aop-advanced-metallurgy",
     enabled = false,
     energy_required = 32,
@@ -60,7 +60,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-direct-molten-copper",
-    icon = "__Age-of-Production__/graphics/icons/direct-molten-copper.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/direct-molten-copper.png",
     subgroup = "aop-advanced-metallurgy",
     enabled = false,
     energy_required = 32,
@@ -78,7 +78,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-direct-molten-iron",
-    icon = "__Age-of-Production__/graphics/icons/direct-molten-iron.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/direct-molten-iron.png",
     subgroup = "aop-advanced-metallurgy",
     enabled = false,
     energy_required = 32,

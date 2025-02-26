@@ -11,7 +11,7 @@ data:extend{
     {
         name = "aop-arc-furnace",
         type = "furnace",
-        icon = "__Age-of-Production__/graphics/icons/arc-furnace.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/arc-furnace.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -52,7 +52,7 @@ data:extend{
           idle_animation = {
             layers = {
               {
-                filename = "__Age-of-Production__/graphics/entity/arc-furnace/arc-furnace-hr-shadow.png",
+                filename = "__Age-of-Production-Graphics__/graphics/entity/arc-furnace/arc-furnace-hr-shadow.png",
                 size = {600, 400},
                 shift = {0, 0},
                 scale = 0.5,
@@ -63,7 +63,7 @@ data:extend{
                 animation_speed = 0.25,
               },
               {
-                filename = "__Age-of-Production__/graphics/entity/arc-furnace/arc-furnace-hr-animation-1.png",
+                filename = "__Age-of-Production-Graphics__/graphics/entity/arc-furnace/arc-furnace-hr-animation-1.png",
                 size = {320, 320},
                 shift = {0, 0},
                 scale = 0.5,
@@ -80,7 +80,7 @@ data:extend{
             animation = {
               layers = {
                 {
-                  filename = "__Age-of-Production__/graphics/entity/arc-furnace/arc-furnace-hr-animation-emission-1.png",
+                  filename = "__Age-of-Production-Graphics__/graphics/entity/arc-furnace/arc-furnace-hr-animation-emission-1.png",
                   size = {320, 320},
                   shift = {0, 0},
                   scale = 0.5,
@@ -105,7 +105,7 @@ data:extend{
         --},
         working_sound =
         {
-          sound = {filename = "__Age-of-Production__/sounds/arc-furnace.ogg", volume = 0.9},
+          sound = {filename = "__Age-of-Production-Graphics__/sounds/arc-furnace.ogg", volume = 0.9},
           apparent_volume = 0.3,
         },
         created_effect = {

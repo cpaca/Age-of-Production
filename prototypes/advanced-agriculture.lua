@@ -1,7 +1,7 @@
 data:extend {{
     type = "recipe",
     name = "aop-yumako-planting",
-    icon = "__Age-of-Production__/graphics/icons/yumako-planting.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/yumako-planting.png",
     subgroup = "aop-advanced-agriculture",
     enabled = false,
     energy_required = 600,
@@ -22,7 +22,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-jellynut-planting",
-    icon = "__Age-of-Production__/graphics/icons/jellynut-planting.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/jellynut-planting.png",
     subgroup = "aop-advanced-agriculture",
     enabled = false,
     energy_required = 600,
@@ -43,7 +43,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-tree-planting",
-    icon = "__Age-of-Production__/graphics/icons/tree-planting.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/tree-planting.png",
     subgroup = "aop-advanced-agriculture",
     enabled = false,
     energy_required = 1200,
@@ -63,7 +63,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-yumako-seed-removal",
-    icon = "__Age-of-Production__/graphics/icons/yumako-seed-removal.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/yumako-seed-removal.png",
     subgroup = "agriculture-processes",
     enabled = false,
     energy_required = 5,
@@ -88,7 +88,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-jellynut-seed-removal",
-    icon = "__Age-of-Production__/graphics/icons/jellynut-seed-removal.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/jellynut-seed-removal.png",
     subgroup = "agriculture-processes",
     enabled = false,
     energy_required = 5,

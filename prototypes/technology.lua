@@ -2,7 +2,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-air-scrubbing",
-    icon = "__Age-of-Production__/graphics/technology/air-scrubbing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/air-scrubbing.png",
     icon_size = 256,
     effects =
     {
@@ -55,7 +55,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-additional-air-scrubbing",
-    icon = "__Age-of-Production__/graphics/technology/additional-air-scrubbing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/additional-air-scrubbing.png",
     icon_size = 256,
     effects =
     {
@@ -103,7 +103,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-arc-furnace",
-    icon = "__Age-of-Production__/graphics/technology/arc-furnace.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/arc-furnace.png",
     icon_size = 256,
     effects =
     {
@@ -133,7 +133,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-atomic-enricher",
-    icon = "__Age-of-Production__/graphics/technology/atomic-enricher.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/atomic-enricher.png",
     icon_size = 256,
     effects =
     {
@@ -169,7 +169,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-electromechanics",
-    icon = "__Age-of-Production__/graphics/technology/electromechanics.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/electromechanics.png",
     icon_size = 256,
     effects =
     {
@@ -203,7 +203,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-greenhouse",
-    icon = "__Age-of-Production__/graphics/technology/greenhouse.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/greenhouse.png",
     icon_size = 256,
     effects =
     {
@@ -256,7 +256,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-hybridation",
-    icon = "__Age-of-Production__/graphics/technology/hybridation.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/hybridation.png",
     icon_size = 256,
     effects =
     {
@@ -290,7 +290,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-hydraulics",
-    icon = "__Age-of-Production__/graphics/technology/hydraulics.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/hydraulics.png",
     icon_size = 256,
     effects =
     {
@@ -322,7 +322,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-petrochemistry",
-    icon = "__Age-of-Production__/graphics/technology/petrochemistry.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/petrochemistry.png",
     icon_size = 256,
     effects =
     {
@@ -366,7 +366,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-quantum-machinery",
-    icon = "__Age-of-Production__/graphics/technology/quantum-machinery.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/quantum-machinery.png",
     icon_size = 256,
     effects =
     {
@@ -409,7 +409,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-smeltery",
-    icon = "__Age-of-Production__/graphics/technology/smeltery.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/smeltery.png",
     icon_size = 256,
     effects =
     {
@@ -461,7 +461,7 @@ data:extend{
 {
     type = "technology",
     name = "aop-woodworking",
-    icon = "__Age-of-Production__/graphics/technology/woodworking.png",
+    icon = "__Age-of-Production-Graphics__/graphics/technology/woodworking.png",
     icon_size = 256,
     effects =
     {
@@ -515,7 +515,7 @@ data:extend{
   {
     type = "technology",
     name = "aop-agriculture-productivity",
-    icons = util.technology_icon_constant_recipe_productivity("__Age-of-Production__/graphics/technology/agriculture-productivity.png"),
+    icons = util.technology_icon_constant_recipe_productivity("__Age-of-Production-Graphics__/graphics/technology/agriculture-productivity.png"),
 
     effects =
     {
@@ -560,7 +560,7 @@ data:extend{
   {
       type = "technology",
       name = "aop-advanced-recycling",
-      icon = "__Age-of-Production__/graphics/technology/advanced-recycling.png",
+      icon = "__Age-of-Production-Graphics__/graphics/technology/advanced-recycling.png",
       icon_size = 256,
       effects =
       {
@@ -592,7 +592,7 @@ data:extend{
     {
         type = "technology",
         name = "aop-automation-4",
-        icon = "__Age-of-Production__/graphics/technology/automation-4.png",
+        icon = "__Age-of-Production-Graphics__/graphics/technology/automation-4.png",
         icon_size = 256,
         effects =
         {
@@ -625,7 +625,7 @@ data:extend{
       {
           type = "technology",
           name = "aop-core-mining",
-          icon = "__Age-of-Production__/graphics/technology/core-mining.png",
+          icon = "__Age-of-Production-Graphics__/graphics/technology/core-mining.png",
           icon_size = 256,
           effects =
           {
@@ -688,7 +688,7 @@ data:extend{
         {
           type = "technology",
           name = "aop-core-mining-productivity",
-          icons = util.technology_icon_constant_recipe_productivity("__Age-of-Production__/graphics/technology/core-mining-productivity.png"),
+          icons = util.technology_icon_constant_recipe_productivity("__Age-of-Production-Graphics__/graphics/technology/core-mining-productivity.png"),
       
           effects =
           {
@@ -726,7 +726,7 @@ data:extend{
         {
           type = "technology",
           name = "aop-deep-mineral-refining-productivity",
-          icons = util.technology_icon_constant_recipe_productivity("__Age-of-Production__/graphics/technology/deep-mineral-refining-productivity.png"),
+          icons = util.technology_icon_constant_recipe_productivity("__Age-of-Production-Graphics__/graphics/technology/deep-mineral-refining-productivity.png"),
       
           effects =
           {
@@ -784,7 +784,7 @@ data:extend{
         {
             type = "technology",
             name = "aop-armory",
-            icon = "__Age-of-Production__/graphics/technology/armory.png",
+            icon = "__Age-of-Production-Graphics__/graphics/technology/armory.png",
             icon_size = 256,
             effects =
             {
@@ -815,7 +815,7 @@ data:extend{
           {
               type = "technology",
               name = "aop-specialized-science",
-              icon = "__Age-of-Production__/graphics/technology/specialized-science.png",
+              icon = "__Age-of-Production-Graphics__/graphics/technology/specialized-science.png",
               icon_size = 256,
               effects =
               {

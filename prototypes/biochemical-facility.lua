@@ -11,7 +11,7 @@ data:extend{
     {
         name = "aop-biochemical-facility",
         type = "assembling-machine",
-        icon = "__Age-of-Production__/graphics/icons/biochemical-facility.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/biochemical-facility.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -52,7 +52,7 @@ data:extend{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production__/graphics/entity/biochemical-facility/biochemical-facility-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics__/graphics/entity/biochemical-facility/biochemical-facility-hr-shadow.png",
                       priority = "high",
                       width = 800,
                       height = 700,
@@ -75,7 +75,7 @@ data:extend{
                       scale = 0.5,
                       stripes = {
                           {
-                              filename = "__Age-of-Production__/graphics/entity/biochemical-facility/biochemical-facility-hr-animation.png",
+                              filename = "__Age-of-Production-Graphics__/graphics/entity/biochemical-facility/biochemical-facility-hr-animation.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           }
@@ -99,7 +99,7 @@ data:extend{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/biochemical-facility/biochemical-facility-hr-animation.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/biochemical-facility/biochemical-facility-hr-animation.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   }
@@ -120,7 +120,7 @@ data:extend{
         --},
         working_sound =
         {
-          sound = {filename = "__Age-of-Production__/sounds/biochemical-facility.ogg", volume = 0.9},
+          sound = {filename = "__Age-of-Production-Graphics__/sounds/biochemical-facility.ogg", volume = 0.9},
           apparent_volume = 0.3,
         },
         created_effect = {

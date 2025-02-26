@@ -11,7 +11,7 @@ data:extend{
     {
         name = "aop-petrochemical-facility",
         type = "assembling-machine",
-        icon = "__Age-of-Production__/graphics/icons/petrochemical-facility.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/petrochemical-facility.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -95,7 +95,7 @@ data:extend{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-shadow.png",
                       priority = "high",
                       width = 800,
                       height = 600,
@@ -116,7 +116,7 @@ data:extend{
                       scale = 0.5,
                       stripes = {
                           {
-                              filename = "__Age-of-Production__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-animation-1.png",
+                              filename = "__Age-of-Production-Graphics__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-animation-1.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           }
@@ -139,7 +139,7 @@ data:extend{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-animation-1.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-animation-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   }
@@ -157,7 +157,7 @@ data:extend{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/petrochemical-facility/petrochemical-facility-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   }
@@ -181,7 +181,7 @@ data:extend{
         --},
         working_sound =
         {
-          sound = {filename = "__Age-of-Production__/sounds/petrochemical-facility.ogg", volume = 0.9},
+          sound = {filename = "__Age-of-Production-Graphics__/sounds/petrochemical-facility.ogg", volume = 0.9},
           apparent_volume = 0.5,
         },
         created_effect = {

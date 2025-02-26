@@ -11,7 +11,7 @@ data:extend {
     {
         name = "aop-quantum-computer",
         type = "lab",
-        icon = "__Age-of-Production__/graphics/icons/quantum-computer.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/quantum-computer.png",
         icon_size = 64,
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         minable = {
@@ -71,7 +71,7 @@ data:extend {
             layers =
             {                  
                 {
-                    filename = "__Age-of-Production__/graphics/entity/quantum-computer/quantum-computer-hr-animation-1.png",
+                    filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-computer/quantum-computer-hr-animation-1.png",
                     width = 400,
                     height = 400,
                     frame_count = 60,
@@ -81,7 +81,7 @@ data:extend {
                     scale = 0.5
                 },         
                 {
-                    filename = "__Age-of-Production__/graphics/entity/quantum-computer/quantum-computer-hr-emission-1.png",
+                    filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-computer/quantum-computer-hr-emission-1.png",
                     blend_mode = "additive",
                     draw_as_glow = true,
                     width = 400,
@@ -93,7 +93,7 @@ data:extend {
                     scale = 0.5
                 },                
                 {
-                    filename = "__Age-of-Production__/graphics/entity/quantum-computer/quantum-computer-hr-shadow.png",
+                    filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-computer/quantum-computer-hr-shadow.png",
                     width = 700,
                     height = 600,
                     frame_count = 1,
@@ -112,14 +112,14 @@ data:extend {
             layers =
             {
                 {
-                    filename = "__Age-of-Production__/graphics/entity/quantum-computer/quantum-computer-hr-animation-1.png",
+                    filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-computer/quantum-computer-hr-animation-1.png",
                     width = 400,
                     height = 400,
                     animation_speed = 0.5,
                     shift = util.by_pixel(0, 1.5),
                     scale = 0.5
                 },
-                {filename = "__Age-of-Production__/graphics/entity/quantum-computer/quantum-computer-hr-shadow.png",
+                {filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-computer/quantum-computer-hr-shadow.png",
                 width = 700,
                 height = 600,
                 animation_speed = 0.5,

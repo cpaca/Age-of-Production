@@ -17,7 +17,7 @@ data:extend
     max_temperature = 1000,
     base_color = {0.87, 0.95, 0.36},
     flow_color = {0.87, 0.95, 0.36},
-    icon = "__Age-of-Production__/graphics/icons/lithium-fluoride.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/lithium-fluoride.png",
     auto_barrel = false
   },
 }
@@ -25,15 +25,15 @@ data:extend
 data:extend {{
         type = "item",
         name = "aop-hybrid-bacteria",
-        icon = "__Age-of-Production__/graphics/icons/hybrid-bacteria-1.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/hybrid-bacteria-1.png",
         pictures =
         {
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/hybrid-bacteria-1.png",   scale = 0.5},
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/hybrid-bacteria-2.png", scale = 0.5},
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/hybrid-bacteria-3.png", scale = 0.5},
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/hybrid-bacteria-4.png", scale = 0.5},
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/hybrid-bacteria-5.png", scale = 0.5},
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/hybrid-bacteria-6.png", scale = 0.5}
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/hybrid-bacteria-1.png",   scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/hybrid-bacteria-2.png", scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/hybrid-bacteria-3.png", scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/hybrid-bacteria-4.png", scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/hybrid-bacteria-5.png", scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/hybrid-bacteria-6.png", scale = 0.5}
         },
         subgroup = "agriculture-products",
         inventory_move_sound = space_age_item_sounds.agriculture_inventory_move,
@@ -49,7 +49,7 @@ data:extend {{
 data:extend {{
         type = "item",
         name = "aop-explosive-core",
-        icon = "__Age-of-Production__/graphics/icons/explosive-core.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/explosive-core.png",
         subgroup = "vulcanus-processes",
         inventory_move_sound = item_sounds.ammo_large_inventory_move,
         pick_sound = item_sounds.ammo_large_inventory_pickup,
@@ -62,7 +62,7 @@ data:extend {{
 data:extend {{
     type = "item",
     name = "aop-magnetic-flow-meter",
-    icon = "__Age-of-Production__/graphics/icons/magnetic-flow-meter.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/magnetic-flow-meter.png",
     subgroup = "fulgora-processes",
     inventory_move_sound = space_age_item_sounds.rocket_inventory_move,
     pick_sound = space_age_item_sounds.rocket_inventory_pickup,
@@ -75,7 +75,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-lithium-fluoride",
-    icon = "__Age-of-Production__/graphics/icons/lithium-fluoride.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/lithium-fluoride.png",
     subgroup = "aquilo-processes",
     enabled = false,
     energy_required = 32,
@@ -96,7 +96,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-lithium-fluoride-casting",
-    icon = "__Age-of-Production__/graphics/icons/lithium-fluoride-casting.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/lithium-fluoride-casting.png",
     subgroup = "aquilo-processes",
     enabled = false,
     energy_required = 6.4,
@@ -117,7 +117,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-explosive-core",
-    icon = "__Age-of-Production__/graphics/icons/explosive-core.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/explosive-core.png",
     subgroup = "vulcanus-processes",
     enabled = false,
     energy_required = 10,
@@ -140,7 +140,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-advanced-artillery-shell-manufacturing",
-    icon = "__Age-of-Production__/graphics/icons/advanced-artillery-shell-manufacturing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/advanced-artillery-shell-manufacturing.png",
     subgroup = "vulcanus-processes",
     enabled = false,
     energy_required = 3,
@@ -161,7 +161,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-magnetic-flow-meter",
-    icon = "__Age-of-Production__/graphics/icons/magnetic-flow-meter.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/magnetic-flow-meter.png",
     subgroup = "fulgora-processes",
     enabled = false,
     energy_required = 8,
@@ -184,7 +184,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-magnetic-thruster",
-    icon = "__Age-of-Production__/graphics/icons/magnetic-thruster.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/magnetic-thruster.png",
     subgroup = "fulgora-processes",
     enabled = false,
     energy_required = 8,
@@ -205,7 +205,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-hybrid-bacteria",
-    icon = "__Age-of-Production__/graphics/icons/hybrid-bacteria-1.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/hybrid-bacteria-1.png",
     subgroup = "agriculture-products",
     enabled = false,
     energy_required = 1.5,
@@ -240,7 +240,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-hybrid-bacteria-cultivation",
-    icon = "__Age-of-Production__/graphics/icons/hybrid-bacteria-cultivation.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/hybrid-bacteria-cultivation.png",
     subgroup = "agriculture-products",
     enabled = false,
     energy_required = 6,
@@ -274,7 +274,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-hydraulics-specialized-cryogenic-science-pack",
-    icon = "__Age-of-Production__/graphics/icons/hydraulics-specialized-cryogenic-science-pack.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/hydraulics-specialized-cryogenic-science-pack.png",
     subgroup = "aop-specialized-science-pack",
     enabled = false,
     energy_required = 10,
@@ -304,7 +304,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-military-specialized-metallurgic-science-pack",
-    icon = "__Age-of-Production__/graphics/icons/military-specialized-metallurgic-science-pack.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/military-specialized-metallurgic-science-pack.png",
     subgroup = "aop-specialized-science-pack",
     enabled = false,
     energy_required = 7,
@@ -334,7 +334,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-petrochemistry-specialized-electromagnetic-science-pack",
-    icon = "__Age-of-Production__/graphics/icons/petrochemistry-specialized-electromagnetic-science-pack.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/petrochemistry-specialized-electromagnetic-science-pack.png",
     subgroup = "aop-specialized-science-pack",
     enabled = false,
     energy_required = 8,
@@ -365,7 +365,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-hybridation-specialized-agricultural-science-pack",
-    icon = "__Age-of-Production__/graphics/icons/hybridation-specialized-agricultural-science-pack.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/hybridation-specialized-agricultural-science-pack.png",
     subgroup = "aop-specialized-science-pack",
     enabled = false,
     energy_required = 3.5,

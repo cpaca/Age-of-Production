@@ -11,7 +11,7 @@ data:extend{
     {
         name = "aop-lumber-mill",
         type = "assembling-machine",
-        icon = "__Age-of-Production__/graphics/icons/lumber-mill.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/lumber-mill.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -88,7 +88,7 @@ data:extend{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production__/graphics/entity/lumber-mill/lumber-mill-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-shadow.png",
                       priority = "high",
                       width = 800,
                       height = 700,
@@ -111,12 +111,12 @@ data:extend{
                       scale = 0.5,
                       stripes = {
                           {
-                              filename = "__Age-of-Production__/graphics/entity/lumber-mill/lumber-mill-hr-animation-1.png",
+                              filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-animation-1.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           },
                           {
-                              filename = "__Age-of-Production__/graphics/entity/lumber-mill/lumber-mill-hr-animation-2.png",
+                              filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-animation-2.png",
                               width_in_frames = 8,
                               height_in_frames = 2
                           }
@@ -140,12 +140,12 @@ data:extend{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/lumber-mill/lumber-mill-hr-animation-1.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-animation-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/lumber-mill/lumber-mill-hr-animation-2.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-animation-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -164,12 +164,12 @@ data:extend{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/lumber-mill/lumber-mill-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/lumber-mill/lumber-mill-hr-emission-2.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-emission-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -190,7 +190,7 @@ data:extend{
         --},
         working_sound =
         {
-          sound = {filename = "__Age-of-Production__/sounds/lumber-mill.ogg", volume = 0.9},
+          sound = {filename = "__Age-of-Production-Graphics__/sounds/lumber-mill.ogg", volume = 0.9},
           apparent_volume = 0.3,
         },
         created_effect = {

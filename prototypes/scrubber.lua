@@ -11,7 +11,7 @@ data:extend{
     {
         name = "aop-scrubber",
         type = "assembling-machine",
-        icon = "__Age-of-Production__/graphics/icons/scrubber.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/scrubber.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -111,7 +111,7 @@ data:extend{
           idle_animation = {
             layers = {
               {
-                filename = "__Age-of-Production__/graphics/entity/scrubber/scrubber-hr-shadow.png",
+                filename = "__Age-of-Production-Graphics__/graphics/entity/scrubber/scrubber-hr-shadow.png",
                 size = {400, 350},
                 shift = {0, 0},
                 scale = 0.5,
@@ -122,7 +122,7 @@ data:extend{
                 animation_speed = 0.5,
               },
               {
-                filename = "__Age-of-Production__/graphics/entity/scrubber/scrubber-hr-animation-1.png",
+                filename = "__Age-of-Production-Graphics__/graphics/entity/scrubber/scrubber-hr-animation-1.png",
                 size = {210, 290},
                 shift = {0, 0},
                 scale = 0.5,

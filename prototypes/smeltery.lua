@@ -17,12 +17,12 @@ local function animationLayer()
       scale = 0.5,
       stripes = {
           {
-              filename = "__Age-of-Production__/graphics/entity/smeltery/smeltery-hr-animation-1.png",
+              filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-animation-1.png",
               width_in_frames = 8,
               height_in_frames = 8
           },
           {
-              filename = "__Age-of-Production__/graphics/entity/smeltery/smeltery-hr-animation-2.png",
+              filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-animation-2.png",
               width_in_frames = 8,
               height_in_frames = 7
           }
@@ -34,7 +34,7 @@ data:extend{
     {
         name = "aop-smeltery",
         type = "assembling-machine",
-        icon = "__Age-of-Production__/graphics/icons/smeltery.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/smeltery.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -110,7 +110,7 @@ data:extend{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production__/graphics/entity/smeltery/smeltery-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-shadow.png",
                       priority = "high",
                       width = 900,
                       height = 800,
@@ -142,12 +142,12 @@ data:extend{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/smeltery/smeltery-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/smeltery/smeltery-hr-emission-2.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-emission-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 7
                                   }

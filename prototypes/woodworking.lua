@@ -1,7 +1,7 @@
 data:extend {{
     type = "recipe",
     name = "aop-charcoal",
-    icon = "__Age-of-Production__/graphics/icons/charcoal.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/charcoal.png",
     subgroup = "aop-woodworking",
     enabled = false,
     energy_required = 4,
@@ -19,7 +19,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-wood-rotting",
-    icon = "__Age-of-Production__/graphics/icons/wood-rotting.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/wood-rotting.png",
     subgroup = "aop-woodworking",
     enabled = false,
     energy_required = 5,
@@ -38,7 +38,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-wooden-rails",
-    icon = "__Age-of-Production__/graphics/icons/wooden-rails.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/wooden-rails.png",
     subgroup = "aop-woodworking",
     enabled = false,
     energy_required = 0.5,

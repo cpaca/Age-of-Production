@@ -11,7 +11,7 @@ data:extend{
     {
         name = "aop-quantum-assembler",
         type = "assembling-machine",
-        icon = "__Age-of-Production__/graphics/icons/quantum-assembler.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/quantum-assembler.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -72,7 +72,7 @@ data:extend{
           animation = {
               layers = {
                   {
-                      filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-shadow.png",
+                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-shadow.png",
                       priority = "high",
                       width = 1200,
                       height = 700,
@@ -93,12 +93,12 @@ data:extend{
                       scale = 0.5,
                       stripes = {
                           {
-                              filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-1.png",
+                              filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-1.png",
                               width_in_frames = 8,
                               height_in_frames = 8
                           },
                           {
-                              filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-2.png",
+                              filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-2.png",
                               width_in_frames = 8,
                               height_in_frames = 2
                           }
@@ -121,12 +121,12 @@ data:extend{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-1.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-2.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }
@@ -144,12 +144,12 @@ data:extend{
                               scale = 0.5,
                               stripes = {
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-emission-1.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-emission-1.png",
                                       width_in_frames = 8,
                                       height_in_frames = 8
                                   },
                                   {
-                                      filename = "__Age-of-Production__/graphics/entity/quantum-assembler/quantum-assembler-hr-emission-2.png",
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-emission-2.png",
                                       width_in_frames = 8,
                                       height_in_frames = 2
                                   }

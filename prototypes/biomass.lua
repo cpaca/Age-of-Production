@@ -12,7 +12,7 @@ data:extend(
     {
         type = "item",
         name = "aop-biomass",
-        icon = "__Age-of-Production__/graphics/icons/biomass.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/biomass.png",
         subgroup = "aop-biomass",
         inventory_move_sound = space_age_item_sounds.agriculture_inventory_move,
         pick_sound = space_age_item_sounds.agriculture_inventory_pickup,
@@ -30,7 +30,7 @@ data:extend(
 data:extend {{
     type = "recipe",
     name = "aop-biomass-from-wood",
-    icon = "__Age-of-Production__/graphics/icons/biomass-from-wood.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/biomass-from-wood.png",
     subgroup = "aop-biomass",
     enabled = false,
     energy_required = 2,
@@ -48,7 +48,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-biomass-from-seeds",
-    icon = "__Age-of-Production__/graphics/icons/biomass-from-seeds.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/biomass-from-seeds.png",
     subgroup = "aop-biomass",
     enabled = false,
     energy_required = 2,
@@ -67,7 +67,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-nutrients-from-biomass",
-    icon = "__Age-of-Production__/graphics/icons/nutrients-from-biomass.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/nutrients-from-biomass.png",
     subgroup = "aop-biomass",
     enabled = false,
     energy_required = 2,

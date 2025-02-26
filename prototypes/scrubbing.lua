@@ -9,7 +9,7 @@ data:extend(
     heat_capacity = "2kJ",
     base_color = {0.29, 0.27, 0.15},
     flow_color = {0.29, 0.27, 0.15},
-    icon = "__Age-of-Production__/graphics/icons/waste-water.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/waste-water.png",
     auto_barrel = false
   },
 }
@@ -17,7 +17,7 @@ data:extend(
 data:extend {{
     type = "recipe",
     name = "aop-vulcanusian-air-scrubbing",
-    icon = "__Age-of-Production__/graphics/icons/vulcanusian-air-scrubbing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/vulcanusian-air-scrubbing.png",
     subgroup = "aop-scrubbing",
     enabled = false,
     energy_required = 5,
@@ -38,7 +38,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-nauvitian-air-scrubbing",
-    icon = "__Age-of-Production__/graphics/icons/nauvitian-air-scrubbing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/nauvitian-air-scrubbing.png",
     subgroup = "aop-scrubbing",
     enabled = false,
     energy_required = 5,
@@ -59,7 +59,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-gleban-air-scrubbing",
-    icon = "__Age-of-Production__/graphics/icons/gleban-air-scrubbing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/gleban-air-scrubbing.png",
     subgroup = "aop-scrubbing",
     enabled = false,
     energy_required = 5,
@@ -80,7 +80,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-fulgoran-air-scrubbing",
-    icon = "__Age-of-Production__/graphics/icons/fulgoran-air-scrubbing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/fulgoran-air-scrubbing.png",
     subgroup = "aop-scrubbing",
     enabled = false,
     energy_required = 5,
@@ -101,7 +101,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-aquiloan-air-scrubbing",
-    icon = "__Age-of-Production__/graphics/icons/aquiloan-air-scrubbing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/aquiloan-air-scrubbing.png",
     subgroup = "aop-scrubbing",
     enabled = false,
     energy_required = 5,
@@ -122,7 +122,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-vulcanusian-waste-water-cleaning",
-    icon = "__Age-of-Production__/graphics/icons/vulcanusian-waste-water-cleaning.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/vulcanusian-waste-water-cleaning.png",
     subgroup = "aop-scrubbing",
     enabled = false,
     energy_required = 0.5,
@@ -151,7 +151,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-nauvitian-waste-water-cleaning",
-    icon = "__Age-of-Production__/graphics/icons/nauvitian-waste-water-cleaning.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/nauvitian-waste-water-cleaning.png",
     subgroup = "aop-scrubbing",
     enabled = false,
     energy_required = 0.5,
@@ -179,7 +179,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-gleban-waste-water-cleaning",
-    icon = "__Age-of-Production__/graphics/icons/gleban-waste-water-cleaning.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/gleban-waste-water-cleaning.png",
     subgroup = "aop-scrubbing",
     enabled = false,
     energy_required = 0.5,
@@ -208,7 +208,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-fulgoran-waste-water-cleaning",
-    icon = "__Age-of-Production__/graphics/icons/fulgoran-waste-water-cleaning.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/fulgoran-waste-water-cleaning.png",
     subgroup = "aop-scrubbing",
     enabled = false,
     energy_required = 0.5,
@@ -238,7 +238,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-aquiloan-waste-water-cleaning",
-    icon = "__Age-of-Production__/graphics/icons/aquiloan-waste-water-cleaning.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/aquiloan-waste-water-cleaning.png",
     subgroup = "aop-scrubbing",
     enabled = false,
     energy_required = 1,

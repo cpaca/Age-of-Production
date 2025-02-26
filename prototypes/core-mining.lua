@@ -18,7 +18,7 @@ data:extend(
     heat_capacity = "10kJ",
     base_color = {0.35, 0.15, 0.07},
     flow_color = {0.35, 0.15, 0.07},
-    icon = "__Age-of-Production__/graphics/icons/mineral-slurry.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/mineral-slurry.png",
     auto_barrel = false
   },
 },
@@ -26,12 +26,12 @@ data:extend(
 data:extend {{
         type = "item",
         name = "aop-deep-mineral",
-        icon = "__Age-of-Production__/graphics/icons/deep-mineral-1.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/deep-mineral-1.png",
         pictures =
         {
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/deep-mineral-1.png",   scale = 0.5},
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/deep-mineral-2.png", scale = 0.5},
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/deep-mineral-3.png", scale = 0.5}
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/deep-mineral-1.png",   scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/deep-mineral-2.png", scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/deep-mineral-3.png", scale = 0.5}
         },
         subgroup = "aop-core-mining",
         inventory_move_sound = item_sounds.resource_inventory_move,
@@ -45,12 +45,12 @@ data:extend {{
 data:extend {{
         type = "item",
         name = "aop-refined-mineral",
-        icon = "__Age-of-Production__/graphics/icons/refined-mineral-1.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/refined-mineral-1.png",
         pictures =
         {
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/refined-mineral-1.png",   scale = 0.5},
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/refined-mineral-2.png", scale = 0.5},
-          { size = 64, filename = "__Age-of-Production__/graphics/icons/refined-mineral-3.png", scale = 0.5}
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/refined-mineral-1.png",   scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/refined-mineral-2.png", scale = 0.5},
+          { size = 64, filename = "__Age-of-Production-Graphics__/graphics/icons/refined-mineral-3.png", scale = 0.5}
         },
         subgroup = "aop-core-mining",
         inventory_move_sound = item_sounds.resource_inventory_move,
@@ -64,7 +64,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-core-mining",
-    icon = "__Age-of-Production__/graphics/icons/core-mining.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/core-mining.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 0.25,
@@ -86,7 +86,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-mineral-slurry",
-    icon = "__Age-of-Production__/graphics/icons/mineral-slurry.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/mineral-slurry.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,
@@ -113,7 +113,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-mineral-slurry-processing",
-    icon = "__Age-of-Production__/graphics/icons/mineral-slurry-processing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/mineral-slurry-processing.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,
@@ -141,7 +141,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-vulcanusian-crushing",
-    icon = "__Age-of-Production__/graphics/icons/vulcanusian-crushing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/vulcanusian-crushing.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,
@@ -166,7 +166,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-nauvitian-crushing",
-    icon = "__Age-of-Production__/graphics/icons/nauvitian-crushing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/nauvitian-crushing.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,
@@ -189,7 +189,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-gleban-crushing",
-    icon = "__Age-of-Production__/graphics/icons/gleban-crushing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/gleban-crushing.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,
@@ -216,7 +216,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-fulgoran-crushing",
-    icon = "__Age-of-Production__/graphics/icons/fulgoran-crushing.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/fulgoran-crushing.png",
     subgroup = "aop-core-mining",
     enabled = false,
     energy_required = 2,

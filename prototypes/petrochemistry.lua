@@ -1,7 +1,7 @@
 data:extend {{
     type = "recipe",
     name = "aop-solid-fuel-melting",
-    icon = "__Age-of-Production__/graphics/icons/solid-fuel-melting.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/solid-fuel-melting.png",
     subgroup = "fluid-recipes",
     enabled = false,
     energy_required = 2,
@@ -19,7 +19,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-carbon-liquefaction",
-    icon = "__Age-of-Production__/graphics/icons/carbon-liquefaction.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/carbon-liquefaction.png",
     subgroup = "fluid-recipes",
     enabled = false,
     energy_required = 10,
@@ -39,7 +39,7 @@ data:extend {{
 data:extend {{
     type = "recipe",
     name = "aop-petroleum-gas-dehydrogenation",
-    icon = "__Age-of-Production__/graphics/icons/petroleum-gas-dehydrogenation.png",
+    icon = "__Age-of-Production-Graphics__/graphics/icons/petroleum-gas-dehydrogenation.png",
     subgroup = "fluid-recipes",
     enabled = false,
     energy_required = 5,

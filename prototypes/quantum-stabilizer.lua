@@ -11,7 +11,7 @@ data:extend{
     {
         name = "aop-quantum-stabilizer",
         type = "beacon",
-        icon = "__Age-of-Production__/graphics/icons/quantum-stabilizer.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/quantum-stabilizer.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
@@ -43,7 +43,7 @@ data:extend{
     animation = {
       layers = {
         {
-          filename = "__Age-of-Production__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-shadow.png",
+          filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-shadow.png",
           priority = "high",
           width = 900,
           height = 420,
@@ -64,12 +64,12 @@ data:extend{
               scale = 0.5,
               stripes = {
                   {
-                      filename = "__Age-of-Production__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-1.png",
+                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-1.png",
                       width_in_frames = 8,
                       height_in_frames = 8,
                   },
                   {
-                      filename = "__Age-of-Production__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-2.png",
+                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-2.png",
                       width_in_frames = 8,
                       height_in_frames = 5,
                   },
@@ -87,12 +87,12 @@ data:extend{
               blend_mode = "additive",
               stripes = {
                   {
-                      filename = "__Age-of-Production__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-emission-1.png",
+                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-animation-emission-1.png",
                       width_in_frames = 8,
                       height_in_frames = 8,
                   },
                   {
-                      filename = "__Age-of-Production__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-emission-2.png",
+                      filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-stabilizer/quantum-stabilizer-hr-emission-2.png",
                       width_in_frames = 8,
                       height_in_frames = 5,
                   },
@@ -117,7 +117,7 @@ data:extend{
         --},
   working_sound =
         {
-          sound = {filename = "__Age-of-Production__/sounds/quantum-stabilizer.ogg", volume = 0.2},
+          sound = {filename = "__Age-of-Production-Graphics__/sounds/quantum-stabilizer.ogg", volume = 0.2},
           apparent_volume = 0.3,
         },
         created_effect = {

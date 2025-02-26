@@ -18,12 +18,12 @@ local function animationLayer()
         scale = 0.5,
         stripes = {
             {
-                filename = "__Age-of-Production__/graphics/entity/salvager/salvager-hr-animation-1.png",
+                filename = "__Age-of-Production-Graphics__/graphics/entity/salvager/salvager-hr-animation-1.png",
                 width_in_frames = 8,
                 height_in_frames = 8
             },
             {
-                filename = "__Age-of-Production__/graphics/entity/salvager/salvager-hr-animation-2.png",
+                filename = "__Age-of-Production-Graphics__/graphics/entity/salvager/salvager-hr-animation-2.png",
                 width_in_frames = 8,
                 height_in_frames = 8
             }
@@ -36,7 +36,7 @@ data:extend{
     {
         name = "aop-salvager",
         type = "furnace",
-        icon = "__Age-of-Production__/graphics/icons/salvager.png",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/salvager.png",
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         fast_transfer_modules_into_module_slots_only = true,
@@ -79,7 +79,7 @@ data:extend{
             animation = {
                 layers = {
                     {
-                        filename = "__Age-of-Production__/graphics/entity/salvager/salvager-hr-shadow.png",
+                        filename = "__Age-of-Production-Graphics__/graphics/entity/salvager/salvager-hr-shadow.png",
                         priority = "high",
                         width = 1200,
                         height = 700,
@@ -113,12 +113,12 @@ data:extend{
                                 scale = 0.5,
                                 stripes = {
                                     {
-                                        filename = "__Age-of-Production__/graphics/entity/salvager/salvager-hr-emission-1.png",
+                                        filename = "__Age-of-Production-Graphics__/graphics/entity/salvager/salvager-hr-emission-1.png",
                                         width_in_frames = 8,
                                         height_in_frames = 8
                                     },
                                     {
-                                        filename = "__Age-of-Production__/graphics/entity/salvager/salvager-hr-emission-2.png",
+                                        filename = "__Age-of-Production-Graphics__/graphics/entity/salvager/salvager-hr-emission-2.png",
                                         width_in_frames = 8,
                                         height_in_frames = 8
                                     }
