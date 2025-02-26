@@ -112,7 +112,7 @@ This mod wouldn't be possible without the help of these amazing people!
 - [Quezler](https://github.com/Quezler)
 
 #### Quantum Stabilizer Nerf
-- [cpaca](https://github.com/cpaca)
+- [Tsumiki](https://github.com/cpaca)
 
 #### Various other help and inspiration
 - [SpeckledFleebeedoo](https://mods.factorio.com/user/SpeckledFleebeedoo)
