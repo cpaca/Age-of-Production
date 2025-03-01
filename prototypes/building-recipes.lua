@@ -372,7 +372,7 @@ data:extend {{
     energy_required = 120,
     ingredients = {
         {type = "item", name = "quantum-processor",   amount = 500},
-        {type = "item", name = "lab",       amount = 20},
+        {type = "item", name = "biolab",       amount = 10},
         {type = "item", name = "refined-concrete", amount = 1000},
         {type = "item", name = "superconductor", amount = 500},
         {type = "item", name = "supercapacitor",   amount = 200},

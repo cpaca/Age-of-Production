@@ -101,7 +101,7 @@ data:extend {{
     enabled = false,
     energy_required = 32,
     ingredients = {
-        {type = "item", name = "copper-plate",      amount = 20},
+        {type = "item", name = "copper-plate",      amount = 40},
     },
     results = {
         {type = "fluid", name = "molten-copper", amount = 20},
@@ -119,7 +119,7 @@ data:extend {{
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "copper-cable",      amount = 20},
+        {type = "item", name = "copper-cable",      amount = 40},
     },
     results = {
         {type = "fluid", name = "molten-copper", amount = 5},
@@ -137,7 +137,7 @@ data:extend {{
     enabled = false,
     energy_required = 32,
     ingredients = {
-        {type = "item", name = "iron-plate",      amount = 20},
+        {type = "item", name = "iron-plate",      amount = 40},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 20},
@@ -155,7 +155,7 @@ data:extend {{
     enabled = false,
     energy_required = 32,
     ingredients = {
-        {type = "item", name = "steel-plate",      amount = 10},
+        {type = "item", name = "steel-plate",      amount = 20},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 30},
@@ -173,7 +173,7 @@ data:extend {{
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "iron-gear-wheel",      amount = 10},
+        {type = "item", name = "iron-gear-wheel",      amount = 20},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 10},
@@ -191,7 +191,7 @@ data:extend {{
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "iron-stick",      amount = 40},
+        {type = "item", name = "iron-stick",      amount = 80},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 20},
