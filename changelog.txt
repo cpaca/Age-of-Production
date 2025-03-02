@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.3.7
+Date: 2025-03-2
+  Changes:
+    - Added biolab to Quantum Machinery's requisites to match the Quantum Computer's new recipe.
+---------------------------------------------------------------------------------------------------
 Version: 1.3.6
 Date: 2025-03-2
   Changes:

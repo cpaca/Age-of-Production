@@ -383,7 +383,7 @@ data:extend{
         recipe = "aop-quantum-computer"
       }
     },
-    prerequisites = {"aop-electromechanics", "promethium-science-pack", "aop-automation-4"},
+    prerequisites = {"aop-electromechanics", "promethium-science-pack", "aop-automation-4", "biolab"},
     unit =
     {
       count = 7500,
