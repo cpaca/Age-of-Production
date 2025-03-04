@@ -1,16 +1,21 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.3.8
+Date: 2025-03-04
+  Changes:
+    - Updated Chinese Locale (Thanks isd-1!)
+---------------------------------------------------------------------------------------------------
 Version: 1.3.7
-Date: 2025-03-2
+Date: 2025-03-02
   Changes:
     - Added biolab to Quantum Machinery's requisites to match the Quantum Computer's new recipe.
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.6
-Date: 2025-03-2
+Date: 2025-03-02
   Changes:
     - Updated thing in locale i forgot to update.
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.5
-Date: 2025-03-1
+Date: 2025-03-01
   Changes:
     - Rebalanced metallic intermediate melting.
     - Changed the 20 labs in the Quantum Computer recipe to 10 Biolabs.
