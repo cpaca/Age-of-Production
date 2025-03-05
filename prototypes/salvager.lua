@@ -87,9 +87,9 @@ data:extend{
                         line_length = 1,
                         repeat_count = 128,
                         animation_speed = 1,
-                        shift = util.by_pixel(0, -8),
+                        shift = util.by_pixel(4, -8),
                         draw_as_shadow = true,
-                        scale = 0.5
+                        scale = 0.375
                     },
                     animationLayer()
                 }
