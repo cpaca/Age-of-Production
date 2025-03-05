@@ -51,7 +51,7 @@ data:extend {{
     results = {
         {type = "item", name = "rail", amount = 4},
     },
-    allow_productivity = true,
+    allow_productivity = false,
     category = "woodworking",
     auto_recycle = false,
     show_amount_in_title = false,
