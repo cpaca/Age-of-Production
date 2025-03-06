@@ -8,7 +8,7 @@ data.raw["assembling-machine"]["biochamber"].crafting_categories = {"organic", "
 data.raw["assembling-machine"]["cryogenic-plant"].crafting_categories = {"cryogenics", "chemistry-or-cryogenics", "cryogenics-or-assembling", "hydraulics-or-chemistry-or-cryogenics", "petrochemistry-or-chemistry-or-cryogenics"}
 data.raw["assembling-machine"]["electromagnetic-plant"].crafting_categories = {"electromagnetics", "electronics", "electronics-with-fluid", "electronics-or-assembling", "electronics-or-electromechanics"}
 data.raw["assembling-machine"]["foundry"].crafting_categories = {"metallurgy", "pressing", "crafting-with-fluid-or-metallurgy", "metallurgy-or-assembling", "pressing-or-electromechanics", "metallurgy-2-the-return"}
-data.raw.character.character.crafting_categories = {"crafting", "electronics", "pressing", "recycling-or-hand-crafting", "organic-or-hand-crafting", "organic-or-assembling", "advanced-centrifuging-or-crafting", "quantum-assembling-or-crafting", "biochemistry-or-organic-or-hand-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "ammunition-or-crafting"}
+data.raw.character.character.crafting_categories = {"crafting", "electronics", "pressing", "recycling-or-hand-crafting", "organic-or-hand-crafting", "organic-or-assembling", "advanced-centrifuging-or-crafting", "quantum-assembling-or-crafting", "biochemistry-or-organic-or-hand-crafting", "woodworking-or-crafting", "woodworking-or-organic-or-assembling", "electromechanics-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "ammunition-or-crafting"}
 
 local function add_tech_effect(tech_name, effect)
     local tech = data.raw.technology[tech_name]
