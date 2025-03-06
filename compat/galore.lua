@@ -53,7 +53,6 @@ data.raw.recipe["vgal-jelly-sulfur-lubricant"].category = "hydraulics-or-organic
 data.raw.recipe["vgal-water-coal-ammonia"].category = "hydraulics-or-chemistry"
 data.raw.recipe["vgal-calcite-sulfuric-acid-ammonia"].category = "hydraulics-or-chemistry"
 data.raw.recipe["vgal-ammonia-water-crude-oil"].category = "petrochemistry-or-organic-or-chemistry"
-data.raw.recipe["vgal-yumako-mash-light-oil"].category = "petrochemistry-or-organic"
 data.raw.recipe["vgal-pentapod-egg-logistic-robot"].category = "organic-or-electromechanics"
 data.raw.recipe["vgal-pentapod-egg-construction-robot"].category = "organic-or-electromechanics"
 data.raw.recipe["vgal-petroleum-gas-coal-heavy-oil"].category = "petrochemistry-or-organic-or-chemistry"
