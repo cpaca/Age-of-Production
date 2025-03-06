@@ -51,7 +51,7 @@ The new additions, per planet, are:
 # PLEASE REPORT ANY BUGS YOU FIND
 
 ## Compat:
-###Addons (I think that's the term)
+### Addons (I think that's the term)
 - [AoP Extended Planets](https://mods.factorio.com/mod/AoP-extended-planets): Moves around my new techs if some planet mods are installed.
 ### Built-in compat:
 - [Foundry Restructuring](https://mods.factorio.com/mod/foundry-restructuring): Changes the crafting prototypes of the new recipes so that they can be made in my new machines alongside the changes from FR.
