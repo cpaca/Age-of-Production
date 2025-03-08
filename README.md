@@ -15,7 +15,7 @@ The new additions, per planet, are:
 
 # Vulcanus:
 - Arc Furnace: an electric furnace that is bigger, better, faster and stronger! A good 50% productivity never hurt anyone! (Unlocked after Metallurgic Science)
-- Smeltery: Tired of needing calcite and having too much or too little stone on Vulcanus? This building is for you! New calcite-less molten metal recipes alongside a recipe to directly get stone from lava! Only 25% productivity though. (Unlocked after Quantum Processors)
+- Smeltery: This highly advanced foundry can reach unthinkable temperatures, allowing for interesting new applications! From calcite-less molten metal to melting metallic intermediates, this machine may be helpful when in need of a reliable source of metal! Only 25% prod tho! (Unlocked after Quantum Processors)
 - Armory: PEW PEW SHWOONNN BOOOM! That's the sound everyone loves to hear on their space platform, but you gotta produce those bullets and rockets don't you? Well here comes the Armory, 50% prod on all ammunition! (Unlocked after Metallurgic Science and Military 4)
 
 # Nauvis:
@@ -37,7 +37,7 @@ The new additions, per planet, are:
 - Hydraulic Plant: Ever thought producing Holmium Solution was too hard? Not anymore with a nice 50% prod over it. Same for all other fluid based recipes that aren't oil related or strictly cryogenic or electromagnetic! (Unlocked with Cryogenic Science.)
 
 # Beyond:
-- Deep into interstellar space... shrouded in darkness... you may find new applications of those red fragments... (All unlocked after Promethium Science, Automation 4 and Electromechanics).
+- Deep into interstellar space... shrouded in darkness... you may find new applications of those red fragments... (All unlocked after Promethium Science, Automation 4, Biolab and Electromechanics).
 - Quantum Assembler: The final frontier of assembling. 100%. Productivity. On. All. Nauvis. Sciences. (+ Space Science). 
 - Quantum Stabilizer: The final frontier of effect transmission. 8 Module Slots, huge affected area, 2X distribution efficiency, way too much power drain.
 - Quantum Computer: The final frontier of research. 10% science pack drain, immense speed and many module slots. Extremely expensive and too dangerous to be built everywhere but in Space.
@@ -50,17 +50,18 @@ The new additions, per planet, are:
 
 # PLEASE REPORT ANY BUGS YOU FIND
 
-### Compat:
-#### Addons (I think that's the term)
+## Compat:
+### Addons (I think that's the term)
 - [AoP Extended Planets](https://mods.factorio.com/mod/AoP-extended-planets): Moves around my new techs if some planet mods are installed.
-#### Built-in compat:
+### Built-in compat:
 - [Foundry Restructuring](https://mods.factorio.com/mod/foundry-restructuring): Changes the crafting prototypes of the new recipes so that they can be made in my new machines alongside the changes from FR.
 - [Vanilla Galore Continued](https://mods.factorio.com/mod/vanilla_galore_continued) and [Space Age Galore](https://mods.factorio.com/mod/space_age_galore): Adds support for the recipes added by the mods to my machines.
 - [5Dim's mod - New Automatization](https://mods.factorio.com/mod/5dim_automation): Makes crafting prototypes not broken.
-#### Compat from other mods:
+- [Wooden Universe](https://mods.factorio.com/mod/wood-universe-modpack): Simply implements compat between AoP and some of the mods in the pack.
+### Compat from other mods:
 - [Extraplanetary Production](https://mods.factorio.com/mod/extraplanetary-production): Mod has support for my machines built in.
 
-### If your mod has compat for mine and I missed it, tell me! And if you want your mod to be compatible, just do it lol! If you need help tell me!!
+#### If your mod has compat for mine and I missed it, tell me! And if you want your mod to be compatible, just do it lol! If you need help tell me!!
 
 
 
@@ -68,9 +69,9 @@ The new additions, per planet, are:
 - A trailer
 - Adding more stuff maybe idk, you can suggest stuff.
 - Compatibility with other mods.
-- Currently planning on adding more buildings ;3.
+- Currently adding some more buildings ;3.
 #### Buildings on the way:
-- The Thermal Plant will have its uses revamped as the original ideas is too hard for me to implement (fluid consuming heat reactor). If anyone has any good ideas, tell me! Currently my ideas is making it something that works with solid fuel recipes, but idk.
+- Convector and Thermal Plant will have their uses revamped as their original ideas are too hard for me to implement (fluid consuming heat reactor and wide area heating). If anyone has any good ideas, please tell me!
 
 ### Credits
 
@@ -113,6 +114,9 @@ This mod wouldn't be possible without the help of these amazing people!
 
 #### Quantum Stabilizer Nerf
 - [Tsumiki](https://github.com/cpaca)
+
+#### Compat with the Wooden Universe mods (Also creator of those mods!)
+-[Saf](https://github.com/SafTheLamb)
 
 #### Various other help and inspiration
 - [SpeckledFleebeedoo](https://mods.factorio.com/user/SpeckledFleebeedoo)
