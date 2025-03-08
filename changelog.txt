@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.3.12
+Date: 2025-03-08
+  Changes:
+    - Updated the way vanilla machines gain new crafting prototypes to make it future proof and not have conflicts with other mods as often. (Thanks again Saf!)
+    - Changed the categories for the Arc Furnace and Advanced Assembling Machine to make them inherit the categories of the electric furnace and assembling machine 3 respectively so they're always updated with any other category a mod should add to the two buildings they're upgrades for.
+---------------------------------------------------------------------------------------------------
 Version: 1.3.11
 Date: 2025-03-06
   Changes:

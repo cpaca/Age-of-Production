@@ -26,7 +26,7 @@ data:extend{
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         --map_color = ei_data.colors.assembler,
-        crafting_categories = {"basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid", "electronics", "electronics-with-fluid", "pressing", "metallurgy-or-assembling", "organic-or-hand-crafting", "organic-or-assembling", "electronics-or-assembling", "cryogenics-or-assembling", "crafting-with-fluid-or-metallurgy", "advanced-centrifuging-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "quantum-assembling-or-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "biochemistry-or-organic-or-hand-crafting", "biochemistry-or-organic-or-assembling", "woodworking-or-organic-or-assembling", "petrochemistry-or-organic-or-assembling", "electronics-or-electromechanics", "pressing-or-electromechanics", "quantum-assembling-or-crafting-with-fluid", "advanced-centrifuging-or-crafting-with-fluid", "ammunition-or-crafting"},
+        crafting_categories = data.raw["assembling-machine"]["assembling-machine-3"].crafting_categories,
         fluid_boxes =
         {
           {
