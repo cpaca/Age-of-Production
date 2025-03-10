@@ -103,7 +103,7 @@ This mod wouldn't be possible without the help of these amazing people!
 - **License**: Public domain.
 - **Changes**: No.
 
-#### Various icons and inspiration for the Hydraulics Plant
+#### Various icons and inspiration for the Hydraulic Plant
 - [Notnotmelon](https://github.com/notnotmelon)
 
 #### Chinese Locale
