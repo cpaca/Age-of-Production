@@ -116,7 +116,7 @@ This mod wouldn't be possible without the help of these amazing people!
 - [Tsumiki](https://github.com/cpaca)
 
 #### Compat with the Wooden Universe mods (Also creator of those mods!)
--[Saf](https://github.com/SafTheLamb)
+- [Saf](https://github.com/SafTheLamb)
 
 #### Various other help and inspiration
 - [SpeckledFleebeedoo](https://mods.factorio.com/user/SpeckledFleebeedoo)
