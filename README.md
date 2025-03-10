@@ -71,8 +71,13 @@ The new additions, per planet, are:
 - Compatibility with other mods.
 - Currently adding some more buildings ;3.
 #### Buildings on the way:
-- The next planned building uses the Thermal Plant texture but I do not know what to make it do. If you have suggestions tell me. It won't be a heat or power building, tried already.
-
+- The next planned building uses the Glass Furnace texture and will be called the Mineral Synthesizer, able to do coal synthesizing and the other synthesizing recipes my mod adds! If you have ideas for other Synthesis recipes tell me!
+#### Textures by Hurricane that probably won't be used.
+- Thermal Plant
+- Radio Station
+- Conduit
+- Item, Fluid and Electricity Extractors
+- Train Loader (I recommend [this mod](https://mods.factorio.com/mod/train-loader) if you want it!)
 ### Credits
 
 This mod wouldn't be possible without the help of these amazing people!
