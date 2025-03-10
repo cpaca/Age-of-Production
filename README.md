@@ -71,7 +71,7 @@ The new additions, per planet, are:
 - Compatibility with other mods.
 - Currently adding some more buildings ;3.
 #### Buildings on the way:
-- Convector and Thermal Plant will have their uses revamped as their original ideas are too hard for me to implement (fluid consuming heat reactor and wide area heating). If anyone has any good ideas, please tell me!
+- The next planned building uses the Thermal Plant texture but I do not know what to make it do. If you have suggestions tell me. It won't be a heat or power building, tried already.
 
 ### Credits
 
@@ -79,7 +79,7 @@ This mod wouldn't be possible without the help of these amazing people!
 
 #### Building Textures
 
-- **Creators**: [Hurricane](https://mods.factorio.com/user/Hurricane046)
+- **Creator**: [Hurricane](https://mods.factorio.com/user/Hurricane046)
 - **Source**: [Figma](https://shorturl.at/AFcDm)
 - **License**: [CC BY](https://creativecommons.org/licenses/by/4.0/)
 - **Changes**: Yes. Renamed the "Gravity Assembler", "Atom Forge", "Pathogen Lab", "Oxidizer", "Alloy Forge", "Fusion Reactor", "Research Center",  "Manufacturer", "Photometric Lab", "Convector" and "Chemical Stager"
