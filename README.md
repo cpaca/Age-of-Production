@@ -5,7 +5,7 @@ Two months later, here we are! My first true mod!
 
 # Age of Production
 
-This mod adds 17 new buildings, many new recipes, 3 new fluids and a couple new items!
+This mod adds 18 new buildings, many new recipes, 3 new fluids and a couple new items!
 
 My philosophy with this mod was: Add stuff to Space Age without adding new planets.
 
@@ -25,7 +25,7 @@ The new additions, per planet, are:
 # Gleba:
 - Biochemical Facility: Hybridate pentapods and biters to satiate your desire for pain and suffering! This abomination can make most solid biological recipes without the need of eating! Why only solid when the machine is filled with fluids? Well... Uhm... The poor Pentapod-biter hybrid has a weak digestive system it'd feel bad if it drank something! :c Going back to the important stuff, only 25% prod! (Unlocked after Quantum Processors and Captive Biter Spawners)
 - Greenhouse: Even the engineer has a green thumb! Or is it just pentapod blood? We may never know! This calm paradise in the factory's chaos can grow plants for you. 50% prod, the usual. Gleban products can only be grown there but wood on the other hand... let's just say there will be some more oxygen in space. It even has a related infinite tech! (Unlocked after the Lumber Mill and Cryogenic Science)
-- Scrubber: This little machine will clean up all of your mistakes! Give it a catalyst and some water and it will clean up any atmosphere, only leaving some Waste Water for you to clean up! But your atmospheric trash is your own treasure! By cleaning the water you may get back some polluting products... (Unlocked after Agricultural Science, with additional recipes with Cryogenic Science)
+- Scrubber: This little machine will clean up all of your mistakes! Give it a catalyst and some water and it will clean up any atmosphere, only leaving some Waste Water for you to clean up! But your atmospheric trash is your own treasure! By cleaning the water you may get back some polluting products... (Unlocked after Agricultural Science, with additional recipes after unlocking Mineral Synthesis)
 
 # Fulgora:
 - Salvager: This upgraded Recycler doesn't just scrap the stuff you throw inside of it, it melts the components and then rebuilds them, sometimes with an higher quality than before! That's right, 10% quality recycler! (Unlocked after Quality Modules 3 and Carbon Fiber.)
@@ -35,6 +35,7 @@ The new additions, per planet, are:
 # Aquilo:
 - Electromechanic Facility: This thing. It's huge. And it can make incredible stuff... 50% base QUALITY on all armors, equipment, vehicles and bots! It can also... well if you got here you might as well read the next lines. (Unlocked after Quantum Processors.)
 - Hydraulic Plant: Ever thought producing Holmium Solution was too hard? Not anymore with a nice 50% prod over it. Same for all other fluid based recipes that aren't oil related or strictly cryogenic or electromagnetic! (Unlocked with Cryogenic Science.)
+- Mineral Synthesizer: No metals on Aquilo? Not anymore! This special machine, fusion of a chemical plant and furnace, can synthesize the metals from the Ammoniacal Sea, alongside coal, calcite and stone synthesis! 20% prod and slightly faster than a chem plant! (Unlocked after Cryogenic Science and Air Scrubbing (For its synthesis recipes!))
 
 # Beyond:
 - Deep into interstellar space... shrouded in darkness... you may find new applications of those red fragments... (All unlocked after Promethium Science, Automation 4, Biolab and Electromechanics).
@@ -71,13 +72,14 @@ The new additions, per planet, are:
 - Compatibility with other mods.
 - Currently adding some more buildings ;3.
 #### Buildings on the way:
-- The next planned building uses the Glass Furnace texture and will be called the Mineral Synthesizer, able to do coal synthesizing and the other synthesizing recipes my mod adds! If you have ideas for other Synthesis recipes tell me!
+- Currently nothing! :3
 #### Textures by Hurricane that probably won't be used.
 - Thermal Plant
 - Radio Station
 - Conduit
 - Item, Fluid and Electricity Extractors
 - Train Loader (I recommend [this mod](https://mods.factorio.com/mod/train-loader) if you want it!)
+
 ### Credits
 
 This mod wouldn't be possible without the help of these amazing people!
