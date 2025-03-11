@@ -16,7 +16,7 @@ local function add_tech_effect(tech_name, effect)
   add_crafting_categories("assembling-machine", "assembling-machine-1", {"advanced-centrifuging-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "quantum-assembling-or-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "electronics-or-electromechanics", "pressing-or-electromechanics", "ammunition-or-crafting"})
   add_crafting_categories("assembling-machine", "assembling-machine-2", {"advanced-centrifuging-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "quantum-assembling-or-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "biochemistry-or-organic-or-hand-crafting", "biochemistry-or-organic-or-assembling", "woodworking-or-organic-or-assembling", "petrochemistry-or-organic-or-assembling" , "electronics-or-electromechanics", "pressing-or-electromechanics", "quantum-assembling-or-crafting-with-fluid", "advanced-centrifuging-or-crafting-with-fluid", "ammunition-or-crafting"})
   add_crafting_categories("assembling-machine", "assembling-machine-3", {"advanced-centrifuging-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "quantum-assembling-or-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "biochemistry-or-organic-or-hand-crafting", "biochemistry-or-organic-or-assembling", "woodworking-or-organic-or-assembling", "petrochemistry-or-organic-or-assembling" , "electronics-or-electromechanics", "pressing-or-electromechanics", "quantum-assembling-or-crafting-with-fluid", "advanced-centrifuging-or-crafting-with-fluid", "ammunition-or-crafting"})
-  add_crafting_categories("assembling-machine", "chemical-plant", {"hydraulics-or-chemistry", "hydraulics-or-chemistry-or-cryogenics", "petrochemistry-or-organic-or-chemistry", "petrochemistry-or-chemistry", "petrochemistry-or-chemistry-or-cryogenics"})
+  add_crafting_categories("assembling-machine", "chemical-plant", {"hydraulics-or-chemistry", "hydraulics-or-chemistry-or-cryogenics", "petrochemistry-or-organic-or-chemistry", "petrochemistry-or-chemistry", "petrochemistry-or-chemistry-or-cryogenics", "synthesis-or-chemistry"})
   add_crafting_categories("assembling-machine", "centrifuge", {"advanced-centrifuging-or-centrifuging"})
   add_crafting_categories("assembling-machine", "oil-refinery", {"petrochemistry-or-oil-processing"})
   add_crafting_categories("assembling-machine", "biochamber", {"biochemistry-or-organic", "biochemistry-or-organic-or-hand-crafting", "biochemistry-or-organic-or-assembling", "woodworking-or-organic", "woodworking-or-organic-or-assembling", "hydraulics-or-organic", "petrochemistry-or-organic-or-chemistry", "petrochemistry-or-organic-or-assembling", "petrochemistry-or-organic", "organic-or-electromechanics"})
@@ -131,6 +131,16 @@ data.raw.recipe["uranium-cannon-shell"].category = "ammunition-or-crafting"
 data.raw.recipe["explosive-uranium-cannon-shell"].category = "ammunition-or-crafting"
 data.raw.recipe["railgun-ammo"].category = "ammunition-or-crafting"
 data.raw.recipe["artillery-shell"].category = "ammunition-or-crafting"
+data.raw.recipe["grenade"].category = "ammunition-or-crafting"
+data.raw.recipe["cluster-grenade"].category = "ammunition-or-crafting"
+data.raw.recipe["coal-synthesis"].category = "synthesis-or-chemistry"
+data.raw.recipe["coal-synthesis"].crafting_machine_tint =
+{
+    primary = {r = 0.0, g = 0.0, b = 0.0, a = 1.000},
+    secondary = {r = 0.0, g = 0.0, b = 0.0, a = 1.000},
+    tertiary = {r = 0.0, g = 0.0, b = 0.0, a = 1.000},
+    quaternary = {r = 0.0, g = 0.0, b = 0.0, a = 1.000}
+}
 
 require "prototypes.advanced-agriculture"
 require "prototypes.advanced-assembling-machine"
@@ -148,6 +158,7 @@ require "prototypes.greenhouse"
 require "prototypes.hydraulic-plant"
 require "prototypes.item-subgroups"
 require "prototypes.lumber-mill"
+require "prototypes.mineral-synthesizer"
 require "prototypes.miscellaneous-recipes"
 require "prototypes.petrochemical-facility"
 require "prototypes.petrochemistry"

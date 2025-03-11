@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 2025-03-11
+  Changes:
+    - Updated the textures for the Quantum Assembler, Hydraulic Plant and Greenhouse.
+    - Added the Mineral Synthesizer and two new recipes to go along with it, use this machine to do material synthesis recipes.
+    - Added grenades to the armory.
+    - Changed the way the Quantum Computer obtains the science packs it can contain, allowing seamless compat with all mods that add packs to the base lab.
+---------------------------------------------------------------------------------------------------
 Version: 1.3.12
 Date: 2025-03-08
   Changes:

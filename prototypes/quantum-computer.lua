@@ -33,21 +33,7 @@ data:extend {
         selection_box = { { -3, -3 }, { 3, 3 } },
         --map_color = ei_data.colors.assembler,
         researching_speed = 20,
-        inputs =
-        {
-            "automation-science-pack",
-            "logistic-science-pack",
-            "military-science-pack",
-            "chemical-science-pack",
-            "production-science-pack",
-            "utility-science-pack",
-            "space-science-pack",
-            "metallurgic-science-pack",
-            "agricultural-science-pack",
-            "electromagnetic-science-pack",
-            "cryogenic-science-pack",
-            "promethium-science-pack"
-        },
+        inputs = data.raw.lab["lab"].inputs,
         science_pack_drain_rate_percent = 10,
         energy_source =
         {

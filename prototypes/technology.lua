@@ -84,7 +84,7 @@ data:extend{
         recipe = "aop-aquiloan-waste-water-cleaning",
       },
     },
-    prerequisites = {"aop-air-scrubbing", "cryogenic-science-pack"},
+    prerequisites = {"aop-mineral-synthesis", "cryogenic-science-pack"},
     unit =
     {
       count = 100,
@@ -908,3 +908,42 @@ data:extend{
               }
             }
           }
+          data:extend{
+            {
+                type = "technology",
+                name = "aop-mineral-synthesis",
+                icon = "__Age-of-Production-Graphics__/graphics/technology/mineral-synthesis.png",
+                icon_size = 256,
+                effects =
+                {
+                  {
+                    type = "unlock-recipe",
+                    recipe = "aop-mineral-synthesizer"
+                  },
+                  {
+                    type = "unlock-recipe",
+                    recipe = "aop-ammoniacal-iron-synthesis"
+                  },
+                  {
+                    type = "unlock-recipe",
+                    recipe = "aop-ammoniacal-copper-synthesis"
+                  },
+                },
+                prerequisites = {"cryogenic-science-pack", "aop-air-scrubbing"},
+                unit =
+                {
+                  count = 1500,
+                  ingredients =
+                  {
+                    {"automation-science-pack", 1},
+                    {"logistic-science-pack", 1},
+                    {"chemical-science-pack", 1},
+                    {"production-science-pack", 1},
+                    {"utility-science-pack", 1},
+                    {"space-science-pack", 1},
+                    {"cryogenic-science-pack", 1}
+                  },
+                  time = 60
+                }
+              }
+            }

@@ -17,7 +17,13 @@ data:extend {{
     category = "agriculture",
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "pressure", min = 2000, max = 2000}}
+    surface_conditions = {{property = "pressure", min = 2000, max = 2000}},
+    crafting_machine_tint =
+    {
+      primary = {r = 0.976, g = 0.006, b = 0.310, a = 1.000},
+      secondary = {r = 0.805, g = 0.701, b = 0.293, a = 1.000},
+
+    }
 }}
 data:extend {{
     type = "recipe",
@@ -38,7 +44,12 @@ data:extend {{
     category = "agriculture",
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "pressure", min = 2000, max = 2000}}
+    surface_conditions = {{property = "pressure", min = 2000, max = 2000}},
+    crafting_machine_tint =
+    {
+      primary = {r = 0.405, g = 0.701, b = 0.693, a = 1.000},
+      secondary = {r = 0.876, g = 0.406, b = 0.710, a = 1.000},
+    }
 }}
 data:extend {{
     type = "recipe",

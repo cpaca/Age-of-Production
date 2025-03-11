@@ -658,3 +658,40 @@ data:extend {{
     category = "metallurgy-2-the-return",
     auto_recycle = true
 }}
+
+data:extend {{
+    type = "item",
+    name = "aop-mineral-synthesizer",
+    subgroup = "production-machine",
+    order = "i[aop-mineral-synthesizer]",
+    pick_sound = item_sounds.fluid_inventory_pickup,
+    drop_sound = item_sounds.fluid_inventory_move,
+    icon = "__Age-of-Production-Graphics__/graphics/icons/mineral-synthesizer.png",
+    icon_size = 64,
+    stack_size = 10,
+    default_import_location = "aquilo",
+    weight = 200000,
+    place_result = "aop-mineral-synthesizer"
+}}
+data:extend {{
+    type = "recipe",
+    name = "aop-mineral-synthesizer",
+    enabled = false,
+    energy_required = 40,
+    ingredients = {
+        {type = "item", name = "electric-furnace",   amount = 1},
+        {type = "item", name = "chemical-plant",   amount = 1},
+        {type = "item", name = "tungsten-plate",       amount = 200},
+        {type = "item", name = "lithium-plate",       amount = 70},
+        {type = "item", name = "processing-unit", amount = 200},
+        {type = "item", name = "copper-plate", amount = 200},
+    },
+    results = {
+        {type = "item", name = "aop-mineral-synthesizer", amount = 1}
+    },
+    allow_productivity = false,
+    surface_conditions = {{property = "pressure", min = 300, max = 300}},
+    main_product = "aop-mineral-synthesizer",
+    category = "crafting",
+    auto_recycle = true
+}}

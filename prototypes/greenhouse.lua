@@ -134,6 +134,7 @@ data:extend{
                     animationLayer()
                 }
             },
+            recipe_not_set_tint = { primary = {r = 0.6, g = 0.6, b =  0.5, a = 1}},
             working_visualisations = {
                 {
                     fadeout = true,
@@ -163,7 +164,32 @@ data:extend{
                                         height_in_frames = 8
                                     }
                                 }
-                            }
+                            },
+                            {
+                              priority = "high",
+                              fadeout = true,
+                              blend_mode = "additive",
+                              apply_recipe_tint = "primary",
+                              width = 340,
+                              height = 355,
+                              frame_count = 128,
+                              lines_per_file = 8,
+                              animation_speed = 0.15,
+                              shift = util.by_pixel(0, -8),
+                              scale = 0.5,
+                              stripes = {
+                                  {
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/greenhouse/greenhouse-hr-color3-1.png",
+                                      width_in_frames = 8,
+                                      height_in_frames = 8
+                                  },
+                                  {
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/greenhouse/greenhouse-hr-color3-2.png",
+                                      width_in_frames = 8,
+                                      height_in_frames = 8
+                                  }
+                              }
+                          }
                         }
                     }
                 }

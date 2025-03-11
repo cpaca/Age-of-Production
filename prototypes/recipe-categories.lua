@@ -156,5 +156,13 @@ data:extend(
     type = "recipe-category",
     name = "ammunition-or-crafting"
   },
+  {
+    type = "recipe-category",
+    name = "synthesis-or-chemistry"
+  },
+  {
+    type = "recipe-category",
+    name = "synthesis"
+  }
 }
 )

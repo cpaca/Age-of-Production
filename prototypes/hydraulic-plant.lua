@@ -83,32 +83,102 @@ data:extend{
           }
         },
         graphics_set = {
-          always_draw_idle_animation = true,
-          idle_animation = {
-            layers = {
+          animation = {
+              layers = {
+                  {
+                      filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-shadow.png",
+                      priority = "high",
+                      width = 1200,
+                      height = 800,
+                      frame_count = 1,
+                      line_length = 1,
+                      repeat_count = 60,
+                      animation_speed = 1,
+                      shift = util.by_pixel(4, -8),
+                      draw_as_shadow = true,
+                      scale = 0.25
+                  },
+                  {
+                      priority = "high",
+                      width = 280,
+                      height = 320,
+                      frame_count = 60,
+                      lines_per_file = 8,
+                      animation_speed = 1,
+                      scale = 0.5,
+                      stripes = {
+                          {
+                              filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-animation-1.png",
+                              width_in_frames = 8,
+                              height_in_frames = 8
+                          }
+                      }
+                  },
+              }
+          },
+          recipe_not_set_tint = { primary = {r = 0.0, g = 0.6, b =  0.6, a = 1}},          
+          working_visualisations = {
               {
-                filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-shadow.png",
-                size = {600, 400},
-                shift = {0, 0},
-                scale = 0.5,
-                line_length = 1,
-                frame_count = 1,
-                repeat_count = 60,
-                draw_as_shadow = true,
-                animation_speed = 1,
-              },
-              {
-                filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-animation.png",
-                size = {320, 370},
-                shift = {0, 0},
-                scale = 0.5,
-                line_length = 8,
-                lines_per_file = 8,
-                frame_count = 60,
-                animation_speed = 1,
-              },
-            },
-        },
+                  fadeout = true,
+                  animation = {
+                      layers = {
+                          {
+                              priority = "high",
+                              width = 280,
+                              height = 320,
+                              frame_count = 60,
+                              lines_per_file = 8,
+                              animation_speed = 1,
+                              scale = 0.5,
+                              stripes = {
+                                  {
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-animation-1.png",
+                                      width_in_frames = 8,
+                                      height_in_frames = 8
+                                  }
+                              }
+                          },
+                          {
+                              priority = "high",
+                              draw_as_glow = true,
+                              blend_mode = "additive",
+                              width = 280,
+                              height = 320,
+                              frame_count = 60,
+                              lines_per_file = 8,
+                              animation_speed = 1,
+                              scale = 0.5,
+                              stripes = {
+                                  {
+                                      filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-emission-1.png",
+                                      width_in_frames = 8,
+                                      height_in_frames = 8
+                                  }
+                              }
+                          },
+                          {
+                            priority = "high",
+                            fadeout = true,
+                            blend_mode = "additive",
+                            apply_recipe_tint = "primary",
+                            width = 280,
+                            height = 320,
+                            frame_count = 60,
+                            lines_per_file = 8,
+                            animation_speed = 1,
+                            scale = 0.5,
+                            stripes = {
+                                {
+                                    filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-color.png",
+                                    width_in_frames = 8,
+                                    height_in_frames = 8
+                                }
+                            }
+                        }
+                      }
+                  }
+              }
+          }
       },
           --[[{
             light = {
