@@ -33,7 +33,7 @@ data:extend {
         selection_box = { { -3, -3 }, { 3, 3 } },
         --map_color = ei_data.colors.assembler,
         researching_speed = 20,
-        inputs = data.raw.lab["lab"].inputs,
+        inputs = {},
         science_pack_drain_rate_percent = 10,
         energy_source =
         {

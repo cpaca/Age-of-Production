@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.1
+Date: 2025-03-11
+  Changes:
+    - Attempted to fix the duplicate sciences error (Thanks isd-1!) I apologize for all the inconveniences!
+---------------------------------------------------------------------------------------------------
 Version: 1.4.0
 Date: 2025-03-11
   Changes:
