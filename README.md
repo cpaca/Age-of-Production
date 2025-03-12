@@ -52,13 +52,17 @@ The new additions, per planet, are:
 # PLEASE REPORT ANY BUGS YOU FIND
 
 ## Compat:
-### Addons (I think that's the term)
-- [AoP Extended Planets](https://mods.factorio.com/mod/AoP-extended-planets): Moves around my new techs if some planet mods are installed.
 ### Built-in compat:
 - [Foundry Restructuring](https://mods.factorio.com/mod/foundry-restructuring): Changes the crafting prototypes of the new recipes so that they can be made in my new machines alongside the changes from FR.
 - [Vanilla Galore Continued](https://mods.factorio.com/mod/vanilla_galore_continued) and [Space Age Galore](https://mods.factorio.com/mod/space_age_galore): Adds support for the recipes added by the mods to my machines.
 - [5Dim's mod - New Automatization](https://mods.factorio.com/mod/5dim_automation): Makes crafting prototypes not broken.
 - [Wooden Universe](https://mods.factorio.com/mod/wood-universe-modpack): Simply implements compat between AoP and some of the mods in the pack.
+- [Tenebris Prime](https://mods.factorio.com/mod/tenebris-prime) or [Tenebris](https://mods.factorio.com/mod/tenebris): Moves Advanced Assembling Machine to Tenebris.
+- [Maraxsis](https://mods.factorio.com/mod/maraxsis): Moves Greenhouse and Core Miner to Maraxsis, removes Hydraulic Plant, moving its recipes to the Hydro Plant and making it have 25% Quality and 25% Productivity to fuse the two buildings' effects.
+- [Corrundum](https://mods.factorio.com/mod/corrundum): Moves Arc Furnace and Petrochemical Facility to Corrundum.
+- [Terra Palus](https://mods.factorio.com/mod/terrapalus): Moves Biochemical Facility to Terra Palus.
+- [Secretas & Frozeta](https://mods.factorio.com/mod/secretas): Moves Electromechanical Facility and Salvager to Secretas.
+- [Castra](https://mods.factorio.com/mod/castra): Moves Armory to Castra and balances Castra's Forge to be a worthy alternative to the Armory and not a replacement.
 ### Compat from other mods:
 - [Extraplanetary Production](https://mods.factorio.com/mod/extraplanetary-production): Mod has support for my machines built in.
 
@@ -124,6 +128,9 @@ This mod wouldn't be possible without the help of these amazing people!
 
 #### Compat with the Wooden Universe mods (Also creator of those mods!)
 - [Saf](https://github.com/SafTheLamb)
+
+#### Initial compat for Maraxsis, Castra, Secretas & Frozeta, Terra Palus, Tenebris and Corrundum.
+- [sylee87](https://mods.factorio.com/user/sylee87)
 
 #### Various other help and inspiration
 - [SpeckledFleebeedoo](https://mods.factorio.com/user/SpeckledFleebeedoo)
