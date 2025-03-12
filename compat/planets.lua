@@ -13,10 +13,11 @@ if mods["maraxsis"] then
     data.raw.technology["aop-greenhouse"].prerequisites = {"aop-woodworking", "cryogenic-science-pack","hydraulic-science-pack"}
     
     data.raw["assembling-machine"]["aop-hydraulic-plant"].hidden= true
-    data.raw["item"]["aop-hydraulic-plant"].hidden = true
-    data.raw["recipe"]["aop-hydraulic-plant"].hidden = true
-    data.raw["recipe"]["aop-hydraulic-plant-recycling"].hidden = true
-    data.raw["technology"]["aop-hydraulics"].enabled = false
+    data.raw["item"]["aop-hydraulic-plant"].hidden =  true
+    data.raw["item"]["aop-hydraulic-plant"].hidden_in_factoriopedia =  true
+    data.raw["recipe"]["aop-hydraulic-plant"] = nil
+    data.raw["recipe"]["aop-hydraulic-plant-recycling"] = nil
+    data.raw["technology"]["aop-hydraulics"] = nil
 
     local function add_crafting_categories(entity_type, entity_name, categories)
         local entity = data.raw[entity_type][entity_name]
@@ -24,9 +25,9 @@ if mods["maraxsis"] then
           table.insert(entity.crafting_categories, category)
         end
       end
-      add_crafting_categories("assembling-machine", "maraxsis-hydro-plant", {"hydraulics", "hydraulics-or-chemistry", "hydraulics-or-organic", "hydraulics-or-chemistry-or-cryogenics"})
-    data.raw["assembling-machine"]["maraxsis-hydro-plant"].effect_receiver = { base_effect = { productivity = 0.25, quality = 25 }}
-    data.raw.technology["aop-specialized-science"].prerequisites = {"aop-armory", "aop-petrochemistry", "aop-hybridation", "cryogenic-science-pack", "maraxsis-project-seadragon"}
+      add_crafting_categories("assembling-machine", "maraxsis-hydro-plant", {"hydraulics", "hydraulics-or-chemistry", "hydraulics-or-organic", "hydraulics-or-chemistry-or-cryogenics", "synthesis-or-chemistry"})
+    data.raw["assembling-machine"]["maraxsis-hydro-plant"].effect_receiver = { base_effect = { productivity = 0.25, quality = 2.5 }}
+    data.raw.technology["aop-specialized-science"].prerequisites = {"aop-armory", "aop-petrochemistry", "aop-hybridation", "cryogenic-science-pack", "maraxsis-deepsea-research"}
     data.raw.technology["aop-core-mining"].prerequisites = {"aop-electromechanics", "promethium-science-pack", "maraxsis-project-seadragon"}
     data.raw.technology["aop-core-mining"].unit.ingredients = {
                   {"automation-science-pack", 1},
@@ -54,6 +55,10 @@ if mods["maraxsis"] then
         {type = "item", name = "electric-engine-unit", amount = 300},
         {type = "fluid", name = "fluoroketone-cold", amount = 300},
                     }
+         data.raw.recipe["aop-petroleum-gas-dehydrogenation"].results = {
+                {type = "item", name = "carbon", amount = 2},
+                {type = "fluid", name = "maraxsis-hydrogen", amount = 4},
+         }
     end
     
     if mods["corrundum"] then 
