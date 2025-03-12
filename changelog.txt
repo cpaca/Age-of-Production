@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.2
+Date: 2025-03-11
+  Changes:
+    - Added initial compatibility with Maraxsis, Castra, Secretas & Frozeta, Terra Palus, Tenebris and Corrundum. All of these are subject to changes. This was taken directly and slightly edited from the AoP Extended Planets mod by sylee87, which is now incompatible with the main mod.
+    - I WARN ALL PLAYERS THAT CRAFTING LOCATIONS FOR BUILDINGS WILL CHANGE AND THAT THE HYDRAULIC PLANT WILL STRAIGHT UP DISAPPEAR WHEN MARAXSIS IS INSTALLED. YOU HAVE BEEN WARNED!
+---------------------------------------------------------------------------------------------------
 Version: 1.4.1
 Date: 2025-03-11
   Changes:

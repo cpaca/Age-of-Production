@@ -1,10 +1,13 @@
 ### Credits
+
+This mod wouldn't be possible without the help of these amazing people!
+
 #### Building Textures
 
-- **Creators**: [Hurricane](https://mods.factorio.com/user/Hurricane046)
+- **Creator**: [Hurricane](https://mods.factorio.com/user/Hurricane046)
 - **Source**: [Figma](https://shorturl.at/AFcDm)
 - **License**: [CC BY](https://creativecommons.org/licenses/by/4.0/)
-- **Changes**: Yes. Renamed the "Gravity Assembler", "Atom Forge", "Pathogen Lab", "Oxidizer", "Alloy Forge", "Fusion Reactor", "Research Center",  and "Chemical Stager"
+- **Changes**: Yes. Renamed the "Gravity Assembler", "Atom Forge", "Pathogen Lab", "Oxidizer", "Alloy Forge", "Fusion Reactor", "Research Center",  "Manufacturer", "Photometric Lab", "Convector" and "Chemical Stager"
 
 #### Sound Effects
 
@@ -19,14 +22,29 @@
 - **License**: Public domain.
 - **Changes**: No.
 
-#### Waste Water and Biomass Icons
+#### Various Icons
 - **Creators**: [Malcolm Riley](https://github.com/malcolmriley)
 - **Source**: [Unused Renders](https://github.com/malcolmriley/unused-renders)
 - **License**: Public domain.
 - **Changes**: No.
 
-#### Various icons and inspiration for the Hydraulics Plant
+#### Various icons and inspiration for the Hydraulic Plant
 - [Notnotmelon](https://github.com/notnotmelon)
+
+#### Chinese Locale
+- [isd-1](https://github.com/isd-1)
+
+#### Help with the Core Miner, Github and other stuff
+- [Quezler](https://github.com/Quezler)
+
+#### Quantum Stabilizer Nerf
+- [Tsumiki](https://github.com/cpaca)
+
+#### Compat with the Wooden Universe mods (Also creator of those mods!)
+- [Saf](https://github.com/SafTheLamb)
+
+#### Initial compat for Maraxsis, Castra, Secretas & Frozeta, Terra Palus, Tenebris and Corrundum.
+- [sylee87](https://mods.factorio.com/user/sylee87)
 
 #### Various other help and inspiration
 - [SpeckledFleebeedoo](https://mods.factorio.com/user/SpeckledFleebeedoo)
