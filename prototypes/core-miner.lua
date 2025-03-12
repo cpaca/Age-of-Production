@@ -40,7 +40,7 @@ data:extend{
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {
-          mining_time = 0.5,
+          mining_time = 5,
           results = {{type="item", name="aop-core-miner", amount=1}}
         },
         max_health = 15000,

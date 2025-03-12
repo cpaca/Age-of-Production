@@ -12,11 +12,11 @@ if mods["maraxsis"] then
     }
     data.raw.technology["aop-greenhouse"].prerequisites = {"aop-woodworking", "cryogenic-science-pack","hydraulic-science-pack"}
     
-    data.raw["assembling-machine"]["aop-hydraulic-plant"] = nil
-    data.raw["item"]["aop-hydraulic-plant"] = nil
-    data.raw["recipe"]["aop-hydraulic-plant"] = nil
-    data.raw["recipe"]["aop-hydraulic-plant-recycling"] = nil
-    data.raw["technology"]["aop-hydraulics"] = nil
+    data.raw["assembling-machine"]["aop-hydraulic-plant"].hidden= true
+    data.raw["item"]["aop-hydraulic-plant"].hidden = true
+    data.raw["recipe"]["aop-hydraulic-plant"].hidden = true
+    data.raw["recipe"]["aop-hydraulic-plant-recycling"].hidden = true
+    data.raw["technology"]["aop-hydraulics"].enabled = false
 
     local function add_crafting_categories(entity_type, entity_name, categories)
         local entity = data.raw[entity_type][entity_name]
