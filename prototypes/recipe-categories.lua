@@ -163,6 +163,14 @@ data:extend(
   {
     type = "recipe-category",
     name = "synthesis"
+  },
+  {
+    type = "recipe-category",
+    name = "synthesis-or-crafting-with-fluid"
+  },
+  {
+    type = "recipe-category",
+    name = "synthesis-or-cryogenics-or-chemistry"
   }
 }
 )

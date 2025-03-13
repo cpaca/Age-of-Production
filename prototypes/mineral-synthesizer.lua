@@ -50,7 +50,7 @@ data:extend{
         collision_box = {{-1.6, -1.6}, {1.6, 1.6}},
         selection_box = {{-2, -2}, {2, 2}},
         --map_color = ei_data.colors.assembler,
-        crafting_categories = {"synthesis", "synthesis-or-chemistry"},
+        crafting_categories = {"synthesis", "synthesis-or-chemistry", "synthesis-or-crafting-with-fluid", "synthesis-or-cryogenics-or-chemistry"},
         crafting_speed = 1.5,
         energy_source =
         {
