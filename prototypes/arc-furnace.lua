@@ -21,6 +21,8 @@ data:extend{
         max_health = 1000,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
+        circuit_wire_max_distance = furnace_circuit_wire_max_distance,
+        circuit_connector = circuit_connector_definitions["steel-furnace"],
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         --map_color = ei_data.colors.assembler,

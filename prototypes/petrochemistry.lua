@@ -4,9 +4,9 @@ data:extend {{
     icon = "__Age-of-Production-Graphics__/graphics/icons/solid-fuel-melting.png",
     subgroup = "fluid-recipes",
     enabled = false,
-    energy_required = 2,
+    energy_required = 5,
     ingredients = {
-        {type = "item", name = "solid-fuel",      amount = 10}
+        {type = "item", name = "solid-fuel",      amount = 20}
     },
     results = {
         {type = "fluid", name = "crude-oil", amount = 10},

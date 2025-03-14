@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.5
+Date: 2025-03-14
+  Circuit connections at a cheap price???:
+
+  Changes:
+    - Mod now requires Factorio 2.0.41 or more to function.
+    - Mod now requires latest version of the Graphics Mod to function.
+    - Implemented the new furnace prototype circuit connections to the Arc Furnace and Salvager.
+    - Doubled amount of solid fuel needed for Solid Fuel Melting.
+---------------------------------------------------------------------------------------------------
 Version: 1.4.4
 Date: 2025-03-13
   The Sillyening:
