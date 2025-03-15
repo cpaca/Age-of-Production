@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.6
+Date: 2025-03-14
+  Me when i try to fix a kinda useless feature:
+
+  Changes:
+    - Rebalanced almost all Specialized Science recipes.
+---------------------------------------------------------------------------------------------------
 Version: 1.4.5
 Date: 2025-03-14
   Circuit connections at a cheap price???:

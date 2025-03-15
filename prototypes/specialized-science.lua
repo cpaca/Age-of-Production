@@ -42,7 +42,7 @@ data:extend {{
         stack_size = 50,
         default_import_location = "gleba",
         spoil_ticks = 1800,
-        spoil_result = "stone",
+        spoil_result = "carbon",
         weight = 1000
     }}
 
@@ -102,7 +102,8 @@ data:extend {{
     energy_required = 6.4,
     ingredients = {
         {type = "fluid", name = "aop-lithium-fluoride",      amount = 20},
-        {type = "item", name = "holmium-plate",      amount = 1},
+        {type = "fluid", name = "ammonia",      amount = 20},
+        {type = "item", name = "holmium-plate",      amount = 3},
     },
     results = {
         {type = "item", name = "lithium-plate", amount = 3},
@@ -120,7 +121,7 @@ data:extend {{
     icon = "__Age-of-Production-Graphics__/graphics/icons/explosive-core.png",
     subgroup = "vulcanus-processes",
     enabled = false,
-    energy_required = 10,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "explosives",      amount = 4},
         {type = "item", name = "tungsten-plate",      amount = 2},
@@ -143,10 +144,11 @@ data:extend {{
     icon = "__Age-of-Production-Graphics__/graphics/icons/advanced-artillery-shell-manufacturing.png",
     subgroup = "vulcanus-processes",
     enabled = false,
-    energy_required = 3,
+    energy_required = 20,
     ingredients = {
         {type = "item", name = "aop-explosive-core",      amount = 1},
         {type = "item", name = "tungsten-carbide",      amount = 2},
+        {type = "item", name = "steel-plate",      amount = 5},
         {type = "item", name = "calcite",      amount = 2},
     },
     results = {
@@ -164,7 +166,7 @@ data:extend {{
     icon = "__Age-of-Production-Graphics__/graphics/icons/magnetic-flow-meter.png",
     subgroup = "fulgora-processes",
     enabled = false,
-    energy_required = 8,
+    energy_required = 12,
     ingredients = {
         {type = "item", name = "superconductor",      amount = 2},
         {type = "item", name = "processing-unit",      amount = 1},
@@ -187,11 +189,11 @@ data:extend {{
     icon = "__Age-of-Production-Graphics__/graphics/icons/magnetic-thruster.png",
     subgroup = "fulgora-processes",
     enabled = false,
-    energy_required = 8,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "aop-magnetic-flow-meter",      amount = 1},
         {type = "item", name = "steel-plate",      amount = 10},
-        {type = "fluid", name = "electrolyte",      amount = 5},
+        {type = "fluid", name = "electrolyte",      amount = 10},
     },
     results = {
         {type = "item", name = "thruster", amount = 1},
@@ -249,8 +251,8 @@ data:extend {{
         {type = "item", name = "bioflux",      amount = 2},
     },
     results = {
-        {type = "item", name = "aop-hybrid-bacteria", amount = 3, probability = 0.33},
-        {type = "item", name = "aop-hybrid-bacteria", amount = 1, probability = 0.66},
+        {type = "item", name = "aop-hybrid-bacteria", amount = 3, probability = 0.40},
+        {type = "item", name = "aop-hybrid-bacteria", amount = 1, probability = 0.60},
     },
     allow_productivity = true,
     category = "biochemistry-or-organic",
@@ -277,15 +279,15 @@ data:extend {{
     icon = "__Age-of-Production-Graphics__/graphics/icons/hydraulics-specialized-cryogenic-science-pack.png",
     subgroup = "aop-specialized-science-pack",
     enabled = false,
-    energy_required = 10,
+    energy_required = 18,
     ingredients = {
-        {type = "item", name = "solid-fuel",      amount = 2},
-        {type = "fluid", name = "ammoniacal-solution",      amount = 20},
-        {type = "fluid", name = "aop-lithium-fluoride",      amount = 40},
+        {type = "item", name = "rocket-fuel",      amount = 2},
+        {type = "fluid", name = "ammoniacal-solution",      amount = 100},
+        {type = "fluid", name = "aop-lithium-fluoride",      amount = 100},
     },
     results = {
         {type = "item", name = "cryogenic-science-pack", amount = 2},
-        {type = "item", name = "ice", amount = 2, ignored_by_stats = 2, ignored_by_productivity = 2},
+        {type = "item", name = "ice", amount = 5, ignored_by_stats = 5, ignored_by_productivity = 5},
     },
     allow_productivity = true,
     category = "hydraulics",
@@ -307,7 +309,7 @@ data:extend {{
     icon = "__Age-of-Production-Graphics__/graphics/icons/military-specialized-metallurgic-science-pack.png",
     subgroup = "aop-specialized-science-pack",
     enabled = false,
-    energy_required = 7,
+    energy_required = 12,
     ingredients = {
         {type = "item", name = "aop-explosive-core",      amount = 2},
         {type = "item", name = "piercing-shotgun-shell",      amount = 5},
@@ -341,9 +343,9 @@ data:extend {{
     ingredients = {
         {type = "item", name = "aop-magnetic-flow-meter",      amount = 2},
         {type = "item", name = "battery",      amount = 3},
-        {type = "fluid", name = "holmium-solution",      amount = 5},
-        {type = "fluid", name = "lubricant",      amount = 10},
-        {type = "fluid", name = "petroleum-gas",      amount = 25},
+        {type = "fluid", name = "holmium-solution",      amount = 15},
+        {type = "fluid", name = "lubricant",      amount = 20},
+        {type = "fluid", name = "petroleum-gas",      amount = 30},
     },
     results = {
         {type = "item", name = "electromagnetic-science-pack", amount = 2},
@@ -368,12 +370,12 @@ data:extend {{
     icon = "__Age-of-Production-Graphics__/graphics/icons/hybridation-specialized-agricultural-science-pack.png",
     subgroup = "aop-specialized-science-pack",
     enabled = false,
-    energy_required = 3.5,
+    energy_required = 5,
     ingredients = {
         {type = "item", name = "aop-hybrid-bacteria",      amount = 4},
         {type = "item", name = "bioflux",      amount = 3},
         {type = "item", name = "pentapod-egg",      amount = 1},
-        {type = "item", name = "carbon",      amount = 2},
+        {type = "item", name = "sulfur",      amount = 1},
     },
     results = {
         {type = "item", name = "agricultural-science-pack", amount = 2},
