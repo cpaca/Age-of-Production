@@ -63,6 +63,7 @@ The new additions, per planet, are:
 - [Terra Palus](https://mods.factorio.com/mod/terrapalus): Moves Biochemical Facility to Terra Palus.
 - [Secretas & Frozeta](https://mods.factorio.com/mod/secretas): Moves Electromechanical Facility and Salvager to Secretas.
 - [Castra](https://mods.factorio.com/mod/castra): Moves Armory to Castra and balances Castra's Forge to be a worthy alternative to the Armory and not a replacement.
+- [Quality Biolab](https://mods.factorio.com/mod/QualityBioLab): Makes Quantum Computer's drain also scale with Quality.
 ### Compat from other mods:
 - [Extraplanetary Production](https://mods.factorio.com/mod/extraplanetary-production): Mod has support for my machines built in.
 
