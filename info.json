@@ -1,6 +1,6 @@
 {
   "name": "Age-of-Production",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "title": "Age of Production",
   "author": "AndreusAxolotl",
   "homepage": "https://github.com/AndreusAxolotl/Age-of-Production",
@@ -23,6 +23,7 @@
     "? terrapalus",
     "? secretas",
     "? castra",
+    "? QualityBioLab",
     "! AoP-extended-planets"
 ]
 }

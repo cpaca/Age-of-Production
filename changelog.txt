@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.7
+Date: 2025-03-16
+  I LOVE UNBALANCED FEATURES I LOVE UNBALANCED FEATURES:
+
+  Additions:
+    - Quantum Computer is now affected by Quality if Quality Biolab is installed. Have fun with that, I sure will.
+
+  Changes:
+    - Greenhouse now eats up more pollution but emits spores when used on Gleba.
+---------------------------------------------------------------------------------------------------
 Version: 1.4.6
 Date: 2025-03-14
   Me when i try to fix a kinda useless feature:
