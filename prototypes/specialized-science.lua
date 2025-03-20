@@ -375,10 +375,10 @@ data:extend {{
         {type = "item", name = "aop-hybrid-bacteria",      amount = 4},
         {type = "item", name = "bioflux",      amount = 3},
         {type = "item", name = "pentapod-egg",      amount = 1},
-        {type = "item", name = "sulfur",      amount = 1},
+        {type = "item", name = "sulfur",      amount = 2},
     },
     results = {
-        {type = "item", name = "agricultural-science-pack", amount = 2},
+        {type = "item", name = "agricultural-science-pack", amount = 4},
     },
     allow_productivity = true,
     category = "biochemistry",

@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.8
+Date: 2025-03-20
+  It's been a while...:
+  Changes:
+    - Hybridation Specialized Agricultural Science Pack now yields 4 packs instead of 2 but requires more sulfur.
+    - Reduced Quantum Computer power usage from 100MW to 75MW. Power was still balanced around the original pitch of it being super duper fast but only placeable once per platform.
+---------------------------------------------------------------------------------------------------
 Version: 1.4.7
 Date: 2025-03-16
   I LOVE UNBALANCED FEATURES I LOVE UNBALANCED FEATURES:
