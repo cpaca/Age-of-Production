@@ -171,6 +171,10 @@ data:extend(
   {
     type = "recipe-category",
     name = "synthesis-or-cryogenics-or-chemistry"
+  },
+  {
+    type = "recipe-category",
+    name = "metallurgy-or-cryogenics"
   }
 }
 )

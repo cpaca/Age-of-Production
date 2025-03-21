@@ -88,7 +88,7 @@ data:extend {{
         {type = "fluid", name = "aop-lithium-fluoride", amount = 500},
     },
     allow_productivity = true,
-    category = "metallurgy",
+    category = "metallurgy-or-cryogenics",
     auto_recycle = false,
     show_amount_in_title = false,
 }}

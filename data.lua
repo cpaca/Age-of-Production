@@ -20,9 +20,9 @@ local function add_tech_effect(tech_name, effect)
   add_crafting_categories("assembling-machine", "centrifuge", {"advanced-centrifuging-or-centrifuging"})
   add_crafting_categories("assembling-machine", "oil-refinery", {"petrochemistry-or-oil-processing"})
   add_crafting_categories("assembling-machine", "biochamber", {"biochemistry-or-organic", "biochemistry-or-organic-or-hand-crafting", "biochemistry-or-organic-or-assembling", "woodworking-or-organic", "woodworking-or-organic-or-assembling", "hydraulics-or-organic", "petrochemistry-or-organic-or-chemistry", "petrochemistry-or-organic-or-assembling", "petrochemistry-or-organic", "organic-or-electromechanics"})
-  add_crafting_categories("assembling-machine", "cryogenic-plant", {"hydraulics-or-chemistry-or-cryogenics", "petrochemistry-or-chemistry-or-cryogenics", "synthesis-or-cryogenics-or-chemistry"})
+  add_crafting_categories("assembling-machine", "cryogenic-plant", {"hydraulics-or-chemistry-or-cryogenics", "petrochemistry-or-chemistry-or-cryogenics", "synthesis-or-cryogenics-or-chemistry", "metallurgy-or-cryogenics"})
   add_crafting_categories("assembling-machine", "electromagnetic-plant", {"electronics-or-electromechanics"})
-  add_crafting_categories("assembling-machine", "foundry", {"pressing-or-electromechanics", "metallurgy-2-the-return"})
+  add_crafting_categories("assembling-machine", "foundry", {"pressing-or-electromechanics", "metallurgy-2-the-return", "metallurgy-or-cryogenics"})
 
 local function add_player_crafting_categories(categories)
     local entity = data.raw.character.character
