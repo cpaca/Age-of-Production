@@ -6,7 +6,7 @@ data:extend {{
     enabled = false,
     energy_required = 600,
     ingredients = {
-        {type = "item", name = "yumako-seed",      amount = 1},
+        {type = "item", name = "yumako-seed",      amount = 4},
         {type = "item", name = "nutrients", amount = 30},
         {type = "fluid", name = "water", amount = 50},
     },
@@ -33,7 +33,7 @@ data:extend {{
     enabled = false,
     energy_required = 600,
     ingredients = {
-        {type = "item", name = "jellynut-seed",      amount = 1},
+        {type = "item", name = "jellynut-seed",      amount = 4},
         {type = "item", name = "nutrients", amount = 30},
         {type = "fluid", name = "water", amount = 50},
     },
@@ -59,7 +59,7 @@ data:extend {{
     enabled = false,
     energy_required = 1200,
     ingredients = {
-        {type = "item", name = "tree-seed",      amount = 1},
+        {type = "item", name = "tree-seed",      amount = 4},
         {type = "item", name = "aop-biomass", amount = 20},
         {type = "fluid", name = "water", amount = 50},
     },

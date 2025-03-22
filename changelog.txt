@@ -1,6 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.10
+Date: 2025-03-22
+  A seedy place:
+  Changes:
+    - Quadrupled seed usage for all Greenhouse recipes.
+---------------------------------------------------------------------------------------------------
 Version: 1.4.9
-Date: 2025-03-20
+Date: 2025-03-21
   Small patch for a small change:
   Changes:
     - Lithium Fluoride can now be crafted in the Cryogenic Plant alongside the Foundry. Casting is still obviously exclusive to the foundry.
