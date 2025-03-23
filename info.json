@@ -1,6 +1,6 @@
 {
   "name": "Age-of-Production",
-  "version": "1.4.10",
+  "version": "1.5.0",
   "title": "Age of Production",
   "author": "AndreusAxolotl",
   "homepage": "https://github.com/AndreusAxolotl/Age-of-Production",
@@ -24,6 +24,19 @@
     "? secretas",
     "? castra",
     "? QualityBioLab",
+    "? Cerys-Moon-of-Fulgora",
+    "? planet-muluna",
+    "? planet-arrakis",
+    "? cubium",
+    "? dea-dia-system",
+    "? erm-toss",
+    "? erm-zerg",
+    "? Factorio-Tiberium",
+    "? janus",
+    "? lignumis",
+    "? metal-and-stars",
+    "? Moshine",
+    "? naufulglebunusilo",
     "! AoP-extended-planets"
 ]
 }

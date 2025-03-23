@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.0
+Date: 2025-03-23
+  This will be a core patch heheheheheheheehehheheheheeheheeheehehe:
+
+  Additions:
+    - Added Planetary Density as a surface property for Core Mining in order to ease compatibility with other planet mods.
+    - Added initial compat with other planets.
+
+  Notes:
+    - This is just a starting patch, the next versions will include more compat and changes, i just wanted to get Density out of the way :3
+    - Aiur and Char for some reason aren't changing their density. If someone knows how to help please do so.
+---------------------------------------------------------------------------------------------------
 Version: 1.4.10
 Date: 2025-03-22
   A seedy place:

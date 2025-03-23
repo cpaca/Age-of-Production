@@ -160,7 +160,7 @@ data:extend {{
     category = "crushing",
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "pressure", min = 4000, max = 4000}},
+    surface_conditions = {{property = "density", min = 5200, max = 5200}},
 }}
 
 data:extend {{
@@ -183,7 +183,7 @@ data:extend {{
     category = "crushing",
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "pressure", min = 1000, max = 1000}},
+    surface_conditions = {{property = "density", min = 5500, max = 5500}},
 }}
 
 data:extend {{
@@ -210,7 +210,7 @@ data:extend {{
     category = "crushing",
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "pressure", min = 2000, max = 2000}},
+    surface_conditions = {{property = "density", min = 5300, max = 5300}},
 }}
 
 data:extend {{
@@ -233,5 +233,5 @@ data:extend {{
     category = "crushing",
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "magnetic-field", min = 99, max = 99}},
+    surface_conditions = {{property = "density", min = 3900, max = 3900}},
 }}

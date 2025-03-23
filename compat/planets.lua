@@ -59,6 +59,8 @@ if mods["maraxsis"] then
                 {type = "item", name = "carbon", amount = 2},
                 {type = "fluid", name = "maraxsis-hydrogen", amount = 4},
          }
+        data.raw.planet["maraxsis"].surface_properties.density = 4700
+        data.raw.planet["maraxsis-trench"].surface_properties.density = 4700
     end
     
     if mods["corrundum"] then 
@@ -84,6 +86,7 @@ if mods["maraxsis"] then
             {"metallurgic-science-pack", 1},
             {"electrochemical-science-pack",1}
     }
+    data.raw.planet["corrundum"].surface_properties.density = 4000
     end
     
     if mods["secretas"] then 
@@ -121,8 +124,7 @@ if mods["maraxsis"] then
     data.raw.recipe["aop-salvager"].surface_conditions = {{property = "pressure", min = 200, max = 200}}
     data.raw.item["aop-salvager"].default_import_location = "frozeta"
     data.raw["furnace"]["aop-salvager"].result_inventory_size = 40
-    
-    
+    data.raw.planet["frozeta"].surface_properties.density = 3100
     end
     
     if mods["tenebris-prime"] or mods["tenebris"] then 
@@ -159,6 +161,7 @@ if mods["maraxsis"] then
             {"bioluminescent-science-pack", 1},
             {"promethium-science-pack", 1}
     }
+    data.raw.planet["tenebris"].surface_properties.density = 5200
     end
     
     if mods["terrapalus"] then 
@@ -175,6 +178,7 @@ if mods["maraxsis"] then
             {type = "item", name = "inhibitor-lamp", amount = 5},
         }
     data.raw.item["aop-biochemical-facility"].default_import_location = "terrapalus"
+    data.raw.planet["terrapalus"].surface_properties.density = 2200
     end
     
     if mods["castra"] then
@@ -199,5 +203,64 @@ if mods["maraxsis"] then
             {type = "item", name = "gunpowder",   amount = 100},
         }
     data.raw["assembling-machine"]["forge"].effect_receiver = { base_effect = { productivity = 0.0, quality = 1 }}
+    data.raw.planet["castra"].surface_properties.density = 5000
     end
-    
+    if mods["planet-muluna"] then 
+        data.raw.planet["muluna"].surface_properties.density = 3400
+    end
+
+    if mods["Cerys-Moon-of-Fulgora"] then 
+        data.raw.planet["cerys"].surface_properties.density = 1200
+    end
+
+    if mods["cubium"] then 
+        data.raw.planet["cubium"].surface_properties.density = 2300
+    end
+
+    if mods["planet-arrakis"] then 
+        data.raw.planet["arrakis"].surface_properties.density = 2900
+    end
+
+
+
+    if mods["erm-toss"] then 
+        data.raw.planet["aiur"].surface_properties.density = 5500
+    end
+
+    if mods["erm-zerg"] then 
+        data.raw.planet["char"].surface_properties.density = 5200
+    end
+
+-- Aiur and Char for some reason aren't changing their density. If someone knows how to help please do so.
+
+    if mods["Factorio-Tiberium"] then 
+        data.raw.planet["tiber"].surface_properties.density = 2700
+    end
+
+    if mods["janus"] then 
+        data.raw.planet["janus"].surface_properties.density = 2300
+    end
+
+    if mods["lignumis"] then 
+        data.raw.planet["lignumis"].surface_properties.density = 2000
+    end
+
+    if mods["metal-and-stars"] then 
+        data.raw.planet["shipyard"].surface_properties.density = 100
+        data.raw.planet["nix"].surface_properties.density = 2900
+        data.raw.planet["ringworld"].surface_properties.density = 500
+    end
+
+    if mods["dea-dia-system"] then 
+        data.raw.planet["planet-dea-dia"].surface_properties.density = 1500
+        data.raw.planet["lemures"].surface_properties.density = 3300
+        data.raw.planet["prosephina"].surface_properties.density = 3350
+    end
+
+    if mods["Moshine"] then 
+        data.raw.planet["moshine"].surface_properties.density = 4200
+    end
+
+    if mods["naufulglebunusilo"] then 
+        data.raw.planet["naufulglebunusilo"].surface_properties.density = 10000
+    end    

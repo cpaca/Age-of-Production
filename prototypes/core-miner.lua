@@ -49,8 +49,8 @@ data:extend{
         surface_conditions =
         {
             {
-                property = "pressure",
-                min = 301,
+                property = "density",
+                min = 3000,
             }
         },
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
