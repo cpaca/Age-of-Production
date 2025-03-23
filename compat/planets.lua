@@ -4,6 +4,13 @@ local function add_tech_effect(tech_name, effect)
     table.insert(tech.effects, effect)
   end
 
+  local function add_crafting_categories(entity_type, entity_name, categories)
+    local entity = data.raw[entity_type][entity_name]
+    for _,category in pairs(categories) do
+      table.insert(entity.crafting_categories, category)
+    end
+  end
+
 if mods["maraxsis"] then 
     data.raw.technology["aop-greenhouse"].unit.ingredients = {
             {"automation-science-pack", 1},
@@ -382,6 +389,10 @@ if mods["maraxsis"] then
     end
 
     if mods["lignumis"] then 
+        add_crafting_categories("assembling-machine", "burner-assembling-machine", {"woodworking-or-organic-or-assembling"})
+        add_crafting_categories("assembling-machine", "steam-assembling-machine", {"woodworking-or-organic-or-assembling"})
+        add_crafting_categories("assembling-machine", "lumber-mill", {"woodworking", "woodworking-or-organic", "woodworking-or-crafting", "woodworking-or-organic-or-assembling"})
+        add_crafting_categories("assembling-machine", "aop-lumber-mill", {"wood-processing-or-assembling"})
         data.raw.planet["lignumis"].surface_properties.density = 2000
     end
 
