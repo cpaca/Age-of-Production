@@ -2,7 +2,7 @@ data:extend({
     {
         type = "surface-property",
         name = "density",
-        default_value = 5500,
+        default_value = 2900,
     },
 })
 

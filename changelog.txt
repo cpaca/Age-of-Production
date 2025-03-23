@@ -1,7 +1,22 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.2
+Date: 2025-03-23
+  I loved when Andreus said it's compat time and compatibiled everywhere:
+
+  Additions:
+    - Added core mining recipes for all eligible planets.
+
+  Changes:
+    - Changed how Hybrid Bacteria Breeding yields its results
+    - Updated Mineral Synthesizer Texture.
+
+  Notes:
+    - Next patches will probably add more compat with other mods, mainly planets, and some texture updates. Next on my list is doing Air Scrubbing recipes, which will take wayyyyyy longer than Core Mining. Also, if there's any other planet mods that you want compat for that I skipped, just inform me.
+    - If any compat currently done causes issues with progression and stuff, just tell me please. Or if you don't like how I implemented it. Just. Tell me what you think :pleading_face:
+---------------------------------------------------------------------------------------------------
 Version: 1.5.1
 Date: 2025-03-23
-  Zerg and Protoss :
+  Zerg and Protoss:
 
   Fixes:
     - Fixed a spelling error in the mod's code. lmao. It made Aiur and Char not change density.
