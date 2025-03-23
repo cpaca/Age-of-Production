@@ -251,8 +251,7 @@ data:extend {{
         {type = "item", name = "bioflux",      amount = 2},
     },
     results = {
-        {type = "item", name = "aop-hybrid-bacteria", amount = 3, probability = 0.40},
-        {type = "item", name = "aop-hybrid-bacteria", amount = 1, probability = 0.60},
+        {type = "item", name = "aop-hybrid-bacteria", amount_min = 1, amount_max= 3},
     },
     allow_productivity = true,
     category = "biochemistry-or-organic",

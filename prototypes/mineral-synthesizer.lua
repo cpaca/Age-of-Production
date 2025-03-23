@@ -111,15 +111,14 @@ data:extend{
                     {
                         filename = "__Age-of-Production-Graphics__/graphics/entity/mineral-synthesizer/mineral-synthesizer-hr-shadow.png",
                         priority = "high",
-                        width = 1200,
-                        height = 700,
+                        width = 500,
+                        height = 350,
                         frame_count = 1,
                         line_length = 1,
                         repeat_count = 80,
                         animation_speed = 0.5,
-                        shift = util.by_pixel(4, -8),
                         draw_as_shadow = true,
-                        scale = 0.25
+                        scale = 0.5
                     },
                     animationLayer()
                 }

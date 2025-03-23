@@ -1,3 +1,9 @@
+local function add_tech_effect(tech_name, effect)
+    local tech = data.raw.technology[tech_name]
+    tech.effects = tech.effects or {}
+    table.insert(tech.effects, effect)
+  end
+
 if mods["maraxsis"] then 
     data.raw.technology["aop-greenhouse"].unit.ingredients = {
             {"automation-science-pack", 1},
@@ -29,8 +35,9 @@ if mods["maraxsis"] then
     
         add_crafting_categories("assembling-machine", "maraxsis-hydro-plant", {"hydraulics", "hydraulics-or-chemistry", "hydraulics-or-organic", "hydraulics-or-chemistry-or-cryogenics", "synthesis-or-chemistry"})
         data.raw["assembling-machine"]["maraxsis-hydro-plant"].effect_receiver = { base_effect = { productivity = 0.25, quality = 2.5 }}
+        data.raw.technology["aop-specialized-science"].prerequisites = {"aop-armory", "aop-petrochemistry", "aop-hybridation", "cryogenic-science-pack", "maraxsis-deepsea-research"}
     end
-    data.raw.technology["aop-specialized-science"].prerequisites = {"aop-armory", "aop-petrochemistry", "aop-hybridation", "cryogenic-science-pack", "maraxsis-deepsea-research"}
+    
     data.raw.technology["aop-core-mining"].prerequisites = {"aop-electromechanics", "promethium-science-pack", "maraxsis-project-seadragon"}
     data.raw.technology["aop-core-mining"].unit.ingredients = {
                   {"automation-science-pack", 1},
@@ -64,6 +71,30 @@ if mods["maraxsis"] then
          }
         data.raw.planet["maraxsis"].surface_properties.density = 4700
         data.raw.planet["maraxsis-trench"].surface_properties.density = 4700
+    data:extend {{
+            type = "recipe",
+            name = "aop-maraxsian-crushing",
+            icon = "__Age-of-Production-Graphics__/graphics/icons/maraxsian-crushing.png",
+            subgroup = "aop-core-mining",
+            enabled = false,
+            energy_required = 2,
+            ingredients = {
+                {type = "item", name = "aop-refined-mineral",      amount = 1},
+            },
+            results = {
+                {type = "item", name = "iron-ore", amount = 1, probability = 0.4},
+                {type = "item", name = "copper-ore", amount = 1, probability = 0.4}, 
+                {type = "item", name = "maraxsis-limestone", amount = 5, probability = 0.5}, 
+                {type = "item", name = "sulfur", amount = 2, probability = 0.3}, 
+                {type = "item", name = "maraxsis-salt", amount = 3, probability = 0.25}, 
+            },
+            allow_productivity = true,
+            category = "crushing",
+            auto_recycle = false,
+            show_amount_in_title = false,
+            surface_conditions = {{property = "density", min = 4700, max = 4700}},
+        }}
+        add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-maraxsian-crushing"})
     end
     
     if mods["corrundum"] then 
@@ -90,6 +121,29 @@ if mods["maraxsis"] then
             {"electrochemical-science-pack",1}
     }
     data.raw.planet["corrundum"].surface_properties.density = 4000
+    data:extend {{
+        type = "recipe",
+        name = "aop-corrundumian-crushing",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/corrundumian-crushing.png",
+        subgroup = "aop-core-mining",
+        enabled = false,
+        energy_required = 2,
+        ingredients = {
+            {type = "item", name = "aop-refined-mineral",      amount = 1},
+        },
+        results = {
+            {type = "item", name = "sulfur", amount = 3, probability = 0.9},
+            {type = "item", name = "chalcopyrite-ore", amount = 2, probability = 0.5}, 
+            {type = "item", name = "platinum-ore", amount = 1, probability = 0.5}, 
+            {type = "item", name = "calcite", amount = 2, probability = 0.6}, 
+        },
+        allow_productivity = true,
+        category = "crushing",
+        auto_recycle = false,
+        show_amount_in_title = false,
+        surface_conditions = {{property = "density", min = 4000, max = 4000}},
+    }}
+    add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-corrundumian-crushing"})
     end
     
     if mods["secretas"] then 
@@ -128,6 +182,27 @@ if mods["maraxsis"] then
     data.raw.item["aop-salvager"].default_import_location = "frozeta"
     data.raw["furnace"]["aop-salvager"].result_inventory_size = 40
     data.raw.planet["frozeta"].surface_properties.density = 3100
+    data:extend {{
+        type = "recipe",
+        name = "aop-frozetan-crushing",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/frozetan-crushing.png",
+        subgroup = "aop-core-mining",
+        enabled = false,
+        energy_required = 2,
+        ingredients = {
+            {type = "item", name = "aop-refined-mineral",      amount = 1},
+        },
+        results = {
+            {type = "item", name = "ice", amount = 6, probability = 0.9},
+            {type = "item", name = "gold-ore", amount = 2, probability = 0.5}, 
+        },
+        allow_productivity = true,
+        category = "crushing",
+        auto_recycle = false,
+        show_amount_in_title = false,
+        surface_conditions = {{property = "density", min = 3100, max = 3100}},
+    }}
+    add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-frozetan-crushing"})
     end
     
     if mods["tenebris-prime"] or mods["tenebris"] then 
@@ -164,7 +239,29 @@ if mods["maraxsis"] then
             {"bioluminescent-science-pack", 1},
             {"promethium-science-pack", 1}
     }
-    data.raw.planet["tenebris"].surface_properties.density = 5200
+    data.raw.planet["tenebris"].surface_properties.density = 5100
+    data:extend {{
+        type = "recipe",
+        name = "aop-tenebrisian-crushing",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/tenebrisian-crushing.png",
+        subgroup = "aop-core-mining",
+        enabled = false,
+        energy_required = 2,
+        ingredients = {
+            {type = "item", name = "aop-refined-mineral",      amount = 1},
+        },
+        results = {
+        {type = "item", name = "iron-ore", amount = 1, probability = 0.8},
+        {type = "item", name = "copper-ore", amount = 1, probability = 0.8}, 
+        {type = "item", name = "quartz-ore", amount = 1, probability = 0.25},
+        },
+        allow_productivity = true,
+        category = "crushing",
+        auto_recycle = false,
+        show_amount_in_title = false,
+        surface_conditions = {{property = "density", min = 5100, max = 5100}},
+    }}
+    add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-tenebrisian-crushing"})
     end
     
     if mods["terrapalus"] then 
@@ -207,9 +304,55 @@ if mods["maraxsis"] then
         }
     data.raw["assembling-machine"]["forge"].effect_receiver = { base_effect = { productivity = 0.0, quality = 1 }}
     data.raw.planet["castra"].surface_properties.density = 5000
+    data:extend {{
+        type = "recipe",
+        name = "aop-castran-crushing",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/castran-crushing.png",
+        subgroup = "aop-core-mining",
+        enabled = false,
+        energy_required = 2,
+        ingredients = {
+            {type = "item", name = "aop-refined-mineral",      amount = 1},
+        },
+        results = {
+        {type = "item", name = "gunpowder", amount = 2, probability = 0.4},
+        {type = "item", name = "copper-ore", amount = 1, probability = 0.8}, 
+        {type = "item", name = "uranium-ore", amount = 1, probability = 0.25}, 
+        {type = "item", name = "millerite", amount = 3, probability = 0.4}, 
+        },
+        allow_productivity = true,
+        category = "crushing",
+        auto_recycle = false,
+        show_amount_in_title = false,
+        surface_conditions = {{property = "density", min = 5000, max = 5000}},
+    }}
+    add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-castran-crushing"})
     end
     if mods["planet-muluna"] then 
         data.raw.planet["muluna"].surface_properties.density = 3400
+    data:extend {{
+            type = "recipe",
+            name = "aop-mulunan-crushing",
+            icon = "__Age-of-Production-Graphics__/graphics/icons/mulunan-crushing.png",
+            subgroup = "aop-core-mining",
+            enabled = false,
+            energy_required = 2,
+            ingredients = {
+                {type = "item", name = "aop-refined-mineral",      amount = 1},
+            },
+            results = {
+            {type = "item", name = "oxide-asteroid-chunk", amount = 1, probability = 0.5},
+            {type = "item", name = "carbonic-asteroid-chunk", amount = 1, probability = 0.5}, 
+            {type = "item", name = "metallic-asteroid-chunk", amount = 1, probability = 0.5}, 
+            {type = "item", name = "anorthite-chunk", amount = 1, probability = 0.25}, 
+            },
+            allow_productivity = true,
+            category = "crushing",
+            auto_recycle = false,
+            show_amount_in_title = false,
+            surface_conditions = {{property = "density", min = 3400, max = 3400}},
+        }}
+        add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-mulunan-crushing"})
     end
 
     if mods["Cerys-Moon-of-Fulgora"] then 
@@ -246,20 +389,148 @@ if mods["maraxsis"] then
 
     if mods["metal-and-stars"] then 
         data.raw.planet["shipyard"].surface_properties.density = 100
-        data.raw.planet["nix"].surface_properties.density = 2900
+        data.raw.planet["nix"].surface_properties.density = 3600
         data.raw.planet["ringworld"].surface_properties.density = 500
+    data:extend {{
+            type = "recipe",
+            name = "aop-nixan-crushing",
+            icon = "__Age-of-Production-Graphics__/graphics/icons/nixan-crushing.png",
+            subgroup = "aop-core-mining",
+            enabled = false,
+            energy_required = 2,
+            ingredients = {
+                {type = "item", name = "aop-refined-mineral",      amount = 1},
+            },
+            results = {
+                {type = "item", name = "iron-ore", amount = 1, probability = 0.6},
+                {type = "item", name = "copper-ore", amount = 1, probability = 0.6},
+                {type = "item", name = "coal", amount = 1, probability = 0.3}, 
+            },
+            allow_productivity = true,
+            category = "crushing",
+            auto_recycle = false,
+            show_amount_in_title = false,
+            surface_conditions = {{property = "density", min = 3600, max = 3600}},
+        }}
+        add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-nixan-crushing"})
     end
 
     if mods["dea-dia-system"] then 
         data.raw.planet["planet-dea-dia"].surface_properties.density = 1500
         data.raw.planet["lemures"].surface_properties.density = 3300
         data.raw.planet["prosephina"].surface_properties.density = 3350
+        data:extend {{
+            type = "recipe",
+            name = "aop-lemuresian-crushing",
+            icon = "__Age-of-Production-Graphics__/graphics/icons/lemuresian-crushing.png",
+            subgroup = "aop-core-mining",
+            enabled = false,
+            energy_required = 2,
+            ingredients = {
+                {type = "item", name = "aop-refined-mineral",      amount = 1},
+            },
+            results = {
+                {type = "item", name = "iron-ore", amount = 1, probability = 0.6},
+                {type = "item", name = "copper-ore", amount = 1, probability = 0.6},
+                {type = "item", name = "ice", amount = 3, probability = 0.5}, 
+                {type = "item", name = "fossil", amount = 1, probability = 0.2}, 
+            },
+            allow_productivity = true,
+            category = "crushing",
+            auto_recycle = false,
+            show_amount_in_title = false,
+            surface_conditions = {{property = "density", min = 3300, max = 3300}},
+        }}
+        data:extend {{
+            type = "recipe",
+            name = "aop-prosephinan-crushing",
+            icon = "__Age-of-Production-Graphics__/graphics/icons/prosephinan-crushing.png",
+            subgroup = "aop-core-mining",
+            enabled = false,
+            energy_required = 2,
+            ingredients = {
+                {type = "item", name = "aop-refined-mineral",      amount = 1},
+            },
+            results = {
+                {type = "item", name = "iron-ore", amount = 1, probability = 0.6},
+                {type = "item", name = "copper-ore", amount = 1, probability = 0.6},
+                {type = "item", name = "sulfur", amount = 1, probability = 0.3}, 
+            },
+            allow_productivity = true,
+            category = "crushing",
+            auto_recycle = false,
+            show_amount_in_title = false,
+            surface_conditions = {{property = "density", min = 3350, max = 3350}},
+        }}
+        add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-lemuresian-crushing"})
+        add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-prosephinan-crushing"})
     end
 
     if mods["Moshine"] then 
         data.raw.planet["moshine"].surface_properties.density = 4200
+        data:extend {{
+            type = "recipe",
+            name = "aop-moshinean-crushing",
+            icon = "__Age-of-Production-Graphics__/graphics/icons/moshinean-crushing.png",
+            subgroup = "aop-core-mining",
+            enabled = false,
+            energy_required = 2,
+            ingredients = {
+                {type = "item", name = "aop-refined-mineral",      amount = 1},
+            },
+            results = {
+                {type = "item", name = "sand", amount = 1, probability = 0.28},
+                {type = "item", name = "sulfur", amount = 1, probability = 0.6},
+                {type = "item", name = "copper-ore", amount = 1, probability = 0.08}, 
+                {type = "item", name = "copper-ore", amount = 1, probability = 0.09}, 
+                {type = "item", name = "coal", amount = 1, probability = 0.12}, 
+                {type = "item", name = "neodymium-ore", amount = 32, probability = 0.01}, 
+            },
+            allow_productivity = true,
+            category = "crushing",
+            auto_recycle = false,
+            show_amount_in_title = false,
+            surface_conditions = {{property = "density", min = 4200, max = 4200}},
+        }}
+        add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-moshinean-crushing"})
     end
 
     if mods["naufulglebunusilo"] then 
         data.raw.planet["naufulglebunusilo"].surface_properties.density = 10000
+        data:extend {{
+            type = "recipe",
+            name = "aop-naufulglebunusiloan-crushing",
+            icon = "__Age-of-Production-Graphics__/graphics/icons/naufulglebunusiloan-crushing.png",
+            subgroup = "aop-core-mining",
+            enabled = false,
+            energy_required = 2,
+            ingredients = {
+                {type = "item", name = "aop-refined-mineral",      amount = 1},
+            },
+            results = {
+                {type = "item", name = "iron-ore", amount = 2, probability = 0.5},
+                {type = "item", name = "copper-ore", amount = 2, probability = 0.5}, 
+                {type = "item", name = "tungsten-ore", amount = 1, probability = 0.35}, 
+                {type = "item", name = "sulfur", amount = 1, probability = 0.4}, 
+                {type = "item", name = "coal", amount = 3, probability = 0.6}, 
+                {type = "item", name = "calcite", amount = 1, probability = 0.35},
+                {type = "item", name = "uranium-ore", amount = 1, probability = 0.25}, 
+                {type = "item", name = "spoilage", amount = 2, probability = 0.8}, 
+                {type = "item", name = "carbon", amount = 1, probability = 0.3}, 
+                {type = "item", name = "yumako-seed", amount = 1, probability = 0.001}, 
+                {type = "item", name = "jellynut-seed", amount = 1, probability = 0.001}, 
+                {type = "item", name = "iron-bacteria", amount = 1, probability = 0.5},
+                {type = "item", name = "copper-bacteria", amount = 1, probability = 0.5}, 
+                {type = "item", name = "holmium-ore", amount = 1, probability = 0.15}, 
+                {type = "item", name = "scrap", amount = 2, probability = 0.05}, 
+                {type = "item", name = "ice", amount = 2, probability = 0.5},
+                {type = "item", name = "lithium", amount = 1, probability = 0.01},
+            },
+            allow_productivity = true,
+            category = "crushing",
+            auto_recycle = false,
+            show_amount_in_title = false,
+            surface_conditions = {{property = "density", min = 10000, max = 10000}},
+        }}
+        add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-naufulglebunusiloan-crushing"})
     end    
