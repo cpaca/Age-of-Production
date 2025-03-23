@@ -221,17 +221,13 @@ if mods["maraxsis"] then
         data.raw.planet["arrakis"].surface_properties.density = 2900
     end
 
-
-
-    if mods["erm-toss"] then 
+    if mods["erm_toss"] then 
         data.raw.planet["aiur"].surface_properties.density = 5500
     end
 
-    if mods["erm-zerg"] then 
+    if mods["erm_zerg"] then 
         data.raw.planet["char"].surface_properties.density = 5200
     end
-
--- Aiur and Char for some reason aren't changing their density. If someone knows how to help please do so.
 
     if mods["Factorio-Tiberium"] then 
         data.raw.planet["tiber"].surface_properties.density = 2700

@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.1
+Date: 2025-03-23
+  Zerg and Protoss :
+
+  Fixes:
+    - Fixed a spelling error in the mod's code. lmao. It made Aiur and Char not change density.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.0
 Date: 2025-03-23
   This will be a core patch heheheheheheheehehheheheheeheheeheehehe:
