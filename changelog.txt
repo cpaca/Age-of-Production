@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.3
+Date: 2025-03-23
+  Weird bugs:
+
+  Additions:
+    - The Maraxsis compat Hydro-Hydraulic merge is now optional and can be turned off in settings. (Thanks shadoxxhd!)
+
+  Fixes:
+    - Fixed weird issue with Moshine.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.2
 Date: 2025-03-23
   I loved when Andreus said it's compat time and compatibiled everywhere:
