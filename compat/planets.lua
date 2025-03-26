@@ -408,8 +408,12 @@ if mods["maraxsis"] then
             data.raw["item"]["aop-lumber-mill"].hidden_in_factoriopedia =  true
             data.raw["recipe"]["aop-lumber-mill"] = nil
             data.raw["recipe"]["aop-lumber-mill-recycling"] = nil
-            data.raw["technology"]["aop-woodworking"] = nil
-            data.raw.technology["aop-greenhouse"].prerequisites = {"tree-seeding", "cryogenic-science-pack"}
+            local tech = data.raw.technology["aop-woodworking"]
+            for i, effect in ipairs(tech.effects) do
+            if effect.type == "unlock-recipe" and effect.recipe == "aop-lumber-mill" then
+            table.remove(tech.effects, i)
+            end
+            end
         end
         add_crafting_categories("assembling-machine", "burner-assembling-machine", {"woodworking-or-organic-or-assembling"})
         add_crafting_categories("assembling-machine", "steam-assembling-machine", {"woodworking-or-organic-or-assembling"})

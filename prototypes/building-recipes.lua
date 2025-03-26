@@ -695,3 +695,39 @@ data:extend {{
     category = "crafting",
     auto_recycle = true
 }}
+
+data:extend {{
+    type = "item",
+    name = "aop-biomass-reactor",
+    subgroup = "energy",
+    order = "e[aop-biomass-reactor]",
+    inventory_move_sound = item_sounds.metal_large_inventory_move,
+    pick_sound = item_sounds.metal_large_inventory_pickup,
+    drop_sound = item_sounds.metal_large_inventory_move,
+    icon = "__Age-of-Production-Graphics__/graphics/icons/biomass-reactor.png",
+    icon_size = 64,
+    stack_size = 20,
+    default_import_location = "nauvis",
+    weight = 200000,
+    place_result = "aop-biomass-reactor"
+}}
+data:extend {{
+    type = "recipe",
+    name = "aop-biomass-reactor",
+    enabled = false,
+    energy_required = 30,
+    ingredients = {
+        {type = "item", name = "steel-plate",   amount = 50},
+        {type = "item", name = "heating-tower",       amount = 1},
+        {type = "item", name = "refined-concrete", amount = 20},
+        {type = "item", name = "steam-turbine", amount = 2},
+    },
+    results = {
+        {type = "item", name = "aop-biomass-reactor", amount = 1}
+    },
+    allow_productivity = false,
+    surface_conditions = {{property = "pressure", min = 1000, max = 1000}},
+    main_product = "aop-biomass-reactor",
+    category = "crafting",
+    auto_recycle = false
+}}

@@ -908,7 +908,7 @@ data:extend{
               }
             }
           }
-          data:extend{
+data:extend{
             {
                 type = "technology",
                 name = "aop-mineral-synthesis",
@@ -947,3 +947,25 @@ data:extend{
                 }
               }
             }
+data:extend{
+              {
+                  type = "technology",
+                  name = "aop-biomass-reactor",
+                  icon = "__Age-of-Production-Graphics__/graphics/technology/biomass-reactor.png",
+                  icon_size = 256,
+                  effects =
+                  {
+                    {
+                      type = "unlock-recipe",
+                      recipe = "aop-biomass-reactor"
+                    },
+                  },
+                  prerequisites = {"aop-woodworking"},
+                  research_trigger =
+                  {
+                    type = "craft-item",
+                    item = "aop-biomass",
+                    count = 100
+                  },
+                }
+              }
