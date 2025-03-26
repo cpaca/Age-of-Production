@@ -5,7 +5,7 @@ Two months later, here we are! My first true mod!
 
 # Age of Production
 
-This mod adds 18 new buildings, many new recipes, 3 new fluids and a couple new items!
+This mod adds 19 new buildings, many new recipes, 3 new fluids and a couple new items!
 
 My philosophy with this mod was: Add stuff to Space Age without adding new planets.
 
@@ -21,6 +21,7 @@ The new additions, per planet, are:
 # Nauvis:
 - Atomic Enricher: Centrifuging with style and a obligatory 50% productivity. Can also produce more uranium related recipes and the new Uranium Sifting recipe, allowing you to search for U-238 and U-235 from stone! (Unlocked after Quantum Processors and Nukes)
 - Lumber Mill: You know the drill by now, faster and 50% prod. This time with wood! Alongside it unlock new wood processes and Biomass, a cheaper alternative to Nutrients that spoils slower but gives less energy! (Unlocked after Tree Seeding)
+- Biomass Reactor: Unlocked right after the Lumber Mill, this new power building consumes well... Biomass! And nutrients! Consider it like an artificial biochamber, that instead of consuming the food to well... eat, it burns it! (Unlocked after Woodworking)
 
 # Gleba:
 - Biochemical Facility: Hybridate pentapods and biters to satiate your desire for pain and suffering! This abomination can make most solid biological recipes without the need of eating! Why only solid when the machine is filled with fluids? Well... Uhm... The poor Pentapod-biter hybrid has a weak digestive system it'd feel bad if it drank something! :c Going back to the important stuff, only 25% prod! (Unlocked after Quantum Processors and Captive Biter Spawners)
@@ -57,12 +58,7 @@ The new additions, per planet, are:
 - [Vanilla Galore Continued](https://mods.factorio.com/mod/vanilla_galore_continued) and [Space Age Galore](https://mods.factorio.com/mod/space_age_galore): Adds support for the recipes added by the mods to my machines.
 - [5Dim's mod - New Automatization](https://mods.factorio.com/mod/5dim_automation): Makes crafting prototypes not broken.
 - [Wooden Universe](https://mods.factorio.com/mod/wood-universe-modpack): Simply implements compat between AoP and some of the mods in the pack.
-- [Tenebris Prime](https://mods.factorio.com/mod/tenebris-prime) or [Tenebris](https://mods.factorio.com/mod/tenebris): Moves Advanced Assembling Machine to Tenebris.
-- [Maraxsis](https://mods.factorio.com/mod/maraxsis): Moves Greenhouse and Core Miner to Maraxsis, removes Hydraulic Plant, moving its recipes to the Hydro Plant and making it have 25% Quality and 25% Productivity to fuse the two buildings' effects.
-- [Corrundum](https://mods.factorio.com/mod/corrundum): Moves Arc Furnace and Petrochemical Facility to Corrundum.
-- [Terra Palus](https://mods.factorio.com/mod/terrapalus): Moves Biochemical Facility to Terra Palus.
-- [Secretas & Frozeta](https://mods.factorio.com/mod/secretas): Moves Electromechanical Facility and Salvager to Secretas.
-- [Castra](https://mods.factorio.com/mod/castra): Moves Armory to Castra and balances Castra's Forge to be a worthy alternative to the Armory and not a replacement.
+- [All Planets present in this modpack](https://mods.factorio.com/mod/kry-all-planet-mods): Moves around some buildings and adds refined mineral crushing to all eligible planets!
 - [Quality Biolab](https://mods.factorio.com/mod/QualityBioLab): Makes Quantum Computer's drain also scale with Quality.
 ### Compat from other mods:
 - [Extraplanetary Production](https://mods.factorio.com/mod/extraplanetary-production): Mod has support for my machines built in.
@@ -75,11 +71,9 @@ The new additions, per planet, are:
 - A trailer
 - Adding more stuff maybe idk, you can suggest stuff.
 - Compatibility with other mods.
-- Currently adding some more buildings ;3.
 #### Buildings on the way:
 - Currently nothing! :3
-#### Textures by Hurricane that probably won't be used.
-- Thermal Plant
+#### Textures by Hurricane that most probably won't be used.
 - Radio Station
 - Conduit
 - Item, Fluid and Electricity Extractors
