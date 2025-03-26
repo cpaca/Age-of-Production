@@ -8,3 +8,14 @@ if mods["maraxsis"] then
     }
   })
 end
+
+if mods["lignumis"] then
+  data:extend({
+    {
+        type = "bool-setting",
+        name = "aop-merge-lignumis-lumber-mill",
+        setting_type = "startup",
+        default_value = false
+    }
+  })
+end

@@ -60,6 +60,8 @@ data.raw.recipe["vgal-tungsten-plate-piercing-rounds-magazine"].category = "ammu
 data.raw.recipe["vgal-tungsten-plate-cannon-shell"].category = "ammunition-or-crafting"
 data.raw.recipe["vgal-tungsten-plate-explosive-cannon-shell"].category = "ammunition-or-crafting"
 data.raw.recipe["vgal-tungsten-plate-piercing-shotgun-shell"].category = "ammunition-or-crafting"
+data.raw.recipe["vgal-crude-oil-thruster-fuel"].category = "hydraulics"
+data.raw.recipe["vgal-ammonia-thruster-oxidizer"].category = "hydraulics"
 
 local tech = data.raw.technology["electronics"]
 for i, effect in ipairs(tech.effects) do
@@ -110,6 +112,20 @@ for i, effect in ipairs(tech.effects) do
     end
 end
 
+local tech = data.raw.technology["cryogenic-plant"]
+for i, effect in ipairs(tech.effects) do
+    if effect.type == "unlock-recipe" and effect.recipe == "vgal-crude-oil-thruster-fuel" then
+      table.remove(tech.effects, i)
+    end
+end
+
+local tech = data.raw.technology["cryogenic-plant"]
+for i, effect in ipairs(tech.effects) do
+    if effect.type == "unlock-recipe" and effect.recipe == "vgal-ammonia-thruster-oxidizer" then
+      table.remove(tech.effects, i)
+    end
+end
+
 local function add_tech_effect(tech_name, effect)
     local tech = data.raw.technology[tech_name]
     tech.effects = tech.effects or {}
@@ -123,3 +139,5 @@ local function add_tech_effect(tech_name, effect)
   add_tech_effect("aop-petrochemistry", {type = "unlock-recipe", recipe = "vgal-steam-heavy-oil-light-oil"})
   add_tech_effect("aop-petrochemistry", {type = "unlock-recipe", recipe = "vgal-steam-light-oil-petroleum-gas"})
   add_tech_effect("aop-atomic-enricher", {type = "unlock-recipe", recipe = "vgal-coal-uranium-235-nuclear-fuel"})
+  add_tech_effect("aop-hydraulics", {type = "unlock-recipe", recipe = "vgal-crude-oil-thruster-fuel"})
+  add_tech_effect("aop-hydraulics", {type = "unlock-recipe", recipe = "vgal-ammonia-thruster-oxidizer"})

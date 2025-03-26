@@ -1,4 +1,20 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.5
+Date: 2025-03-26
+  Begone, excessive production!:
+
+  Additions:
+    - Added an option to merge the Lumber Mill with Lignumis' if the mod is installed.
+
+  Changes:
+    - Limited productivity to 100% for mineral crushing.
+    - Added the compat Mineral Crushing recipes to the infinite tech.
+    - Updated Italian and English Locale.
+    - Updated compat with the Galore mods.
+
+  Fixes:
+    - Added missing categories to the Electromechanic Facility, how did they go missing since 1.0.0? I have no idea.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.4
 Date: 2025-03-23
   Wooden beginnings:

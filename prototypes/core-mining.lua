@@ -160,6 +160,7 @@ data:extend {{
     category = "crushing",
     auto_recycle = false,
     show_amount_in_title = false,
+    maximum_productivity = 1,
     surface_conditions = {{property = "density", min = 5200, max = 5200}},
 }}
 
@@ -183,6 +184,7 @@ data:extend {{
     category = "crushing",
     auto_recycle = false,
     show_amount_in_title = false,
+    maximum_productivity = 1,
     surface_conditions = {{property = "density", min = 5500, max = 5500}},
 }}
 
@@ -210,6 +212,7 @@ data:extend {{
     category = "crushing",
     auto_recycle = false,
     show_amount_in_title = false,
+    maximum_productivity = 1,
     surface_conditions = {{property = "density", min = 5300, max = 5300}},
 }}
 
@@ -233,5 +236,6 @@ data:extend {{
     category = "crushing",
     auto_recycle = false,
     show_amount_in_title = false,
+    maximum_productivity = 1,
     surface_conditions = {{property = "density", min = 3900, max = 3900}},
 }}

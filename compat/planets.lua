@@ -97,9 +97,11 @@ if mods["maraxsis"] then
             category = "crushing",
             auto_recycle = false,
             show_amount_in_title = false,
+            maximum_productivity = 1,
             surface_conditions = {{property = "density", min = 4700, max = 4700}},
         }}
         add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-maraxsian-crushing"})
+        add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-maraxsian-crushing", change = 0.05})
     end
     
     if mods["corrundum"] then 
@@ -146,9 +148,11 @@ if mods["maraxsis"] then
         category = "crushing",
         auto_recycle = false,
         show_amount_in_title = false,
+        maximum_productivity = 1,
         surface_conditions = {{property = "density", min = 4000, max = 4000}},
     }}
     add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-corrundumian-crushing"})
+    add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-corrundumian-crushing", change = 0.05})
     end
     
     if mods["secretas"] then 
@@ -205,9 +209,11 @@ if mods["maraxsis"] then
         category = "crushing",
         auto_recycle = false,
         show_amount_in_title = false,
+        maximum_productivity = 1,
         surface_conditions = {{property = "density", min = 3100, max = 3100}},
     }}
     add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-frozetan-crushing"})
+    add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-frozetan-crushing", change = 0.05})
     end
     
     if mods["tenebris-prime"] or mods["tenebris"] then 
@@ -264,9 +270,11 @@ if mods["maraxsis"] then
         category = "crushing",
         auto_recycle = false,
         show_amount_in_title = false,
+        maximum_productivity = 1,
         surface_conditions = {{property = "density", min = 5100, max = 5100}},
     }}
     add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-tenebrisian-crushing"})
+    add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-tenebrisian-crushing", change = 0.05})
     end
     
     if mods["terrapalus"] then 
@@ -329,9 +337,11 @@ if mods["maraxsis"] then
         category = "crushing",
         auto_recycle = false,
         show_amount_in_title = false,
+        maximum_productivity = 1,
         surface_conditions = {{property = "density", min = 5000, max = 5000}},
     }}
     add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-castran-crushing"})
+    add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-castran-crushing", change = 0.05})
     end
     if mods["planet-muluna"] then 
         data.raw.planet["muluna"].surface_properties.density = 3400
@@ -355,9 +365,11 @@ if mods["maraxsis"] then
             category = "crushing",
             auto_recycle = false,
             show_amount_in_title = false,
+            maximum_productivity = 1,
             surface_conditions = {{property = "density", min = 3400, max = 3400}},
         }}
         add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-mulunan-crushing"})
+        add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-mulunan-crushing", change = 0.05})
     end
 
     if mods["Cerys-Moon-of-Fulgora"] then 
@@ -389,6 +401,16 @@ if mods["maraxsis"] then
     end
 
     if mods["lignumis"] then 
+
+        if settings.startup["aop-merge-lignumis-lumber-mill"].value then
+            data.raw["assembling-machine"]["aop-lumber-mill"].hidden= true
+            data.raw["item"]["aop-lumber-mill"].hidden =  true
+            data.raw["item"]["aop-lumber-mill"].hidden_in_factoriopedia =  true
+            data.raw["recipe"]["aop-lumber-mill"] = nil
+            data.raw["recipe"]["aop-lumber-mill-recycling"] = nil
+            data.raw["technology"]["aop-woodworking"] = nil
+            data.raw.technology["aop-greenhouse"].prerequisites = {"tree-seeding", "cryogenic-science-pack"}
+        end
         add_crafting_categories("assembling-machine", "burner-assembling-machine", {"woodworking-or-organic-or-assembling"})
         add_crafting_categories("assembling-machine", "steam-assembling-machine", {"woodworking-or-organic-or-assembling"})
         add_crafting_categories("assembling-machine", "lumber-mill", {"woodworking", "woodworking-or-organic", "woodworking-or-crafting", "woodworking-or-organic-or-assembling"})
@@ -419,9 +441,11 @@ if mods["maraxsis"] then
             category = "crushing",
             auto_recycle = false,
             show_amount_in_title = false,
+            maximum_productivity = 1,
             surface_conditions = {{property = "density", min = 3600, max = 3600}},
         }}
         add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-nixan-crushing"})
+        add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-nixan-crushing", change = 0.05})
     end
 
     if mods["dea-dia-system"] then 
@@ -448,6 +472,7 @@ if mods["maraxsis"] then
             category = "crushing",
             auto_recycle = false,
             show_amount_in_title = false,
+            maximum_productivity = 1,
             surface_conditions = {{property = "density", min = 3300, max = 3300}},
         }}
         data:extend {{
@@ -469,10 +494,13 @@ if mods["maraxsis"] then
             category = "crushing",
             auto_recycle = false,
             show_amount_in_title = false,
+            maximum_productivity = 1,
             surface_conditions = {{property = "density", min = 3350, max = 3350}},
         }}
         add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-lemuresian-crushing"})
         add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-prosephinan-crushing"})
+        add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-lemuresian-crushing", change = 0.05})
+        add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-prosephinan-crushing", change = 0.05})
     end
 
     if mods["Moshine-assets"] and mods["Moshine"] then 
@@ -499,9 +527,11 @@ if mods["maraxsis"] then
             category = "crushing",
             auto_recycle = false,
             show_amount_in_title = false,
+            maximum_productivity = 1,
             surface_conditions = {{property = "density", min = 4200, max = 4200}},
         }}
         add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-moshinean-crushing"})
+        add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-moshinean-crushing", change = 0.05})
     end
 
     if mods["naufulglebunusilo"] then 
@@ -539,7 +569,9 @@ if mods["maraxsis"] then
             category = "crushing",
             auto_recycle = false,
             show_amount_in_title = false,
+            maximum_productivity = 1,
             surface_conditions = {{property = "density", min = 10000, max = 10000}},
         }}
         add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-naufulglebunusiloan-crushing"})
+        add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-naufulglebunusiloan-crushing", change = 0.05})
     end    
