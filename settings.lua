@@ -19,3 +19,14 @@ if mods["lignumis"] then
     }
   })
 end
+
+if mods["atan-nuclear-science"] then
+  data:extend({
+    {
+        type = "bool-setting",
+        name = "aop-merge-atomic-enricher",
+        setting_type = "startup",
+        default_value = true
+    }
+  })
+end

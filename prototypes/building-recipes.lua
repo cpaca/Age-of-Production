@@ -719,8 +719,10 @@ data:extend {{
     ingredients = {
         {type = "item", name = "steel-plate",   amount = 50},
         {type = "item", name = "heating-tower",       amount = 1},
-        {type = "item", name = "refined-concrete", amount = 20},
+        {type = "item", name = "refined-concrete", amount = 25},
         {type = "item", name = "steam-turbine", amount = 2},
+        {type = "item", name = "heat-pipe", amount = 10},
+        {type = "item", name = "advanced-circuit", amount = 20},
     },
     results = {
         {type = "item", name = "aop-biomass-reactor", amount = 1}
