@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.10
+Date: 2025-03-28
+  I may be stupid:
+
+  Fixes:
+    - Changed science not being craftable with Nuclear Science.
+---------------------------------------------------------------------------------------------------
+Version: 1.5.9
+Date: 2025-03-28
+  Nuclear compat, atomically updated:
+
+  Changes:
+    - Updated compat with Nuclear Science.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.8
 Date: 2025-03-27
   Local locale:
