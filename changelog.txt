@@ -1,4 +1,25 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.12
+Date: 2025-03-31
+  I may be stupider:
+
+  Fixes:
+    - Changed science not being hand-craftable with Nuclear Science.
+---------------------------------------------------------------------------------------------------
+Version: 1.5.11
+Date: 2025-03-31
+  Ougghhh im so not healthy:
+
+  Changes:
+    - Rebalanced the Arc Furnace's pollution and energy usage to be lower.
+    - Updated compat with Galore mods.
+
+  Fixes:
+    - Fixed issue with Tiberian Dawn compat.
+
+  Notes:
+    - I'm currently sick, please don't expect many updates in the following days -w-.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.10
 Date: 2025-03-28
   I may be stupid:

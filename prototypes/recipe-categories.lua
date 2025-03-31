@@ -130,6 +130,10 @@ data:extend(
   },
   {
     type = "recipe-category",
+    name = "organic-or-assembling-or-electromechanics",
+  },
+  {
+    type = "recipe-category",
     name = "quantum-assembling-or-crafting-with-fluid"
   },
   {

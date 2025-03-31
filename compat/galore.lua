@@ -1,6 +1,6 @@
 if not mods["space_age_galore"] then return end
 
-local exclusions = { "vgal-bulk-inserter-chemical-science-pack", "vgal-big-mining-drill-calcite-metallurgic-science-pack", "vgal-ammonia-agricultural-science-pack" } -- Add recipe names to exclude
+local exclusions = { "vgal-bulk-inserter-chemical-science-pack", "vgal-big-mining-drill-calcite-metallurgic-science-pack", "vgal-ammonia-agricultural-science-pack", "vgal-sulfur-petroleum-gas-agricultural-science-pack", "vgal-electronic-circuit-agricultural-science-pack"  } -- Add recipe names to exclude
 
 for _, recipe in pairs(data.raw.recipe) do
     if recipe.name:find("^vgal-.*%-science%-pack$") then
@@ -60,8 +60,11 @@ data.raw.recipe["vgal-tungsten-plate-piercing-rounds-magazine"].category = "ammu
 data.raw.recipe["vgal-tungsten-plate-cannon-shell"].category = "ammunition-or-crafting"
 data.raw.recipe["vgal-tungsten-plate-explosive-cannon-shell"].category = "ammunition-or-crafting"
 data.raw.recipe["vgal-tungsten-plate-piercing-shotgun-shell"].category = "ammunition-or-crafting"
+data.raw.recipe["vgal-plastic-bar-railgun-ammo"].category = "ammunition-or-crafting"
 data.raw.recipe["vgal-crude-oil-thruster-fuel"].category = "hydraulics"
 data.raw.recipe["vgal-ammonia-thruster-oxidizer"].category = "hydraulics"
+data.raw.recipe["vgal-biter-egg-defender-capsule"].category = "organic-or-assembling-or-electromechanics"
+data.raw.recipe["vgal-pentapod-egg-defender-capsule"].category = "organic-or-assembling-or-electromechanics"
 
 local tech = data.raw.technology["electronics"]
 for i, effect in ipairs(tech.effects) do

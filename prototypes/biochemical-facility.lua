@@ -26,7 +26,7 @@ data:extend{
         collision_box = {{-3.1, -3.1}, {3.1, 3.1}},
         selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
         --map_color = ei_data.colors.assembler,
-        crafting_categories = {"biochemistry", "biochemistry-or-organic", "biochemistry-or-organic-or-hand-crafting", "biochemistry-or-organic-or-assembling"},
+        crafting_categories = {"biochemistry", "biochemistry-or-organic", "biochemistry-or-organic-or-hand-crafting", "biochemistry-or-organic-or-assembling", "organic-or-assembling-or-electromechanics"},
         crafting_speed = 3,
         energy_source =
         {

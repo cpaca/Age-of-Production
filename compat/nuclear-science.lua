@@ -10,6 +10,12 @@ local function add_tech_effect(tech_name, effect)
       table.insert(entity.crafting_categories, category)
     end
   end
+  local function add_player_crafting_categories(categories)
+    local entity = data.raw.character.character
+    for _,category in pairs(categories) do
+      table.insert(entity.crafting_categories, category)
+    end
+  end
 if mods["atan-nuclear-science"] then 
 
     if settings.startup["aop-merge-atomic-enricher"].value then
@@ -34,6 +40,7 @@ if mods["atan-nuclear-science"] then
     add_crafting_categories("assembling-machine", "assembling-machine-1", {"centrifuging-or-electromechanics", "quantum-assembling-or-crafting-or-advanced-centrifuging"})
     add_crafting_categories("assembling-machine", "assembling-machine-2", {"centrifuging-or-electromechanics", "quantum-assembling-or-crafting-or-advanced-centrifuging", "quantum-assembling-or-crafting-with-fluid-or-advanced-centrifuging"})
     add_crafting_categories("assembling-machine", "assembling-machine-3", {"centrifuging-or-electromechanics", "quantum-assembling-or-crafting-or-advanced-centrifuging", "quantum-assembling-or-crafting-with-fluid-or-advanced-centrifuging"})
+    add_player_crafting_categories({"quantum-assembling-or-crafting-or-advanced-centrifuging"})
     data.raw.recipe["automation-science-pack"].category = "quantum-assembling-or-crafting-or-advanced-centrifuging"
     data.raw.recipe["logistic-science-pack"].category = "quantum-assembling-or-crafting-or-advanced-centrifuging"
     data.raw.recipe["chemical-science-pack"].category = "quantum-assembling-or-crafting-or-advanced-centrifuging"

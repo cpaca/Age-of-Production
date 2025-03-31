@@ -393,8 +393,9 @@ if mods["maraxsis"] then
     end
 
     if mods["Factorio-Tiberium"] then 
+        if common.whichPlanet == "nauvis" or common.whichPlanet == "pure-nauvis" then return end
         data.raw.planet["tiber"].surface_properties.density = 2700
-    end
+    end 
 
     if mods["janus"] then 
         data.raw.planet["janus"].surface_properties.density = 2300
