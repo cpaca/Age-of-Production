@@ -61,6 +61,7 @@ data.raw.recipe["vgal-tungsten-plate-cannon-shell"].category = "ammunition-or-cr
 data.raw.recipe["vgal-tungsten-plate-explosive-cannon-shell"].category = "ammunition-or-crafting"
 data.raw.recipe["vgal-tungsten-plate-piercing-shotgun-shell"].category = "ammunition-or-crafting"
 data.raw.recipe["vgal-plastic-bar-railgun-ammo"].category = "ammunition-or-crafting"
+data.raw.recipe["vgal-explosives-grenade"].category = "ammunition-or-crafting"
 data.raw.recipe["vgal-crude-oil-thruster-fuel"].category = "hydraulics"
 data.raw.recipe["vgal-ammonia-thruster-oxidizer"].category = "hydraulics"
 data.raw.recipe["vgal-biter-egg-defender-capsule"].category = "organic-or-assembling-or-electromechanics"

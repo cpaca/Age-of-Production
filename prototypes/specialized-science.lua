@@ -6,6 +6,13 @@ local item_tints = require("__base__.prototypes.item-tints")
 local item_effects = require("__space-age__.prototypes.item-effects")
 local meld = require("meld")
 local simulations = require("__space-age__.prototypes.factoriopedia-simulations")
+local explosion_animations = require("__base__.prototypes.entity.explosion-animations")
+local smoke_animations = require("__base__.prototypes.entity.smoke-animations")
+local smoke_animations = require("__base__.prototypes.entity.smoke-animations")
+local sounds = require("__base__.prototypes.entity.sounds")
+local max_nuke_shockwave_movement_distance_deviation = 2
+local max_nuke_shockwave_movement_distance = 19 + max_nuke_shockwave_movement_distance_deviation / 6
+local nuke_shockwave_starting_speed_deviation = 0.075
 
 data:extend
 {
@@ -46,8 +53,15 @@ data:extend {{
         weight = 1000
     }}
 
+    data:extend {  {
+      type = "ammo-category",
+      name = "aop-explosive-core",
+      icon = "__Age-of-Production-Graphics__/graphics/icons/explosive-core.png",
+      subgroup = "ammo-category"
+    }}
+
 data:extend {{
-        type = "item",
+        type = "capsule",
         name = "aop-explosive-core",
         icon = "__Age-of-Production-Graphics__/graphics/icons/explosive-core.png",
         subgroup = "vulcanus-processes",
@@ -56,8 +70,188 @@ data:extend {{
         drop_sound = item_sounds.ammo_large_inventory_move,
         stack_size = 5,
         default_import_location = "vulcanus",
+        capsule_action =
+    {
+      type = "throw",
+      attack_parameters =
+      {
+        type = "projectile",
+        activation_type = "throw",
+        ammo_category = "aop-explosive-core",
+        cooldown = 600,
+        projectile_creation_distance = 0.6,
+        range = 7.5,
+        ammo_type =
+        {
+          target_type = "position",
+          action =
+          {
+            {
+              type = "direct",
+              action_delivery =
+              {
+                type = "projectile",
+                projectile = "aop-explosive-core",
+                starting_speed = 0.3
+              }
+            },
+            {
+              type = "direct",
+              action_delivery =
+              {
+                type = "instant",
+                target_effects =
+                {
+                  {
+                    type = "play-sound",
+                    sound = sounds.throw_projectile
+                  },
+                  {
+                    type = "play-sound",
+                    sound = sounds.throw_grenade
+                  },
+                }
+              }
+            }
+          }
+        }
+      }
+    },
         weight = 200000
     }}
+data:extend {{
+    type = "projectile",
+    name = "aop-explosive-core",
+    flags = {"not-on-map"},
+    hidden = true,
+    acceleration = 0.005,
+    animation =
+    {
+      filename = "__base__/graphics/entity/grenade/grenade.png",
+      draw_as_glow = true,
+      frame_count = 15,
+      line_length = 8,
+      animation_speed = 0.250,
+      width = 48,
+      height = 54,
+      shift = util.by_pixel(0.5, 0.5),
+      priority = "high",
+      scale = 0.5
+    },
+    shadow =
+    {
+      filename = "__base__/graphics/entity/grenade/grenade-shadow.png",
+      frame_count = 15,
+      line_length = 8,
+      animation_speed = 0.250,
+      width = 50,
+      height = 40,
+      shift = util.by_pixel(2, 6),
+      priority = "high",
+      draw_as_shadow = true,
+      scale = 0.5
+    },
+    action =
+    {
+      type = "direct",
+      action_delivery =
+      {
+        type = "instant",
+        target_effects =
+        {
+          {
+            type = "set-tile",
+            tile_name = "nuclear-ground",
+            radius = 6,
+            apply_projection = true,
+            tile_collision_mask = { layers={water_tile=true} }
+          },
+          {
+            type = "destroy-cliffs",
+            radius = 5,
+            explosion_at_trigger = "explosion"
+          },
+          {
+            type = "create-entity",
+            entity_name = "nuke-explosion"
+          },
+          {
+            type = "camera-effect",
+            duration = 60,
+            ease_in_duration = 5,
+            ease_out_duration = 60,
+            delay = 0,
+            strength = 6,
+            full_strength_max_distance = 200,
+            max_distance = 800
+          },
+          {
+            type = "play-sound",
+            sound = sounds.nuclear_explosion(0.9),
+            play_on_target_position = false,
+            max_distance = 1000,
+          },
+          {
+            type = "play-sound",
+            sound = sounds.nuclear_explosion_aftershock(0.4),
+            play_on_target_position = false,
+            max_distance = 1000,
+          },
+          {
+            type = "damage",
+            damage = {amount = 200, type = "explosion"}
+          },
+          {
+            type = "create-entity",
+            entity_name = "huge-scorchmark",
+            offsets = {{ 0, -0.5 }},
+            check_buildability = true
+          },
+          {
+            type = "invoke-tile-trigger",
+            repeat_count = 1
+          },
+          {
+            type = "destroy-decoratives",
+            include_soft_decoratives = true, -- soft decoratives are decoratives with grows_through_rail_path = true
+            include_decals = true,
+            invoke_decorative_trigger = true,
+            decoratives_with_trigger_only = false, -- if true, destroys only decoratives that have trigger_effect set
+            radius = 14 -- large radius for demostrative purposes
+          },
+          {
+            type = "create-decorative",
+            decorative = "nuclear-ground-patch",
+            spawn_min_radius = 5.5,
+            spawn_max_radius = 6.5,
+            spawn_min = 30,
+            spawn_max = 40,
+            apply_projection = true,
+            spread_evenly = true
+          },
+          {
+            type = "nested-result",
+            action =
+            {
+              type = "area",
+              target_entities = false,
+              trigger_from_target = true,
+              repeat_count = 100,
+              radius = 7,
+              action_delivery =
+              {
+                type = "projectile",
+                projectile = "atomic-bomb-ground-zero-projectile",
+                starting_speed = 0.6 * 0.8,
+                starting_speed_deviation = nuke_shockwave_starting_speed_deviation
+              }
+            }
+        }
+    }
+}
+    }
+}
+}
 
 data:extend {{
     type = "item",

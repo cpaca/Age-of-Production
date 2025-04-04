@@ -1,4 +1,22 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.14
+Date: 2025-04-04
+  aai time:
+
+  Additions:
+    - Added compat with AAI Industry.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.5.13
+Date: 2025-04-02
+  Live nuclear reaction:
+
+  Additions:
+    - Explosive Core is now actually volatile. ;3
+
+  Changes:
+    - Updated compat with Galore mods.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.12
 Date: 2025-03-31
   I may be stupider:
