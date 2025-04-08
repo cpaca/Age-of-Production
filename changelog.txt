@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.15
+Date: 2025-04-08
+  Furnacing furnaces furnaces furnacelly:
+
+  Changes:
+    - Changed furnace logic.
+    - Updated compat with AAI Industry.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.14
 Date: 2025-04-04
   aai time:

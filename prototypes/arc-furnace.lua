@@ -7,6 +7,16 @@ local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
 
+if data.raw["furnace"]["electric-furnace"].crafting_categories then
+  electric_furnace_crafting_categories = data.raw["furnace"]["electric-furnace"].crafting_categories
+elseif data.raw["assembling-machine"]["electric-furnace"].crafting_categories then
+  electric_furnace_crafting_categories = data.raw["assembling-machine"]["electric-furnace"].crafting_categories
+-- elseif data.raw["assembling-machine"]["mod-electric-furnace"].crafting_categories then
+--   electric_furnace_crafting_categories = data.raw["assembling-machine"]["mod-electric-furnace"].crafting_categories
+else
+  electric_furnace_crafting_categories = {"smelting"}
+end
+
 data:extend{
     {
         name = "aop-arc-furnace",
@@ -26,7 +36,7 @@ data:extend{
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         --map_color = ei_data.colors.assembler,
-        crafting_categories = data.raw["furnace"]["electric-furnace"].crafting_categories,
+        crafting_categories = electric_furnace_crafting_categories,
         crafting_speed = 5,
         energy_source =
         {

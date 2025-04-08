@@ -1,6 +1,6 @@
 {
   "name": "Age-of-Production",
-  "version": "1.5.14",
+  "version": "1.5.15",
   "title": "Age of Production",
   "author": "AndreusAxolotl",
   "homepage": "https://github.com/AndreusAxolotl/Age-of-Production",
@@ -38,6 +38,7 @@
     "? Moshine",
     "? naufulglebunusilo",
     "? atan-nuclear-science",
+    "? aai-industry",
     "! AoP-extended-planets"
 ]
 }

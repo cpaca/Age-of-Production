@@ -20,6 +20,14 @@ local function add_tech_effect(tech_name, effect)
   end
 
 add_crafting_categories("assembling-machine", "burner-assembling-machine", {"advanced-centrifuging-or-crafting", "advanced-centrifuging-or-crafting-or-electromechanics", "quantum-assembling-or-crafting", "woodworking-or-crafting", "electromechanics-or-crafting", "electronics-or-electromechanics", "pressing-or-electromechanics", "ammunition-or-crafting", "woodworking-or-organic-or-assembling", "organic-or-assembling-or-electromechanics"})
+data.raw.recipe["aop-arc-furnace"].ingredients = {
+  {type = "item", name = "steel-plate",   amount = 200},
+  {type = "item", name = "copper-cable",       amount = 150},
+  {type = "item", name = "tungsten-carbide", amount = 100},
+  {type = "item", name = "refined-concrete", amount = 50},
+  {type = "item", name = "advanced-circuit", amount = 50},
+  {type = "item", name = "industrial-furnace", amount = 1},
+}
 
 data.raw.technology["aop-arc-furnace"].prerequisites = {"metallurgic-science-pack","industrial-furnace"}
 if mods["corrundum"] then 
