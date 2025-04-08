@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.16
+Date: 2025-04-08
+  Frozetan issues:
+
+  Fixes:
+    - Fixed Salvager not being craftable with Secretas & Frozeta.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.15
 Date: 2025-04-08
   Furnacing furnaces furnaces furnacelly:

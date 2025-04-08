@@ -187,7 +187,7 @@ if mods["maraxsis"] then
             {"golden-science-pack", 1},
     }
     
-    data.raw.recipe["aop-salvager"].surface_conditions = {{property = "pressure", min = 200, max = 200}}
+    data.raw.recipe["aop-salvager"].surface_conditions = {{property = "pressure", min = 200, max = 280}}
     data.raw.item["aop-salvager"].default_import_location = "frozeta"
     data.raw["furnace"]["aop-salvager"].result_inventory_size = 40
     data.raw.planet["frozeta"].surface_properties.density = 3100
