@@ -15,6 +15,7 @@ local function animationLayer()
       lines_per_file = 8,
       animation_speed = 0.15,
       scale = 0.5,
+      shift = util.by_pixel(0, -16),
       stripes = {
           {
               filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-animation-1.png",
@@ -119,6 +120,7 @@ data:extend{
                       repeat_count = 120,
                       animation_speed = 0.15,
                       draw_as_shadow = true,
+                      shift = util.by_pixel(0, -16),
                       scale = 0.5
                   },
                   animationLayer()
@@ -140,6 +142,7 @@ data:extend{
                               lines_per_file = 8,
                               animation_speed = 0.15,
                               scale = 0.5,
+                              shift = util.by_pixel(0, -16),
                               stripes = {
                                   {
                                       filename = "__Age-of-Production-Graphics__/graphics/entity/smeltery/smeltery-hr-emission-1.png",

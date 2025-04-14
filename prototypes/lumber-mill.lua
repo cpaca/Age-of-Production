@@ -96,9 +96,9 @@ data:extend{
                       line_length = 1,
                       repeat_count = 80,
                       animation_speed = 0.25,
-                      shift = util.by_pixel(0, -8),
+                      shift = util.by_pixel(0, -18),
                       draw_as_shadow = true,
-                      scale = 0.5
+                      scale = 0.45
                   },
                   {
                       priority = "high",
@@ -107,8 +107,8 @@ data:extend{
                       frame_count = 80,
                       lines_per_file = 8,
                       animation_speed = 0.25,
-                      shift = util.by_pixel(0, -8),
-                      scale = 0.5,
+                      shift = util.by_pixel(0, -18),
+                      scale = 0.45,
                       stripes = {
                           {
                               filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-animation-1.png",
@@ -136,8 +136,8 @@ data:extend{
                               frame_count = 80,
                               lines_per_file = 8,
                               animation_speed = 0.25,
-                              shift = util.by_pixel(0, -8),
-                              scale = 0.5,
+                              shift = util.by_pixel(0, -18),
+                              scale = 0.45,
                               stripes = {
                                   {
                                       filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-animation-1.png",
@@ -160,8 +160,8 @@ data:extend{
                               frame_count = 80,
                               lines_per_file = 8,
                               animation_speed = 0.25,
-                              shift = util.by_pixel(0, -8),
-                              scale = 0.5,
+                              shift = util.by_pixel(0, -18),
+                              scale = 0.45,
                               stripes = {
                                   {
                                       filename = "__Age-of-Production-Graphics__/graphics/entity/lumber-mill/lumber-mill-hr-emission-1.png",

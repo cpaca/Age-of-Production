@@ -81,6 +81,7 @@ data:extend{
                       repeat_count = 80,
                       animation_speed = 0.35,
                       draw_as_shadow = true,
+                      shift = util.by_pixel(0, -16),
                       scale = 0.5
                   },
                   {
@@ -91,6 +92,7 @@ data:extend{
                       lines_per_file = 8,
                       animation_speed = 0.35,
                       scale = 0.5,
+                      shift = util.by_pixel(0, -16),
                       stripes = {
                           {
                               filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-1.png",
@@ -119,6 +121,7 @@ data:extend{
                               lines_per_file = 8,
                               animation_speed = 0.35,
                               scale = 0.5,
+                              shift = util.by_pixel(0, -16),
                               stripes = {
                                   {
                                       filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-animation-1.png",
@@ -142,6 +145,7 @@ data:extend{
                               lines_per_file = 8,
                               animation_speed = 0.35,
                               scale = 0.5,
+                              shift = util.by_pixel(0, -16),
                               stripes = {
                                   {
                                       filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-assembler/quantum-assembler-hr-emission-1.png",

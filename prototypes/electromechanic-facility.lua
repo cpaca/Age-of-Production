@@ -14,8 +14,8 @@ local function animationLayer()
       frame_count = 80,
       lines_per_file = 8,
       animation_speed = 0.15,
-      shift = util.by_pixel(0, -8),
       scale = 0.5,
+      shift = util.by_pixel(0, -12),
       stripes = {
           {
               filename = "__Age-of-Production-Graphics__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-animation-1.png",
@@ -121,9 +121,9 @@ data:extend{
                       line_length = 1,
                       repeat_count = 80,
                       animation_speed = 0.15,
-                      shift = util.by_pixel(0, -8),
                       draw_as_shadow = true,
-                      scale = 0.5
+                      scale = 0.5,
+                      shift = util.by_pixel(0, -12),
                   },
                   animationLayer()
               }
@@ -143,8 +143,8 @@ data:extend{
                               frame_count = 80,
                               lines_per_file = 8,
                               animation_speed = 0.15,
-                              shift = util.by_pixel(0, -8),
                               scale = 0.5,
+                              shift = util.by_pixel(0, -12),
                               stripes = {
                                   {
                                       filename = "__Age-of-Production-Graphics__/graphics/entity/electromechanic-facility/electromechanic-facility-hr-emission-1.png",

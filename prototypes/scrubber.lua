@@ -113,7 +113,7 @@ data:extend{
               {
                 filename = "__Age-of-Production-Graphics__/graphics/entity/scrubber/scrubber-hr-shadow.png",
                 size = {400, 350},
-                shift = {0, 0},
+                shift = util.by_pixel(0, -16),
                 scale = 0.5,
                 line_length = 1,
                 frame_count = 1,
@@ -124,7 +124,7 @@ data:extend{
               {
                 filename = "__Age-of-Production-Graphics__/graphics/entity/scrubber/scrubber-hr-animation-1.png",
                 size = {210, 290},
-                shift = {0, 0},
+                shift = util.by_pixel(0, -16),
                 scale = 0.5,
                 line_length = 8,
                 lines_per_file = 8,

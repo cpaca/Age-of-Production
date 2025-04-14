@@ -733,3 +733,37 @@ data:extend {{
     category = "crafting",
     auto_recycle = false
 }}
+
+data:extend {{
+    type = "item",
+    name = "aop-transmitter",
+    subgroup = "module",
+    inventory_move_sound = item_sounds.metal_large_inventory_move,
+    pick_sound = item_sounds.metal_large_inventory_pickup,
+    drop_sound = item_sounds.metal_large_inventory_move,
+    icon = "__Age-of-Production-Graphics__/graphics/icons/transmitter.png",
+    icon_size = 64,
+    stack_size = 20,
+    default_import_location = "nauvis",
+    weight = 200000,
+    place_result = "aop-transmitter"
+}}
+data:extend {{
+    type = "recipe",
+    name = "aop-transmitter",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "steel-plate",   amount = 10},
+        {type = "item", name = "processing-unit",       amount = 5},
+        {type = "item", name = "copper-cable", amount = 10},
+        {type = "item", name = "iron-stick", amount = 5},
+    },
+    results = {
+        {type = "item", name = "aop-transmitter", amount = 1}
+    },
+    allow_productivity = false,
+    main_product = "aop-transmitter",
+    category = "crafting",
+    auto_recycle = false
+}}
