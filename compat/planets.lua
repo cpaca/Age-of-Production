@@ -89,9 +89,9 @@ if mods["maraxsis"] then
             results = {
                 {type = "item", name = "iron-ore", amount = 1, probability = 0.4},
                 {type = "item", name = "copper-ore", amount = 1, probability = 0.4}, 
-                {type = "item", name = "maraxsis-limestone", amount = 5, probability = 0.5}, 
+                {type = "item", name = "limestone", amount = 5, probability = 0.5}, 
                 {type = "item", name = "sulfur", amount = 2, probability = 0.3}, 
-                {type = "item", name = "maraxsis-salt", amount = 3, probability = 0.25}, 
+                {type = "item", name = "salt", amount = 3, probability = 0.25}, 
             },
             allow_productivity = true,
             category = "crushing",
