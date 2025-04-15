@@ -72,7 +72,7 @@ if mods["maraxsis"] then
                     }
          data.raw.recipe["aop-petroleum-gas-dehydrogenation"].results = {
                 {type = "item", name = "carbon", amount = 2},
-                {type = "fluid", name = "maraxsis-hydrogen", amount = 4},
+                {type = "fluid", name = "hydrogen", amount = 4},
          }
         data.raw.planet["maraxsis"].surface_properties.density = 4700
         data.raw.planet["maraxsis-trench"].surface_properties.density = 4700
