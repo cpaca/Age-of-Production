@@ -5,7 +5,7 @@ Two months later, here we are! My first true mod!
 
 # Age of Production
 
-This mod adds 19 new buildings, many new recipes, 3 new fluids and a couple new items!
+This mod adds 20 new buildings, many new recipes, new fluids and a couple new items!
 
 My philosophy with this mod was: Add stuff to Space Age without adding new planets.
 
@@ -22,6 +22,7 @@ The new additions, per planet, are:
 - Atomic Enricher: Centrifuging with style and a obligatory 50% productivity. Can also produce more uranium related recipes and the new Uranium Sifting recipe, allowing you to search for U-238 and U-235 from stone! (Unlocked after Quantum Processors and Nukes)
 - Lumber Mill: You know the drill by now, faster and 50% prod. This time with wood! Alongside it unlock new wood processes and Biomass, a cheaper alternative to Nutrients that spoils slower but gives less energy! (Unlocked after Tree Seeding)
 - Biomass Reactor: Unlocked right after the Lumber Mill, this new power building consumes well... Biomass! And nutrients! Consider it like an artificial biochamber, that instead of consuming the food to well... eat, it burns it! (Unlocked after Woodworking)
+- Transmitter: a smaller, compact beacon that can only house one module, obviously with some good effect transmission. (Unlocked after effect transmission and space science)
 
 # Gleba:
 - Biochemical Facility: Hybridate pentapods and biters to satiate your desire for pain and suffering! This abomination can make most solid biological recipes without the need of eating! Why only solid when the machine is filled with fluids? Well... Uhm... The poor Pentapod-biter hybrid has a weak digestive system it'd feel bad if it drank something! :c Going back to the important stuff, only 25% prod! (Unlocked after Quantum Processors and Captive Biter Spawners)
@@ -53,19 +54,12 @@ The new additions, per planet, are:
 # PLEASE REPORT ANY BUGS YOU FIND
 
 ## Compat:
-### Built-in compat:
 - [Foundry Restructuring](https://mods.factorio.com/mod/foundry-restructuring): Changes the crafting prototypes of the new recipes so that they can be made in my new machines alongside the changes from FR.
 - [Vanilla Galore Continued](https://mods.factorio.com/mod/vanilla_galore_continued) and [Space Age Galore](https://mods.factorio.com/mod/space_age_galore): Adds support for the recipes added by the mods to my machines.
 - [5Dim's mod - New Automatization](https://mods.factorio.com/mod/5dim_automation): Makes crafting prototypes not broken.
 - [Wooden Universe](https://mods.factorio.com/mod/wood-universe-modpack): Simply implements compat between AoP and some of the mods in the pack.
 - [All Planets present in this modpack](https://mods.factorio.com/mod/kry-all-planet-mods): Moves around some buildings and adds refined mineral crushing to all eligible planets!
 - [Quality Biolab](https://mods.factorio.com/mod/QualityBioLab): Makes Quantum Computer's drain also scale with Quality.
-### Compat from other mods:
-- [Extraplanetary Production](https://mods.factorio.com/mod/extraplanetary-production): Mod has support for my machines built in.
-
-#### If your mod has compat for mine and I missed it, tell me! And if you want your mod to be compatible, just do it lol! If you need help tell me!!
-
-
 
 ### Future Plans:
 - A trailer
@@ -74,10 +68,11 @@ The new additions, per planet, are:
 #### Buildings on the way:
 - Currently nothing! :3
 #### Textures by Hurricane that most probably won't be used.
-- Radio Station
 - Conduit
 - Item, Fluid and Electricity Extractors
 - Train Loader (I recommend [this mod](https://mods.factorio.com/mod/train-loader) if you want it!)
+- Cybernetics Facility
+- Fuel Refinery
 
 ### Credits
 
@@ -88,26 +83,22 @@ This mod wouldn't be possible without the help of these amazing people!
 - **Creator**: [Hurricane](https://mods.factorio.com/user/Hurricane046)
 - **Source**: [Figma](https://shorturl.at/AFcDm)
 - **License**: [CC BY](https://creativecommons.org/licenses/by/4.0/)
-- **Changes**: Yes. Renamed the "Gravity Assembler", "Atom Forge", "Pathogen Lab", "Oxidizer", "Alloy Forge", "Fusion Reactor", "Research Center",  "Manufacturer", "Photometric Lab", "Convector" and "Chemical Stager"
 
 #### Sound Effects
 
 - **Creators**: Pixabay Community
 - **Source**: [Pixabay](https://pixabay.com)
 - **License**: [Pixabay Content License](https://pixabay.com/service/license-summary/)
-- **Changes**: Yes. Cropped some of the sounds to make them shorter and created the sound of the "Biochemical Facility" by fusing two sound effects from the site.
 
 #### Thumbnail
 - **Creators**: [Poku](https://bsky.app/profile/pokuuu.bsky.social)
 - **Source**: Commissioned.
 - **License**: Public domain.
-- **Changes**: No.
 
 #### Various Icons
 - **Creators**: [Malcolm Riley](https://github.com/malcolmriley)
 - **Source**: [Unused Renders](https://github.com/malcolmriley/unused-renders)
 - **License**: Public domain.
-- **Changes**: No.
 
 #### Various icons and inspiration for the Hydraulic Plant
 - [Notnotmelon](https://github.com/notnotmelon)
