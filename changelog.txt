@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.0
+Date: 2025-04-14
+  Happy birthday to me:
+
+  Additions:
+    - Added the Transmitter, a smaller compat beacon that can only house one module. It's useful i swear.
+
+  Fixes:
+    - Fixed crash with Muluna.
+    - Fixed sizes of some sprites.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.16
 Date: 2025-04-08
   Frozetan issues:

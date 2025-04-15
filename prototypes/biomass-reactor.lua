@@ -51,7 +51,7 @@ data:extend{
                   width = 330,
                   height = 410,
                   frame_count = 80,
-                  shift = util.by_pixel_hr(0, -16),
+                  shift = util.by_pixel_hr(0, -36),
                   animation_speed = 1.25,
                   scale = 0.5,
                   stripes = {
@@ -72,7 +72,7 @@ data:extend{
                   width = 330,
                   height = 410,
                   frame_count = 80,
-                  shift = util.by_pixel_hr(0, -16),
+                  shift = util.by_pixel_hr(0, -36),
                   draw_as_glow = true,
                   scale = 0.5,
                   animation_speed = 1.25,
@@ -98,7 +98,7 @@ data:extend{
                     line_length = 1,
                     repeat_count = 80,
                     animation_speed = 1.25,
-                    shift = util.by_pixel(13, 11),
+                    shift = util.by_pixel(13, -9),
                     scale = 0.5,
                     draw_as_shadow = true
                 },   
@@ -113,7 +113,7 @@ data:extend{
                   width = 330,
                   height = 410,
                   frame_count = 80,
-                  shift = util.by_pixel_hr(0, -16),
+                  shift = util.by_pixel_hr(0, -36),
                   animation_speed = 1.25,
                   scale = 0.5,
                   stripes = {
@@ -137,7 +137,7 @@ data:extend{
                     line_length = 1,
                     repeat_count = 80,
                     animation_speed = 1.25,
-                    shift = util.by_pixel(13, 11),
+                    shift = util.by_pixel(13, -9),
                     scale = 0.5,
                     draw_as_shadow = true
                 },   

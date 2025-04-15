@@ -63,7 +63,7 @@ data:extend {
                     frame_count = 60,
                     line_length = 8,
                     animation_speed = 0.5,
-                    shift = util.by_pixel(0, 1.5),
+                    shift = util.by_pixel(0, -8.5),
                     scale = 0.5
                 },         
                 {
@@ -75,7 +75,7 @@ data:extend {
                     frame_count = 60,
                     line_length = 8,
                     animation_speed = 0.5,
-                    shift = util.by_pixel(0, 0),
+                    shift = util.by_pixel(0, -10),
                     scale = 0.5
                 },                
                 {
@@ -86,7 +86,7 @@ data:extend {
                     line_length = 1,
                     repeat_count = 60,
                     animation_speed = 0.5,
-                    shift = util.by_pixel(13, 11),
+                    shift = util.by_pixel(13, 1),
                     scale = 0.5,
                     draw_as_shadow = true
                 },   
@@ -102,14 +102,14 @@ data:extend {
                     width = 400,
                     height = 400,
                     animation_speed = 0.5,
-                    shift = util.by_pixel(0, 1.5),
+                    shift = util.by_pixel(0, -8.5),
                     scale = 0.5
                 },
                 {filename = "__Age-of-Production-Graphics__/graphics/entity/quantum-computer/quantum-computer-hr-shadow.png",
                 width = 700,
                 height = 600,
                 animation_speed = 0.5,
-                shift = util.by_pixel(13, 11),
+                shift = util.by_pixel(13, 1),
                 draw_as_shadow = true,
                 scale = 0.5
                 }

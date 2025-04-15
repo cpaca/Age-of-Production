@@ -94,9 +94,9 @@ data:extend{
                       line_length = 1,
                       repeat_count = 60,
                       animation_speed = 1,
-                      shift = util.by_pixel(4, -8),
+                      shift = util.by_pixel(4, -12),
                       draw_as_shadow = true,
-                      scale = 0.25
+                      scale = 0.25,
                   },
                   {
                       priority = "high",
@@ -106,6 +106,7 @@ data:extend{
                       lines_per_file = 8,
                       animation_speed = 1,
                       scale = 0.5,
+                      shift = util.by_pixel(0, -14),
                       stripes = {
                           {
                               filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-animation-1.png",
@@ -130,6 +131,7 @@ data:extend{
                               lines_per_file = 8,
                               animation_speed = 1,
                               scale = 0.5,
+                              shift = util.by_pixel(0, -14),
                               stripes = {
                                   {
                                       filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-animation-1.png",
@@ -148,6 +150,7 @@ data:extend{
                               lines_per_file = 8,
                               animation_speed = 1,
                               scale = 0.5,
+                              shift = util.by_pixel(0, -14),
                               stripes = {
                                   {
                                       filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-emission-1.png",
@@ -167,6 +170,7 @@ data:extend{
                             lines_per_file = 8,
                             animation_speed = 1,
                             scale = 0.5,
+                            shift = util.by_pixel(0, -14),
                             stripes = {
                                 {
                                     filename = "__Age-of-Production-Graphics__/graphics/entity/hydraulic-plant/hydraulic-plant-hr-color.png",
