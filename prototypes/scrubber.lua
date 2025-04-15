@@ -103,7 +103,7 @@ data:extend{
         close_sound = {filename = "__base__/sound/open-close/fluid-close.ogg", volume = 0.54},
         energy_usage = "1MW",
         heating_energy = "100kW",
-        module_slots = 3,
+        module_slots = 0,
         source_inventory_size = 1,
         allowed_effects = {"consumption", "speed", "pollution"},
         graphics_set = {
