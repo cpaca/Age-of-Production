@@ -1,10 +1,21 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.1
+Date: 2025-04-15
+  Done quickly but hopefully well:
+
+  Changes:
+    - Scrubber lost its module slots... :pensive:
+
+  Fixes:
+    - Fixed crash with Maraxsis. (Thanks Yuu Konno!)
+    - Hopefully fixed crash with EV Refining once and for all.
+---------------------------------------------------------------------------------------------------
 Version: 1.6.0
 Date: 2025-04-14
   Happy birthday to me:
 
   Additions:
-    - Added the Transmitter, a smaller compat beacon that can only house one module. It's useful i swear.
+    - Added the Transmitter, a smaller compact beacon that can only house one module. It's useful i swear.
 
   Fixes:
     - Fixed crash with Muluna.
