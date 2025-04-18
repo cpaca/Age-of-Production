@@ -835,6 +835,7 @@ data:extend{
             }
           }
         }
+if settings.startup["aop-specialized-science"].value then
 data:extend{
           {
               type = "technology",
@@ -908,6 +909,7 @@ data:extend{
               }
             }
           }
+        end
 data:extend{
             {
                 type = "technology",

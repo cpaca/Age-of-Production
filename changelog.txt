@@ -1,10 +1,20 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.3
+Date: 2025-04-18
+  Settingful!:
+
+  Additions:
+    - Added a setting to remove the Specialized Science tech and its unlocks if you don't want to use them.
+
+  Changes:
+    - Wood processing no longer has surface conditions.
+---------------------------------------------------------------------------------------------------
 Version: 1.6.2
 Date: 2025-04-17
   Routine chinese locale update:
 
   Changes:
-    - Updayed chinese locale (Thanks isd-1!)
+    - Updated chinese locale (Thanks isd-1!)
 ---------------------------------------------------------------------------------------------------
 Version: 1.6.1
 Date: 2025-04-15

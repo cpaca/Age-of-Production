@@ -30,3 +30,12 @@ if mods["atan-nuclear-science"] then
     }
   })
 end
+
+data:extend({
+  {
+      type = "bool-setting",
+      name = "aop-specialized-science",
+      setting_type = "startup",
+      default_value = true
+  }
+})

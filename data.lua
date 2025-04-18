@@ -157,6 +157,7 @@ data.raw.recipe["carbon"].crafting_machine_tint =
     tertiary = {r = 0.0, g = 0.0, b = 0.0, a = 1.000},
     quaternary = {r = 0.0, g = 0.0, b = 0.0, a = 1.000}
 }
+data.raw.recipe["wood-processing"].surface_conditions = nil
 
 require "prototypes.advanced-agriculture"
 require "prototypes.advanced-assembling-machine"

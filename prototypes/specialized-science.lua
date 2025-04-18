@@ -1,3 +1,4 @@
+if settings.startup["aop-specialized-science"].value then
 local sounds = require("__base__.prototypes.entity.sounds")
 local space_age_sounds = require("__space-age__.prototypes.entity.sounds")
 local item_sounds = require("__base__.prototypes.item_sounds")
@@ -586,3 +587,4 @@ data:extend {{
       }
     },
 }}
+end
