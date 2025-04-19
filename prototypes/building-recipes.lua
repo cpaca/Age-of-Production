@@ -765,5 +765,5 @@ data:extend {{
     allow_productivity = false,
     main_product = "aop-transmitter",
     category = "crafting",
-    auto_recycle = false
+    auto_recycle = true
 }}

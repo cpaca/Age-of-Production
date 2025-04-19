@@ -15,7 +15,6 @@ data:extend {{
     category = "advanced-metallurgy",
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "pressure", min = 4000, max = 4000}}
 }}
 data:extend {{
     type = "recipe",
@@ -34,7 +33,6 @@ data:extend {{
     category = "advanced-metallurgy",
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "pressure", min = 4000, max = 4000}}
 }}
 data:extend {{
     type = "recipe",
@@ -47,7 +45,7 @@ data:extend {{
         {type = "fluid", name = "lava",      amount = 750},
     },
     results = {
-        {type = "item", name = "stone", amount = 50},
+        {type = "item", name = "stone", amount_min = 25, amount_max= 75},
         {type = "fluid", name = "lava", amount = 100},
     },
     allow_productivity = true,
@@ -55,7 +53,6 @@ data:extend {{
     allow_quality = false,
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "pressure", min = 4000, max = 4000}}
 }}
 data:extend {{
     type = "recipe",

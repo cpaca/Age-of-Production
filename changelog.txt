@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.4
+Date: 2025-04-19
+  Idek what to name this update -w-:
+
+  Changes:
+    - Transmitter now doesn't recycle into itself.
+    - Changed the amount of rocks given by lava demineralization.
+    - Removed surface conditions from lava related recipes added by the mod.
+---------------------------------------------------------------------------------------------------
 Version: 1.6.3
 Date: 2025-04-18
   Settingful!:
