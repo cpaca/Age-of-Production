@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.5
+Date: 2025-04-20
+  Happy Easter!:
+
+  Fixes:
+    - Fixed nutrients recycling into bioflux somehow by, as one does, overriding the nutrients recycling recipe to be forcefully the vanilla one instead of looking for the issue.
+
+---------------------------------------------------------------------------------------------------
 Version: 1.6.4
 Date: 2025-04-19
   Idek what to name this update -w-:
