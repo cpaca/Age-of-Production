@@ -12,6 +12,15 @@ local function add_tech_effect(tech_name, effect)
   end
 
 if mods["maraxsis"] then 
+    data:extend(
+{
+  {
+    type = "recipe-category",
+    name = "scrubbing-or-chemistry",
+  }})
+    data.raw.recipe["maraxsis-atmosphere"].category = "scrubbing-or-chemistry"
+    add_crafting_categories("assembling-machine", "aop-scrubber", {"scrubbing-or-chemistry"})
+    add_crafting_categories("assembling-machine", "chemical-plant", {"scrubbing-or-chemistry"}) 
     data.raw.technology["aop-greenhouse"].unit.ingredients = {
             {"automation-science-pack", 1},
             {"logistic-science-pack", 1},
@@ -25,12 +34,6 @@ if mods["maraxsis"] then
     }
     data.raw.technology["aop-greenhouse"].prerequisites = {"aop-woodworking", "cryogenic-science-pack","hydraulic-science-pack"}
 
-    local function add_crafting_categories(entity_type, entity_name, categories)
-        local entity = data.raw[entity_type][entity_name]
-        for _,category in pairs(categories) do
-          table.insert(entity.crafting_categories, category)
-        end
-    end
     if settings.startup["aop-merge-hydro"].value then
         data.raw["assembling-machine"]["aop-hydraulic-plant"].hidden= true
         data.raw["item"]["aop-hydraulic-plant"].hidden =  true
