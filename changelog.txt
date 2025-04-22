@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.7
+Date: 2025-04-22
+  Planetary fixes:
+
+  Fixes:
+    - Fixed coal synthesis not existing in the mineral synthesizer with Maraxsis.
+    - Fixed Sulfuric Acid not being craftable in the hydraulic plant with Cerys.
+
+  Notes:
+    - AoP is now on Crowdin for translations via Factorio Mods Localizations! If you want to help translate the mod, please do so there!
+---------------------------------------------------------------------------------------------------
 Version: 1.6.6
 Date: 2025-04-21
   Atmospheric Sillynes Part 1:

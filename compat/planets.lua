@@ -17,10 +17,15 @@ if mods["maraxsis"] then
   {
     type = "recipe-category",
     name = "scrubbing-or-chemistry",
-  }})
+  },
+  {
+    type = "recipe-category",
+    name = "hydro-or-synthesis",
+  },
+})
     data.raw.recipe["maraxsis-atmosphere"].category = "scrubbing-or-chemistry"
     add_crafting_categories("assembling-machine", "aop-scrubber", {"scrubbing-or-chemistry"})
-    add_crafting_categories("assembling-machine", "chemical-plant", {"scrubbing-or-chemistry"}) 
+    add_crafting_categories("assembling-machine", "chemical-plant", {"scrubbing-or-chemistry", "hydro-or-synthesis"}) 
     data.raw.technology["aop-greenhouse"].unit.ingredients = {
             {"automation-science-pack", 1},
             {"logistic-science-pack", 1},
@@ -46,8 +51,10 @@ if mods["maraxsis"] then
         data.raw.technology["aop-specialized-science"].prerequisites = {"aop-armory", "aop-petrochemistry", "aop-hybridation", "cryogenic-science-pack", "maraxsis-deepsea-research"}
         end
     end
-    add_crafting_categories("assembling-machine", "maraxsis-hydro-plant", {"hydraulics", "hydraulics-or-chemistry", "hydraulics-or-organic", "hydraulics-or-chemistry-or-cryogenics", "synthesis-or-chemistry"})
-    add_crafting_categories("assembling-machine", "aop-hydraulic-plant", {"maraxsis-hydro-plant", "maraxsis-hydro-plant-or-assembling", "maraxsis-hydro-plant-or-advanced-crafting", "maraxsis-hydro-plant-or-biochamber", "maraxsis-hydro-plant-or-chemistry", "maraxsis-hydro-plant-or-foundry"})
+    data.raw.recipe["coal-synthesis"].category = "hydro-or-synthesis"
+    add_crafting_categories("assembling-machine", "maraxsis-hydro-plant", {"hydro-or-synthesis", "hydraulics", "hydraulics-or-chemistry", "hydraulics-or-organic", "hydraulics-or-chemistry-or-cryogenics", "synthesis-or-chemistry"})
+    add_crafting_categories("assembling-machine", "aop-hydraulic-plant", {"hydro-or-synthesis", "maraxsis-hydro-plant", "maraxsis-hydro-plant-or-assembling", "maraxsis-hydro-plant-or-advanced-crafting", "maraxsis-hydro-plant-or-biochamber", "maraxsis-hydro-plant-or-chemistry", "maraxsis-hydro-plant-or-foundry"})
+    add_crafting_categories("assembling-machine", "aop-mineral-synthesizer", {"hydro-or-synthesis"})
     data.raw.technology["aop-core-mining"].prerequisites = {"aop-electromechanics", "promethium-science-pack", "maraxsis-project-seadragon"}
     data.raw.technology["aop-core-mining"].unit.ingredients = {
                   {"automation-science-pack", 1},
