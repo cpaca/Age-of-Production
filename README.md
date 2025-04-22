@@ -49,8 +49,6 @@ The new additions, per planet, are:
 - Perhaps our operations shouldn't have looked at the stars... (Unlocked after Promethium Science, Hydraulics and Electromechanics)
 - Core Miner: Deep below the surface of our beloved planets (except Aquilo this guy stinks and has no solid surface!) lie endless resources for us to extract... Build the gigantic and expensive Core Miner to obtain Deep Minerals, to then process them into useful ores! Only one per surface, we wouldn't want to destroy a planet's core and the game's balance at once don't we?
 
-
-
 # PLEASE REPORT ANY BUGS YOU FIND
 
 ## Compat:
@@ -73,6 +71,9 @@ The new additions, per planet, are:
 - Train Loader (I recommend [this mod](https://mods.factorio.com/mod/train-loader) if you want it!)
 - Cybernetics Facility
 - Fuel Refinery
+
+### Translation
+- [You can find AoP here for translation purposes, just translate it to your language and send it in, its locale will be updated in the following updates!](https://crowdin.com/project/factorio-mods-localization)
 
 ### Credits
 
