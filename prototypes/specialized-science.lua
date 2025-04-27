@@ -337,7 +337,7 @@ data:extend {{
     type = "recipe",
     name = "aop-advanced-artillery-shell-manufacturing",
     icon = "__Age-of-Production-Graphics__/graphics/icons/advanced-artillery-shell-manufacturing.png",
-    subgroup = "vulcanus-processes",
+    subgroup = "ammo",
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -382,7 +382,7 @@ data:extend {{
     type = "recipe",
     name = "aop-magnetic-thruster",
     icon = "__Age-of-Production-Graphics__/graphics/icons/magnetic-thruster.png",
-    subgroup = "fulgora-processes",
+    subgroup = "space-platform",
     enabled = false,
     energy_required = 15,
     ingredients = {

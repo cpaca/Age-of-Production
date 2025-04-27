@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.8
+Date: 2025-04-22
+  Guess who's back!:
+
+  Changes:
+    - Updated compat with the Galore mods.
+    - Moved Magnetic Thruster and Advanced Artillery Shell Manufacturing to the Space and Military tabs respectively.
+    - Updated Localizations from Crowdin.
+
+  Fixes:
+    - Fixed sulfuric acid not being craftable many machines when Cerys was also installed. If you find more issues with this, report them.
+
+  Notes:
+    - Atmospheric Sillynes Part 2 will probably be the next patch, unless there's more serious bugs to fix. Wait patiently!
+---------------------------------------------------------------------------------------------------
 Version: 1.6.7
 Date: 2025-04-22
   Planetary fixes:

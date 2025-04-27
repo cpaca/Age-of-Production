@@ -33,4 +33,15 @@ if mods["Cerys-Moon-of-Fulgora"] then
     add_crafting_categories("assembling-machine", "cryogenic-plant", {"fulgoran-cryogenics-or-hydraulics"})
     add_crafting_categories("assembling-machine", "cerys-fulgoran-cryogenic-plant", {"fulgoran-cryogenics-or-hydraulics"})
     add_crafting_categories("assembling-machine", "aop-hydraulic-plant", {"fulgoran-cryogenics-or-hydraulics"})
+    if mods["bobassembly"] then 
+      add_crafting_categories("assembling-machine", "bob-chemical-plant-2", {"fulgoran-cryogenics-or-hydraulics"})
+      add_crafting_categories("assembling-machine", "bob-chemical-plant-3", {"fulgoran-cryogenics-or-hydraulics"})
+      add_crafting_categories("assembling-machine", "bob-chemical-plant-4", {"fulgoran-cryogenics-or-hydraulics"})
+    end
+    if mods["corrundum"] then 
+      add_crafting_categories("assembling-machine", "catalytic-chemical-plant", {"fulgoran-cryogenics-or-hydraulics"})
+    end
+    if mods["maraxsis"] then 
+      add_crafting_categories("assembling-machine", "maraxsis-hydro-plant", {"fulgoran-cryogenics-or-hydraulics"})
+    end
         end

@@ -1,6 +1,6 @@
 {
   "name": "Age-of-Production",
-  "version": "1.6.7",
+  "version": "1.6.8",
   "title": "Age of Production",
   "author": "AndreusAxolotl",
   "homepage": "https://github.com/AndreusAxolotl/Age-of-Production",
@@ -39,6 +39,7 @@
     "? naufulglebunusilo",
     "? atan-nuclear-science",
     "? aai-industry",
+    "? bobassembly",
     "! AoP-extended-planets"
 ]
 }
