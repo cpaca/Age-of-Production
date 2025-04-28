@@ -12,6 +12,19 @@ local function add_tech_effect(tech_name, effect)
       table.insert(entity.crafting_categories, category)
     end
   end
+
+  local function add_tech_prerequisites(tech_name, prerequisites)
+    local tech = data.raw.technology[tech_name]
+    tech.prerequisites = tech.prerequisites or {}
+    table.insert(tech.prerequisites, prerequisites)
+  end
+
+  local function add_science_pack(tech_name, science_pack)
+    local tech = data.raw.technology[tech_name]
+    tech.unit.ingredients = tech.unit.ingredients or {}
+    table.insert(tech.unit.ingredients, science_pack)
+  end
+
   local function add_player_crafting_categories(categories)
     local entity = data.raw.character.character
     for _,category in pairs(categories) do
@@ -28,17 +41,7 @@ data.raw.recipe["aop-arc-furnace"].ingredients = {
   {type = "item", name = "advanced-circuit", amount = 50},
   {type = "item", name = "industrial-furnace", amount = 1},
 }
-
-data.raw.technology["aop-arc-furnace"].prerequisites = {"metallurgic-science-pack","industrial-furnace"}
+add_tech_prerequisites("aop-arc-furnace", "industrial-furnace")
 if mods["corrundum"] then 
-    data.raw.technology["aop-arc-furnace"].prerequisites = {"metallurgic-science-pack","electrochemical-science-pack", "industrial-furnace"}
-    data.raw.technology["aop-arc-furnace"].unit.ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
-            {"chemical-science-pack", 1},
-            {"production-science-pack", 1},
-            {"space-science-pack", 1},
-            {"metallurgic-science-pack", 1},
-            {"electrochemical-science-pack",1}
-    }
+    add_tech_prerequisites("aop-arc-furnace", {"electrochemical-science-pack", "industrial-furnace"})
 end

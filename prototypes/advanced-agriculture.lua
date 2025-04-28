@@ -17,6 +17,8 @@ data:extend {{
     category = "agriculture",
     auto_recycle = false,
     show_amount_in_title = false,
+    result_is_always_fresh= true,
+    preserve_products_in_machine_output= true,
     surface_conditions = {{property = "pressure", min = 2000, max = 2000}},
     crafting_machine_tint =
     {
@@ -44,6 +46,8 @@ data:extend {{
     category = "agriculture",
     auto_recycle = false,
     show_amount_in_title = false,
+    result_is_always_fresh= true,
+    preserve_products_in_machine_output= true,
     surface_conditions = {{property = "pressure", min = 2000, max = 2000}},
     crafting_machine_tint =
     {

@@ -4,6 +4,18 @@ local function add_tech_effect(tech_name, effect)
     table.insert(tech.effects, effect)
   end
 
+local function add_tech_prerequisites(tech_name, prerequisites)
+    local tech = data.raw.technology[tech_name]
+    tech.prerequisites = tech.prerequisites or {}
+    table.insert(tech.prerequisites, prerequisites)
+  end
+
+  local function add_science_pack(tech_name, science_pack)
+    local tech = data.raw.technology[tech_name]
+    tech.unit.ingredients = tech.unit.ingredients or {}
+    table.insert(tech.unit.ingredients, science_pack)
+  end
+
   local function add_crafting_categories(entity_type, entity_name, categories)
     local entity = data.raw[entity_type][entity_name]
     for _,category in pairs(categories) do
@@ -26,18 +38,8 @@ if mods["maraxsis"] then
     data.raw.recipe["maraxsis-atmosphere"].category = "scrubbing-or-chemistry"
     add_crafting_categories("assembling-machine", "aop-scrubber", {"scrubbing-or-chemistry"})
     add_crafting_categories("assembling-machine", "chemical-plant", {"scrubbing-or-chemistry", "hydro-or-synthesis"}) 
-    data.raw.technology["aop-greenhouse"].unit.ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
-            {"chemical-science-pack", 1},
-            {"production-science-pack", 1},
-            {"utility-science-pack", 1},
-            {"space-science-pack", 1},
-            {"agricultural-science-pack", 1},
-            {"cryogenic-science-pack", 1},
-            {"hydraulic-science-pack", 1}
-    }
-    data.raw.technology["aop-greenhouse"].prerequisites = {"aop-woodworking", "cryogenic-science-pack","hydraulic-science-pack"}
+    add_science_pack("aop-greenhouse", {"hydraulic-science-pack", 1})
+    add_tech_prerequisites("aop-greenhouse", "hydraulic-science-pack")
 
     if settings.startup["aop-merge-hydro"].value then
         data.raw["assembling-machine"]["aop-hydraulic-plant"].hidden= true
@@ -48,28 +50,16 @@ if mods["maraxsis"] then
         data.raw["technology"]["aop-hydraulics"] = nil
         data.raw["assembling-machine"]["maraxsis-hydro-plant"].effect_receiver = { base_effect = { productivity = 0.25, quality = 2.5 }}
         if settings.startup["aop-specialized-science"].value then
-        data.raw.technology["aop-specialized-science"].prerequisites = {"aop-armory", "aop-petrochemistry", "aop-hybridation", "cryogenic-science-pack", "maraxsis-deepsea-research"}
+            add_tech_prerequisites("aop-specialized-science", "maraxsis-deepsea-research")
         end
     end
     data.raw.recipe["coal-synthesis"].category = "hydro-or-synthesis"
     add_crafting_categories("assembling-machine", "maraxsis-hydro-plant", {"hydro-or-synthesis", "hydraulics", "hydraulics-or-chemistry", "hydraulics-or-organic", "hydraulics-or-chemistry-or-cryogenics", "synthesis-or-chemistry"})
     add_crafting_categories("assembling-machine", "aop-hydraulic-plant", {"hydro-or-synthesis", "maraxsis-hydro-plant", "maraxsis-hydro-plant-or-assembling", "maraxsis-hydro-plant-or-advanced-crafting", "maraxsis-hydro-plant-or-biochamber", "maraxsis-hydro-plant-or-chemistry", "maraxsis-hydro-plant-or-foundry"})
     add_crafting_categories("assembling-machine", "aop-mineral-synthesizer", {"hydro-or-synthesis"})
-    data.raw.technology["aop-core-mining"].prerequisites = {"aop-electromechanics", "promethium-science-pack", "maraxsis-project-seadragon"}
-    data.raw.technology["aop-core-mining"].unit.ingredients = {
-                  {"automation-science-pack", 1},
-                  {"logistic-science-pack", 1},
-                  {"chemical-science-pack", 1},
-                  {"production-science-pack", 1},
-                  {"utility-science-pack", 1},
-                  {"space-science-pack", 1},
-                  {"metallurgic-science-pack", 1},
-                  {"agricultural-science-pack", 1},
-                  {"electromagnetic-science-pack", 1},
-                  {"cryogenic-science-pack", 1},
-                  {"hydraulic-science-pack", 1},
-                  {"promethium-science-pack", 1}}
-                  data.raw.recipe["aop-core-miner"].surface_conditions = {{property = "pressure", min = 400000, max = 400000}}
+    add_tech_prerequisites("aop-core-mining", "maraxsis-deepsea-research")
+    add_science_pack("aop-core-mining", {"hydraulic-science-pack", 1})
+    data.raw.recipe["aop-core-miner"].surface_conditions = {{property = "pressure", min = 400000, max = 400000}}
         data.raw.recipe["aop-quantum-stabilizer"].ingredients = {
         {type = "item", name = "quantum-processor",   amount = 500},
         {type = "item", name = "maraxsis-conduit",       amount = 20},
@@ -117,28 +107,10 @@ if mods["maraxsis"] then
     end
     
     if mods["corrundum"] then 
-    data.raw.technology["aop-arc-furnace"].prerequisites = {"metallurgic-science-pack","electrochemical-science-pack"}
-    data.raw.technology["aop-arc-furnace"].unit.ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
-            {"chemical-science-pack", 1},
-            {"production-science-pack", 1},
-            {"space-science-pack", 1},
-            {"metallurgic-science-pack", 1},
-            {"electrochemical-science-pack",1}
-    }
-    
-    data.raw.technology["aop-petrochemistry"].prerequisites = {"electromagnetic-science-pack", "coal-liquefaction","electrochemical-science-pack"}
-    data.raw.technology["aop-petrochemistry"].unit.ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
-            {"chemical-science-pack", 1},
-            {"production-science-pack", 1},
-            {"space-science-pack", 1},
-            {"electromagnetic-science-pack", 1},
-            {"metallurgic-science-pack", 1},
-            {"electrochemical-science-pack",1}
-    }
+    add_tech_prerequisites("aop-arc-furnace", "electrochemical-science-pack")
+    add_science_pack("aop-arc-furnace", {"electrochemical-science-pack", 1})
+    add_tech_prerequisites("aop-petrochemistry", "electrochemical-science-pack")
+    add_science_pack("aop-petrochemistry", {"electrochemical-science-pack", 1})
     data.raw.planet["corrundum"].surface_properties.density = 4000
     data:extend {{
         type = "recipe",
@@ -168,36 +140,10 @@ if mods["maraxsis"] then
     end
     
     if mods["secretas"] then 
-    data.raw.technology["aop-electromechanics"].prerequisites = {"quantum-processor","planet-discovery-secretas"}
-    data.raw.technology["aop-electromechanics"].unit.ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
-            {"chemical-science-pack", 1},
-            {"production-science-pack", 1},
-            {"utility-science-pack", 1},
-            {"space-science-pack", 1},
-            {"metallurgic-science-pack", 1},
-            {"agricultural-science-pack", 1},
-            {"electromagnetic-science-pack", 1},
-            {"cryogenic-science-pack", 1},
-            {"golden-science-pack", 1},
-    }
-    
-    
-    data.raw.technology["aop-advanced-recycling"].prerequisites = {"steam-recycler"}
-    data.raw.technology["aop-advanced-recycling"].unit.ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
-            {"chemical-science-pack", 1},
-            {"production-science-pack", 1},
-            {"utility-science-pack", 1},
-            {"space-science-pack", 1},
-            {"metallurgic-science-pack", 1},
-            {"agricultural-science-pack", 1},
-            {"electromagnetic-science-pack", 1},
-            {"cryogenic-science-pack", 1},
-            {"golden-science-pack", 1},
-    }
+    add_tech_prerequisites("aop-electromechanics", "planet-discovery-secretas")
+    add_science_pack("aop-electromechanics", {"golden-science-pack", 1})
+    add_tech_prerequisites("aop-advanced-recycling", "steam-recycler")
+    add_science_pack("aop-advanced-recycling", {"golden-science-pack", 1})
     
     data.raw.recipe["aop-salvager"].surface_conditions = {{property = "pressure", min = 200, max = 280}}
     data.raw.item["aop-salvager"].default_import_location = "frozeta"
@@ -229,39 +175,14 @@ if mods["maraxsis"] then
     end
     
     if mods["tenebris-prime"] or mods["tenebris"] then 
-    data.raw.technology["aop-automation-4"].prerequisites = {"productivity-module-3", "speed-module-3", "efficiency-module-3", "automation-3", "utility-science-pack", "electromagnetic-science-pack", "bioluminescent-science-pack"}
-    data.raw.technology["aop-automation-4"].unit.ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
-            {"chemical-science-pack", 1},
-            {"production-science-pack", 1},
-            {"utility-science-pack", 1},
-            {"space-science-pack", 1},
-            {"metallurgic-science-pack", 1},
-            {"agricultural-science-pack", 1},
-            {"electromagnetic-science-pack", 1},
-            {"cryogenic-science-pack", 1},
-            {"bioluminescent-science-pack", 1},
-    }
+    add_tech_prerequisites("aop-automation-4", "bioluminescent-science-pack")
+    add_science_pack("aop-automation-4", {"bioluminescent-science-pack", 1})
     
     data.raw.recipe["aop-advanced-assembling-machine"].surface_conditions = {{property = "pressure", min = 3000, max = 3000}}
     data.raw.item["aop-advanced-assembling-machine"].default_import_location = "tenebris"
-    
-    
-    data.raw.technology["aop-quantum-machinery"].unit.ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
-            {"chemical-science-pack", 1},
-            {"production-science-pack", 1},
-            {"utility-science-pack", 1},
-            {"space-science-pack", 1},
-            {"metallurgic-science-pack", 1},
-            {"agricultural-science-pack", 1},
-            {"electromagnetic-science-pack", 1},
-            {"cryogenic-science-pack", 1},
-            {"bioluminescent-science-pack", 1},
-            {"promethium-science-pack", 1}
-    }
+
+    add_science_pack("aop-quantum-machinery", {"bioluminescent-science-pack", 1})
+
     data.raw.planet["tenebris"].surface_properties.density = 5100
     data:extend {{
         type = "recipe",
@@ -290,7 +211,7 @@ if mods["maraxsis"] then
     end
     
     if mods["terrapalus"] then 
-    data.raw.technology["aop-hybridation"].prerequisites = {"captive-biter-spawner", "quantum-processor","inhibitor-lamp"}
+    add_tech_prerequisites("aop-hybridation", "inhibitor-lamp")
     data.raw.recipe["aop-biochemical-facility"].ingredients = {
             {type = "item", name = "quantum-processor",   amount = 150},
             {type = "item", name = "steel-plate",       amount = 100},
@@ -307,17 +228,9 @@ if mods["maraxsis"] then
     end
     
     if mods["castra"] then
-    data.raw.technology["aop-armory"].prerequisites = {"metallurgic-science-pack", "battlefield-science-pack"}
-    data.raw.technology["aop-armory"].unit.ingredients = {
-                    {"automation-science-pack", 1},
-                    {"logistic-science-pack", 1},
-                    {"military-science-pack", 1},
-                    {"chemical-science-pack", 1},
-                    {"utility-science-pack", 1},
-                    {"space-science-pack", 1},
-                    {"metallurgic-science-pack", 1},
-                    {"battlefield-science-pack", 1}
-                  }
+    add_tech_prerequisites("aop-armory", "battlefield-science-pack")
+    add_science_pack("aop-armory", {"battlefield-science-pack", 1})
+
     data.raw.item["aop-armory"].default_import_location = "castra"
     data.raw.recipe["aop-armory"].surface_conditions = {{property = "pressure", min = 1254, max = 1254}}
     data.raw.recipe["aop-armory"].ingredients = {
@@ -328,6 +241,7 @@ if mods["maraxsis"] then
             {type = "item", name = "gunpowder",   amount = 100},
         }
     data.raw["assembling-machine"]["forge"].effect_receiver = { base_effect = { productivity = 0.0, quality = 1 }}
+    
     data.raw.planet["castra"].surface_properties.density = 5000
     data:extend {{
         type = "recipe",

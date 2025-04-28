@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.9
+Date: 2025-04-28
+  New and cooler variables:
+
+  Changes:
+    - Products in the Greenhouse won't spoil and will always be fresh.
+    - Changed how new tech requirements and science packs are added in compat via new variables and stuff.
+---------------------------------------------------------------------------------------------------
 Version: 1.6.8
 Date: 2025-04-27
   Guess who's back!:
