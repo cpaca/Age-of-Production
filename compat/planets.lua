@@ -47,18 +47,18 @@ if mods["maraxsis"] then
         data.raw["item"]["aop-hydraulic-plant"].hidden_in_factoriopedia =  true
         data.raw["recipe"]["aop-hydraulic-plant"] = nil
         data.raw["recipe"]["aop-hydraulic-plant-recycling"] = nil
-        data.raw["technology"]["aop-hydraulics"] = nil
+        data.raw["technology"]["aop-hydraulics"].hidden = true
         data.raw["assembling-machine"]["maraxsis-hydro-plant"].effect_receiver = { base_effect = { productivity = 0.25, quality = 2.5 }}
         if settings.startup["aop-specialized-science"].value then
             add_tech_prerequisites("aop-specialized-science", "maraxsis-deepsea-research")
-        end
+        end 
     end
     data.raw.recipe["coal-synthesis"].category = "hydro-or-synthesis"
     add_crafting_categories("assembling-machine", "maraxsis-hydro-plant", {"hydro-or-synthesis", "hydraulics", "hydraulics-or-chemistry", "hydraulics-or-organic", "hydraulics-or-chemistry-or-cryogenics", "synthesis-or-chemistry"})
     add_crafting_categories("assembling-machine", "aop-hydraulic-plant", {"hydro-or-synthesis", "maraxsis-hydro-plant", "maraxsis-hydro-plant-or-assembling", "maraxsis-hydro-plant-or-advanced-crafting", "maraxsis-hydro-plant-or-biochamber", "maraxsis-hydro-plant-or-chemistry", "maraxsis-hydro-plant-or-foundry"})
     add_crafting_categories("assembling-machine", "aop-mineral-synthesizer", {"hydro-or-synthesis"})
-    add_tech_prerequisites("aop-core-mining", "maraxsis-deepsea-research")
     add_science_pack("aop-core-mining", {"hydraulic-science-pack", 1})
+    add_tech_prerequisites("aop-core-mining", "maraxsis-sonar")
     data.raw.recipe["aop-core-miner"].surface_conditions = {{property = "pressure", min = 400000, max = 400000}}
         data.raw.recipe["aop-quantum-stabilizer"].ingredients = {
         {type = "item", name = "quantum-processor",   amount = 500},

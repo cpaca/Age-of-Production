@@ -1000,3 +1000,20 @@ data:extend{
     }
                   }
                 }
+
+if mods["maraxsis"] then 
+                  if settings.startup["aop-merge-hydro"].value then
+                    local tech = data.raw.technology["aop-core-mining"]
+                    for i, prerequisite in ipairs(tech.prerequisites) do
+                      if tech.prerequisites == "aop-hydraulics" then
+                        table.remove(tech.prerequisites, i)
+                      end
+                  end
+                  local tech = data.raw.technology["aop-hydraulics"]
+for i, effect in ipairs(tech.effects) do
+    if effect.type == "unlock-recipe" and effect.recipe == "aop-hydraulic-plant" then
+      table.remove(tech.effects, i)
+    end
+end
+                  end
+                end
