@@ -10,7 +10,7 @@
     "base >= 2.0.41",
     "space-age >= 2.0.41",
     "PlanetsLib",
-    "Age-of-Production-Graphics = 1.0.6",
+    "Age-of-Production-Graphics = 1.0.5",
     "? foundry-restructuring",
     "? space_age_galore",
     "? early-agriculture",
