@@ -43,5 +43,6 @@ data.raw.recipe["aop-arc-furnace"].ingredients = {
 }
 add_tech_prerequisites("aop-arc-furnace", "industrial-furnace")
 if mods["corrundum"] then 
-    add_tech_prerequisites("aop-arc-furnace", {"electrochemical-science-pack", "industrial-furnace"})
+    add_tech_prerequisites("aop-arc-furnace", "electrochemical-science-pack")
+    add_tech_prerequisites("aop-arc-furnace",  "industrial-furnace")
 end
