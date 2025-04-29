@@ -4,11 +4,17 @@ local function add_tech_effect(tech_name, effect)
     table.insert(tech.effects, effect)
   end
 
-local function add_tech_prerequisites(tech_name, prerequisites)
+  local function add_tech_prerequisites(tech_name, prerequisites)
     local tech = data.raw.technology[tech_name]
     tech.prerequisites = tech.prerequisites or {}
+    for _, prereq in ipairs(tech.prerequisites) do
+      if prereq == prerequisites then
+        return
+      end
+    end
     table.insert(tech.prerequisites, prerequisites)
   end
+
 
   local function add_science_pack(tech_name, science_pack)
     local tech = data.raw.technology[tech_name]
