@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.11
+Date: 2025-04-30
+  Fixes upon fixes:
+
+  Fixes:
+    - Fixed crash with Corrundum and AAI Industry. (Thanks Hoho!)
+    - Fixed Biomass Reactor not having a spoilage slot and getting stuck on spoilage by STRAIGHT UP MAKING SPOILAGE BURNABLE IN IT. I'm a genius I know -w-. (Thanks Quezler, n1c3wh and Osmo!)
+---------------------------------------------------------------------------------------------------
 Version: 1.6.10
 Date: 2025-04-28
   How:

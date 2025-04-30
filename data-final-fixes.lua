@@ -20,6 +20,17 @@ data.raw.recipe["nutrients-recycling"].results = {
           }
           data.raw.recipe["nutrients-recycling"].energy_required = 0.125
 
+for _, type in pairs{"assembling-machine","furnace","agricultural-tower","boiler","rocket-silo","inserter","lab","mining-drill","offshore-pump","pump","radar","reactor","car","locomotive","burner-generator","fusion-reactor","generator-equipment","roboport-equipment","spider-vehicle"} do
+  for _, prototype in pairs(data.raw[type] or {}) do
+    local energy = prototype.energy_source
+    if energy and energy.type == "burner" then
+      local categories = energy.fuel_categories
+      if categories and util.list_to_map(categories)["chemical"] then
+        table.insert(categories, "aop-spoilage")
+      end
+    end
+  end
+end
 if mods["Cerys-Moon-of-Fulgora"] then 
             data:extend(
     {

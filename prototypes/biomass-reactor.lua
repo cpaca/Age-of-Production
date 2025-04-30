@@ -28,7 +28,7 @@ data:extend{
        burner =
   {
     type = "burner",
-    fuel_categories = {"nutrients"},
+    fuel_categories = {"nutrients", "aop-spoilage"},
     effectivity = 5,
     fuel_inventory_size = 1,
     burnt_inventory_size = 1,
@@ -170,3 +170,14 @@ data:extend{
         },
       },
 }
+
+data:extend(
+{
+  {
+    type = "fuel-category",
+    name = "aop-spoilage"
+  }
+}
+)
+
+data.raw.item["spoilage"].fuel_category = "aop-spoilage"
