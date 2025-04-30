@@ -179,6 +179,10 @@ data:extend(
   {
     type = "recipe-category",
     name = "metallurgy-or-cryogenics"
+  },
+  {
+    type = "recipe-category",
+    name = "ammunition-or-crafting-with-fluid"
   }
 }
 )

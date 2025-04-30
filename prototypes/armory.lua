@@ -26,7 +26,7 @@ data:extend{
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         --map_color = ei_data.colors.assembler,
-        crafting_categories = {"ammunition", "ammunition-or-crafting"},
+        crafting_categories = {"ammunition", "ammunition-or-crafting", "ammunition-or-crafting-with-fluid"},
         fluid_boxes =
         {
           {

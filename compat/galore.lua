@@ -66,6 +66,7 @@ data.raw.recipe["vgal-crude-oil-thruster-fuel"].category = "hydraulics"
 data.raw.recipe["vgal-ammonia-thruster-oxidizer"].category = "hydraulics"
 data.raw.recipe["vgal-biter-egg-defender-capsule"].category = "organic-or-assembling-or-electromechanics"
 data.raw.recipe["vgal-pentapod-egg-defender-capsule"].category = "organic-or-assembling-or-electromechanics"
+data.raw.recipe["vgal-holmium-plate-railgun-ammo"].category = "ammunition-or-crafting-with-fluid"
 
 local tech = data.raw.technology["electronics"]
 for i, effect in ipairs(tech.effects) do
