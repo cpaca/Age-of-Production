@@ -54,7 +54,7 @@ data:extend {{
     category = "scrubbing",
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "pressure", min = 1000, max = 1000}}
+    surface_conditions = {{property = "pressure", min = 1000, max = 1000}, {property = "density", min = 5500, max = 5500}}
 }}
 data:extend {{
     type = "recipe",
@@ -75,7 +75,7 @@ data:extend {{
     category = "scrubbing",
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "pressure", min = 2000, max = 2000}}
+    surface_conditions = {{property = "pressure", min = 2000, max = 2000}, {property = "gravity", min = 20, max = 20}}
 }}
 data:extend {{
     type = "recipe",
@@ -96,7 +96,7 @@ data:extend {{
     category = "scrubbing",
     auto_recycle = false,
     show_amount_in_title = false,
-    surface_conditions = {{property = "magnetic-field", min = 99, max = 99}}
+    surface_conditions = {{property = "magnetic-field", min = 99, max = 99}, {property = "pressure", min = 800, max = 800}}
 }}
 data:extend {{
     type = "recipe",
@@ -167,7 +167,7 @@ data:extend {{
     allow_quality = false,
     category = "chemistry",
     auto_recycle = false,
-    surface_conditions = {{property = "pressure", min = 1000, max = 1000}},
+    surface_conditions = {{property = "pressure", min = 1000, max = 1000}, {property = "density", min = 5500, max = 5500}},
     crafting_machine_tint =
     {
         primary = {r = 0.29, g = 0.27, b = 0.15, a = 1.000},
@@ -196,7 +196,7 @@ data:extend {{
     allow_quality = false,
     category = "chemistry",
     auto_recycle = false,
-    surface_conditions = {{property = "pressure", min = 2000, max = 2000}},
+    surface_conditions = {{property = "pressure", min = 2000, max = 2000}, {property = "gravity", min = 20, max = 20}},
     crafting_machine_tint =
     {
         primary = {r = 0.29, g = 0.27, b = 0.15, a = 1.000},
@@ -226,7 +226,7 @@ data:extend {{
     allow_quality = false,
     category = "chemistry",
     auto_recycle = false,
-    surface_conditions = {{property = "magnetic-field", min = 99, max = 99}},
+    surface_conditions = {{property = "magnetic-field", min = 99, max = 99}, {property = "pressure", min = 800, max = 800}},
     crafting_machine_tint =
     {
         primary = {r = 0.29, g = 0.27, b = 0.15, a = 1.000},

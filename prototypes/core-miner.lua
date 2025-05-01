@@ -6,6 +6,18 @@ local hit_effects = require("__base__/prototypes/entity/hit-effects")
 local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
+
+circuit_connector_definitions["aop-core-miner"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation =  7, main_offset = util.by_pixel(-138.75,  98), shadow_offset = util.by_pixel(-138.75,  98), show_shadow = true },
+    { variation =  7, main_offset = util.by_pixel(-138.75,  98), shadow_offset = util.by_pixel(-138.75,  98), show_shadow = true },
+    { variation =  7, main_offset = util.by_pixel(-138.75,  98), shadow_offset = util.by_pixel(-138.75,  98), show_shadow = true },
+    { variation =  7, main_offset = util.by_pixel(-138.75,  98), shadow_offset = util.by_pixel(-138.75,  98), show_shadow = true },
+  }
+)
+
 local function animationLayer()
   return {
       priority = "high",
@@ -43,7 +55,7 @@ data:extend{
           mining_time = 5,
           results = {{type="item", name="aop-core-miner", amount=1}}
         },
-        max_health = 15000,
+        max_health = 3000,
         corpse = "big-remnants",
         dying_explosion = "big-explosion",
         surface_conditions =
@@ -54,7 +66,7 @@ data:extend{
             }
         },
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["assembling-machine"],
+        circuit_connector = circuit_connector_definitions["aop-core-miner"], 
         collision_box = {{-5.1, -5.1}, {5.1, 5.1}},
         selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
         crafting_categories = {"core-mining"},

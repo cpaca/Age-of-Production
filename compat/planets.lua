@@ -219,14 +219,14 @@ if mods["maraxsis"] then
     if mods["terrapalus"] then 
     add_tech_prerequisites("aop-hybridation", "inhibitor-lamp")
     data.raw.recipe["aop-biochemical-facility"].ingredients = {
-            {type = "item", name = "quantum-processor",   amount = 150},
-            {type = "item", name = "steel-plate",       amount = 100},
-            {type = "item", name = "carbon-fiber", amount = 200},
-            {type = "item", name = "biochamber", amount = 2},
-            {type = "item", name = "nutrients", amount = 500},
-            {type = "item", name = "uranium-235", amount = 200},
-            {type = "item", name = "biter-egg", amount = 5},
-            {type = "item", name = "pentapod-egg", amount = 5},
+        {type = "item", name = "quantum-processor",   amount = 50},
+        {type = "item", name = "steel-plate",       amount = 40},
+        {type = "item", name = "carbon-fiber", amount = 60},
+        {type = "item", name = "biochamber", amount = 2},
+        {type = "item", name = "nutrients", amount = 75},
+        {type = "item", name = "uranium-235", amount = 50},
+        {type = "item", name = "biter-egg", amount = 5},
+        {type = "item", name = "pentapod-egg", amount = 5},
             {type = "item", name = "inhibitor-lamp", amount = 5},
         }
     data.raw.item["aop-biochemical-facility"].default_import_location = "terrapalus"
@@ -240,11 +240,11 @@ if mods["maraxsis"] then
     data.raw.item["aop-armory"].default_import_location = "castra"
     data.raw.recipe["aop-armory"].surface_conditions = {{property = "pressure", min = 1254, max = 1254}}
     data.raw.recipe["aop-armory"].ingredients = {
-            {type = "item", name = "assembling-machine-2",   amount = 1},
-            {type = "item", name = "advanced-circuit",   amount = 50},
-            {type = "item", name = "refined-concrete", amount = 20},
+        {type = "item", name = "assembling-machine-2",   amount = 1},
+        {type = "item", name = "advanced-circuit",   amount = 25},
+        {type = "item", name = "refined-concrete", amount = 20},
             {type = "item", name = "nickel-plate", amount = 35},
-            {type = "item", name = "gunpowder",   amount = 100},
+            {type = "item", name = "gunpowder",   amount = 50},
         }
     data.raw["assembling-machine"]["forge"].effect_receiver = { base_effect = { productivity = 0.0, quality = 1 }}
     

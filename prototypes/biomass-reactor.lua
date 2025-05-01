@@ -18,7 +18,7 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-biomass-reactor", amount=1}}
         },
-        max_health = 600,
+        max_health = 300,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},

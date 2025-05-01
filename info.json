@@ -1,6 +1,6 @@
 {
   "name": "Age-of-Production",
-  "version": "1.6.11",
+  "version": "1.6.12",
   "title": "Age of Production",
   "author": "AndreusAxolotl",
   "homepage": "https://github.com/AndreusAxolotl/Age-of-Production",
@@ -41,5 +41,6 @@
     "? aai-industry",
     "? bobassembly",
     "! AoP-extended-planets"
-]
+],
+"space_travel_required": true
 }

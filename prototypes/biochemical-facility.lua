@@ -7,6 +7,17 @@ local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
 
+circuit_connector_definitions["aop-biochemical-facility"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation = 25, main_offset = util.by_pixel(-90.375,  79.875), shadow_offset = util.by_pixel(-90.375,  79.875), show_shadow = true },
+    { variation = 25, main_offset = util.by_pixel(-90.375,  79.875), shadow_offset = util.by_pixel(-90.375,  79.875), show_shadow = true },
+    { variation = 25, main_offset = util.by_pixel(-90.375,  79.875), shadow_offset = util.by_pixel(-90.375,  79.875), show_shadow = true },
+    { variation = 25, main_offset = util.by_pixel(-90.375,  79.875), shadow_offset = util.by_pixel(-90.375,  79.875), show_shadow = true },
+  }
+)
+
 data:extend{
     {
         name = "aop-biochemical-facility",
@@ -18,11 +29,11 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-biochemical-facility", amount=1}}
         },
-        max_health = 2000,
+        max_health = 500,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["assembling-machine"],
+        circuit_connector = circuit_connector_definitions["aop-biochemical-facility"],
         collision_box = {{-3.1, -3.1}, {3.1, 3.1}},
         selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
         --map_color = ei_data.colors.assembler,

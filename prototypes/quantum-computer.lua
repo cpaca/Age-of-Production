@@ -18,7 +18,7 @@ data:extend {
             mining_time = 0.5,
             results = { { type = "item", name = "aop-quantum-computer", amount = 1 } }
         },
-        max_health = 5000,
+        max_health = 1500,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         surface_conditions =

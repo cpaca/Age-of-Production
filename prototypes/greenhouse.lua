@@ -6,6 +6,18 @@ local hit_effects = require("__base__/prototypes/entity/hit-effects")
 local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
+
+circuit_connector_definitions["aop-greenhouse"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation = 27, main_offset = util.by_pixel(-33,  61.875), shadow_offset = util.by_pixel(-33,  61.875), show_shadow = true }, 
+    { variation = 27, main_offset = util.by_pixel(-33,  61.875), shadow_offset = util.by_pixel(-33,  61.875), show_shadow = true }, 
+    { variation = 27, main_offset = util.by_pixel(-33,  61.875), shadow_offset = util.by_pixel(-33,  61.875), show_shadow = true }, 
+    { variation = 27, main_offset = util.by_pixel(-33,  61.875), shadow_offset = util.by_pixel(-33,  61.875), show_shadow = true },
+  }
+)
+
 local function animationLayer()
   return {
       priority = "high",
@@ -42,11 +54,11 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-greenhouse", amount=1}}
         },
-        max_health = 500,
+        max_health = 400,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["assembling-machine"],
+        circuit_connector = circuit_connector_definitions["aop-greenhouse"],
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         --map_color = ei_data.colors.assembler,

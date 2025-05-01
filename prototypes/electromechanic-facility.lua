@@ -6,6 +6,18 @@ local hit_effects = require("__base__/prototypes/entity/hit-effects")
 local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
+
+circuit_connector_definitions["aop-electromechanic-facility"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation = 32, main_offset = util.by_pixel( 92.875, -89.75), shadow_offset = util.by_pixel( 92.875, -89.75), show_shadow = true },
+    { variation = 32, main_offset = util.by_pixel( 92.875, -89.75), shadow_offset = util.by_pixel( 92.875, -89.75), show_shadow = true },
+    { variation = 32, main_offset = util.by_pixel( 92.875, -89.75), shadow_offset = util.by_pixel( 92.875, -89.75), show_shadow = true },
+    { variation = 32, main_offset = util.by_pixel( 92.875, -89.75), shadow_offset = util.by_pixel( 92.875, -89.75), show_shadow = true },
+  }
+)
+
 local function animationLayer()
   return {
       priority = "high",
@@ -43,11 +55,11 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-electromechanic-facility", amount=1}}
         },
-        max_health = 5000,
+        max_health = 1300,
         corpse = "big-remnants",
         dying_explosion = "big-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["assembling-machine"],
+        circuit_connector = circuit_connector_definitions["aop-electromechanic-facility"],
         collision_box = {{-4.1, -4.1}, {4.1, 4.1}},
         selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
         --map_color = ei_data.colors.assembler,

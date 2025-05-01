@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.12
+Date: 2025-05-01
+  Connection terminated.:
+
+  Changes:
+    - Changed all machines' circuit connectors to look better thanks to the Circuit Connector Placer Helper mod by QUezler.
+    - Made some buildings' crafting recipes cheaper.
+    - Changed hp of all machines to be more consistent with Vanilla.
+---------------------------------------------------------------------------------------------------
 Version: 1.6.11
 Date: 2025-04-30
   Fixes upon fixes:

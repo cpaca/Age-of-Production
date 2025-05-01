@@ -6,6 +6,18 @@ local hit_effects = require("__base__/prototypes/entity/hit-effects")
 local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
+
+circuit_connector_definitions["aop-salvager"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation = 24, main_offset = util.by_pixel(-62.75,  6.25), shadow_offset = util.by_pixel(-62.75,  6.25), show_shadow = true }, 
+    { variation = 24, main_offset = util.by_pixel(-62.75,  6.25), shadow_offset = util.by_pixel(-62.75,  6.25), show_shadow = true }, 
+    { variation = 24, main_offset = util.by_pixel(-62.75,  6.25), shadow_offset = util.by_pixel(-62.75,  6.25), show_shadow = true }, 
+    { variation = 24, main_offset = util.by_pixel(-62.75,  6.25), shadow_offset = util.by_pixel(-62.75,  6.25), show_shadow = true }, 
+  }
+)
+
 local function animationLayer()
     return {
         priority = "high",
@@ -44,11 +56,11 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-salvager", amount=1}}
         },
-        max_health = 1000,
+        max_health = 350,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = furnace_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["steel-furnace"],
+        circuit_connector = circuit_connector_definitions["aop-salvager"],
         collision_box = {{-1.6, -1.6}, {1.6, 1.6}},
         selection_box = {{-2, -2}, {2, 2}},
         --map_color = ei_data.colors.assembler,

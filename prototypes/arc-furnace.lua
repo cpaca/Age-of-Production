@@ -7,6 +7,17 @@ local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
 
+circuit_connector_definitions["aop-arc-furnace"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation = 25, main_offset = util.by_pixel(-37.75,  28.25), shadow_offset = util.by_pixel(-37.75,  28.25), show_shadow = true },
+    { variation = 25, main_offset = util.by_pixel(-37.75,  28.25), shadow_offset = util.by_pixel(-37.75,  28.25), show_shadow = true },
+    { variation = 25, main_offset = util.by_pixel(-37.75,  28.25), shadow_offset = util.by_pixel(-37.75,  28.25), show_shadow = true },
+    { variation = 25, main_offset = util.by_pixel(-37.75,  28.25), shadow_offset = util.by_pixel(-37.75,  28.25), show_shadow = true },
+  }
+)
+
 data:extend{
     {
         name = "aop-arc-furnace",
@@ -18,11 +29,11 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-arc-furnace", amount=1}}
         },
-        max_health = 1000,
+        max_health = 350,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = furnace_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["steel-furnace"],
+        circuit_connector = circuit_connector_definitions["aop-arc-furnace"],
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         --map_color = ei_data.colors.assembler,

@@ -7,6 +7,17 @@ local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
 
+circuit_connector_definitions["aop-armory"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation =  6, main_offset = util.by_pixel( 33.75,  49.25), shadow_offset = util.by_pixel( 33.75,  49.25), show_shadow = true },
+    { variation =  6, main_offset = util.by_pixel( 33.75,  49.25), shadow_offset = util.by_pixel( 33.75,  49.25), show_shadow = true },
+    { variation =  6, main_offset = util.by_pixel( 33.75,  49.25), shadow_offset = util.by_pixel( 33.75,  49.25), show_shadow = true },
+    { variation =  6, main_offset = util.by_pixel( 33.75,  49.25), shadow_offset = util.by_pixel( 33.75,  49.25), show_shadow = true },
+  }
+)
+
 data:extend{
     {
         name = "aop-armory",
@@ -18,11 +29,11 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-armory", amount=1}}
         },
-        max_health = 750,
+        max_health = 450,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["assembling-machine"],
+        circuit_connector = circuit_connector_definitions["aop-armory"],
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         --map_color = ei_data.colors.assembler,

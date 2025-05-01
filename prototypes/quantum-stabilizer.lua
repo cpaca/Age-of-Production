@@ -18,7 +18,7 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-quantum-stabilizer", amount=1}}
         },
-        max_health = 3000,
+        max_health = 800,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         collision_box = {{-2.6, -2.6}, {2.6, 2.6}},

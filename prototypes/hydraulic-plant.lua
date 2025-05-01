@@ -7,6 +7,17 @@ local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
 
+circuit_connector_definitions["aop-hydraulic-plant"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation = 19, main_offset = util.by_pixel( 49.875,  43.875), shadow_offset = util.by_pixel( 49.875,  43.875), show_shadow = true }, 
+    { variation = 19, main_offset = util.by_pixel( 49.875,  43.875), shadow_offset = util.by_pixel( 49.875,  43.875), show_shadow = true }, 
+    { variation = 19, main_offset = util.by_pixel( 49.875,  43.875), shadow_offset = util.by_pixel( 49.875,  43.875), show_shadow = true }, 
+    { variation = 19, main_offset = util.by_pixel( 49.875,  43.875), shadow_offset = util.by_pixel( 49.875,  43.875), show_shadow = true }, 
+  }
+)
+
 data:extend{
     {
         name = "aop-hydraulic-plant",
@@ -18,11 +29,11 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-hydraulic-plant", amount=1}}
         },
-        max_health = 700,
+        max_health = 350,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["chemical-plant"],
+        circuit_connector = circuit_connector_definitions["aop-hydraulic-plant"],
         collision_box = {{-1.6, -1.6}, {1.6, 1.6}},
         selection_box = {{-2, -2}, {2, 2}},
         --map_color = ei_data.colors.assembler,

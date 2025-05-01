@@ -27,11 +27,11 @@ data:extend {{
     enabled = false,
     energy_required = 30,
     ingredients = {
-        {type = "item", name = "steel-plate",   amount = 200},
-        {type = "item", name = "copper-cable",       amount = 150},
-        {type = "item", name = "tungsten-carbide", amount = 100},
-        {type = "item", name = "refined-concrete", amount = 50},
-        {type = "item", name = "advanced-circuit", amount = 50},
+        {type = "item", name = "steel-plate",   amount = 20},
+        {type = "item", name = "copper-cable",       amount = 35},
+        {type = "item", name = "tungsten-carbide", amount = 30},
+        {type = "item", name = "refined-concrete", amount = 20},
+        {type = "item", name = "advanced-circuit", amount = 20},
         {type = "item", name = "electric-furnace", amount = 1},
     },
     results = {
@@ -64,9 +64,9 @@ data:extend {{
     enabled = false,
     energy_required = 20,
     ingredients = {
-        {type = "item", name = "quantum-processor",   amount = 100},
-        {type = "item", name = "tungsten-plate",       amount = 200},
-        {type = "item", name = "refined-concrete", amount = 100},
+        {type = "item", name = "quantum-processor",   amount = 50},
+        {type = "item", name = "tungsten-plate",       amount = 40},
+        {type = "item", name = "refined-concrete", amount = 40},
         {type = "item", name = "centrifuge", amount = 5},
     },
     results = {
@@ -99,12 +99,12 @@ data:extend {{
     enabled = false,
     energy_required = 60,
     ingredients = {
-        {type = "item", name = "quantum-processor",   amount = 150},
-        {type = "item", name = "steel-plate",       amount = 100},
-        {type = "item", name = "carbon-fiber", amount = 200},
+        {type = "item", name = "quantum-processor",   amount = 50},
+        {type = "item", name = "steel-plate",       amount = 40},
+        {type = "item", name = "carbon-fiber", amount = 60},
         {type = "item", name = "biochamber", amount = 2},
-        {type = "item", name = "nutrients", amount = 500},
-        {type = "item", name = "uranium-235", amount = 200},
+        {type = "item", name = "nutrients", amount = 75},
+        {type = "item", name = "uranium-235", amount = 50},
         {type = "item", name = "biter-egg", amount = 5},
         {type = "item", name = "pentapod-egg", amount = 5},
     },
@@ -176,9 +176,9 @@ data:extend {{
     ingredients = {
         {type = "item", name = "agricultural-tower",   amount = 1},
         {type = "item", name = "landfill",       amount = 20},
-        {type = "item", name = "steel-plate", amount = 100},
-        {type = "item", name = "processing-unit", amount = 100},
-        {type = "item", name = "iron-gear-wheel", amount = 50},
+        {type = "item", name = "steel-plate", amount = 30},
+        {type = "item", name = "processing-unit", amount = 20},
+        {type = "item", name = "iron-gear-wheel", amount = 20},
     },
     results = {
         {type = "item", name = "aop-greenhouse", amount = 1}
@@ -210,10 +210,10 @@ data:extend {{
     enabled = false,
     energy_required = 20,
     ingredients = {
-        {type = "item", name = "pump",   amount = 20},
-        {type = "item", name = "tungsten-plate",       amount = 200},
-        {type = "item", name = "lithium-plate",       amount = 50},
-        {type = "item", name = "processing-unit", amount = 150},
+        {type = "item", name = "pump",   amount = 5},
+        {type = "item", name = "tungsten-plate",       amount = 30},
+        {type = "item", name = "lithium-plate",       amount = 30},
+        {type = "item", name = "processing-unit", amount = 40},
         {type = "fluid", name = "water", amount = 300},
     },
     results = {
@@ -253,9 +253,9 @@ data:extend {{
     enabled = false,
     energy_required = 30,
     ingredients = {
-        {type = "item", name = "steel-plate",   amount = 100},
-        {type = "item", name = "iron-gear-wheel",       amount = 50},
-        {type = "item", name = "wood", amount = 150},
+        {type = "item", name = "steel-plate",   amount = 30},
+        {type = "item", name = "iron-gear-wheel",       amount = 20},
+        {type = "item", name = "wood", amount = 50},
         {type = "item", name = "landfill", amount = 20},
     },
     results = {
@@ -288,10 +288,10 @@ data:extend {{
     enabled = false,
     energy_required = 30,
     ingredients = {
-        {type = "item", name = "pump",   amount = 25},
-        {type = "item", name = "pipe",       amount = 200},
-        {type = "item", name = "processing-unit", amount = 100},
-        {type = "item", name = "steel-plate", amount = 200},
+        {type = "item", name = "pump",   amount = 5},
+        {type = "item", name = "pipe",       amount = 20},
+        {type = "item", name = "processing-unit", amount = 30},
+        {type = "item", name = "steel-plate", amount = 50},
         {type = "fluid", name = "heavy-oil", amount = 300},
     },
     results = {
@@ -452,10 +452,10 @@ data:extend {{
     enabled = false,
     energy_required = 20,
     ingredients = {
-        {type = "item", name = "steel-plate",   amount = 75},
+        {type = "item", name = "steel-plate",   amount = 20},
         {type = "item", name = "iron-gear-wheel",       amount = 25},
-        {type = "item", name = "pipe", amount = 30},
-        {type = "item", name = "copper-cable", amount = 50},
+        {type = "item", name = "pipe", amount = 5},
+        {type = "item", name = "copper-cable", amount = 15},
         {type = "item", name = "carbon-fiber", amount = 20},
     },
     results = {
@@ -487,11 +487,11 @@ data:extend {{
     enabled = false,
     energy_required = 30,
     ingredients = {
-        {type = "item", name = "tungsten-plate",   amount = 300},
-        {type = "item", name = "iron-gear-wheel",       amount = 150},
-        {type = "item", name = "tungsten-carbide", amount = 100},
-        {type = "item", name = "refined-concrete", amount = 150},
-        {type = "item", name = "quantum-processor", amount = 50},
+        {type = "item", name = "tungsten-plate",   amount = 100},
+        {type = "item", name = "iron-gear-wheel",       amount = 70},
+        {type = "item", name = "tungsten-carbide", amount = 60},
+        {type = "item", name = "refined-concrete", amount = 35},
+        {type = "item", name = "quantum-processor", amount = 20},
         {type = "item", name = "foundry", amount = 1},
         {type = "fluid", name = "lubricant", amount = 100},
     },
@@ -528,8 +528,8 @@ data:extend {{
     ingredients = {
         {type = "item", name = "recycler",   amount = 1},
         {type = "item", name = "quality-module-3",       amount = 4},
-        {type = "item", name = "carbon-fiber", amount = 100},
-        {type = "item", name = "refined-concrete", amount = 50},
+        {type = "item", name = "carbon-fiber", amount = 20},
+        {type = "item", name = "refined-concrete", amount = 30},
     },
     results = {
         {type = "item", name = "aop-salvager", amount = 1}
@@ -566,9 +566,9 @@ data:extend {{
         {type = "item", name = "efficiency-module-3",       amount = 3},
         {type = "item", name = "productivity-module-3", amount = 3},
         {type = "item", name = "speed-module-3", amount = 3},
-        {type = "item", name = "refined-concrete", amount = 50},
-        {type = "item", name = "supercapacitor", amount = 25},
-        {type = "item", name = "steel-plate", amount = 100},
+        {type = "item", name = "refined-concrete", amount = 30},
+        {type = "item", name = "supercapacitor", amount = 15},
+        {type = "item", name = "steel-plate", amount = 50},
     },
     results = {
         {type = "item", name = "aop-advanced-assembling-machine", amount = 1}
@@ -644,7 +644,7 @@ data:extend {{
     energy_required = 60,
     ingredients = {
         {type = "item", name = "assembling-machine-2",   amount = 1},
-        {type = "item", name = "advanced-circuit",   amount = 50},
+        {type = "item", name = "advanced-circuit",   amount = 25},
         {type = "item", name = "refined-concrete", amount = 20},
         {type = "item", name = "tungsten-plate", amount = 35},
         {type = "fluid", name = "molten-copper",   amount = 100},
@@ -681,10 +681,10 @@ data:extend {{
     ingredients = {
         {type = "item", name = "electric-furnace",   amount = 1},
         {type = "item", name = "chemical-plant",   amount = 1},
-        {type = "item", name = "tungsten-plate",       amount = 200},
-        {type = "item", name = "lithium-plate",       amount = 70},
-        {type = "item", name = "processing-unit", amount = 200},
-        {type = "item", name = "copper-plate", amount = 200},
+        {type = "item", name = "tungsten-plate",       amount = 20},
+        {type = "item", name = "lithium-plate",       amount = 30},
+        {type = "item", name = "processing-unit", amount = 40},
+        {type = "item", name = "copper-plate", amount = 35},
     },
     results = {
         {type = "item", name = "aop-mineral-synthesizer", amount = 1}
@@ -717,7 +717,7 @@ data:extend {{
     enabled = false,
     energy_required = 30,
     ingredients = {
-        {type = "item", name = "steel-plate",   amount = 50},
+        {type = "item", name = "steel-plate",   amount = 20},
         {type = "item", name = "heating-tower",       amount = 1},
         {type = "item", name = "refined-concrete", amount = 25},
         {type = "item", name = "steam-turbine", amount = 2},

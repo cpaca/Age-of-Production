@@ -7,6 +7,17 @@ local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
 
+circuit_connector_definitions["aop-atomic-enricher"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation = 31, main_offset = util.by_pixel( 6.625, -34.375), shadow_offset = util.by_pixel( 6.625, -34.375), show_shadow = true },
+    { variation = 31, main_offset = util.by_pixel( 6.625, -34.375), shadow_offset = util.by_pixel( 6.625, -34.375), show_shadow = true },
+    { variation = 31, main_offset = util.by_pixel( 6.625, -34.375), shadow_offset = util.by_pixel( 6.625, -34.375), show_shadow = true },
+    { variation = 31, main_offset = util.by_pixel( 6.625, -34.375), shadow_offset = util.by_pixel( 6.625, -34.375), show_shadow = true },
+  }
+)
+
 data:extend{
     {
         name = "aop-atomic-enricher",
@@ -18,11 +29,11 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-atomic-enricher", amount=1}}
         },
-        max_health = 750,
+        max_health = 500,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["centrifuge"],
+        circuit_connector = circuit_connector_definitions["aop-atomic-enricher"], 
         collision_box = {{-2.6, -2.6}, {2.6, 2.6}},
         selection_box = {{-3, -3}, {3, 3}},
         --map_color = ei_data.colors.assembler,

@@ -7,6 +7,17 @@ local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
 
+circuit_connector_definitions["aop-quantum-assembler"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation = 27, main_offset = util.by_pixel( 36, -16.625), shadow_offset = util.by_pixel( 36, -16.625), show_shadow = true }, 
+    { variation = 27, main_offset = util.by_pixel( 36, -16.625), shadow_offset = util.by_pixel( 36, -16.625), show_shadow = true }, 
+    { variation = 27, main_offset = util.by_pixel( 36, -16.625), shadow_offset = util.by_pixel( 36, -16.625), show_shadow = true }, 
+    { variation = 27, main_offset = util.by_pixel( 36, -16.625), shadow_offset = util.by_pixel( 36, -16.625), show_shadow = true }, 
+  }
+)
+
 data:extend{
     {
         name = "aop-quantum-assembler",
@@ -22,7 +33,7 @@ data:extend{
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["assembling-machine"],
+        circuit_connector = circuit_connector_definitions["aop-quantum-assembler"],
         collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         --map_color = ei_data.colors.assembler,

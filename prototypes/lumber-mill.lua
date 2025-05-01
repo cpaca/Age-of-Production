@@ -7,6 +7,17 @@ local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
 
+circuit_connector_definitions["aop-lumber-mill"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation = 18, main_offset = util.by_pixel( 85.25,  80.25), shadow_offset = util.by_pixel( 85.25,  80.25), show_shadow = true }, 
+    { variation = 18, main_offset = util.by_pixel( 85.25,  80.25), shadow_offset = util.by_pixel( 85.25,  80.25), show_shadow = true }, 
+    { variation = 18, main_offset = util.by_pixel( 85.25,  80.25), shadow_offset = util.by_pixel( 85.25,  80.25), show_shadow = true }, 
+    { variation = 18, main_offset = util.by_pixel( 85.25,  80.25), shadow_offset = util.by_pixel( 85.25,  80.25), show_shadow = true }, 
+  }
+) 
+
 data:extend{
     {
         name = "aop-lumber-mill",
@@ -18,11 +29,11 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-lumber-mill", amount=1}}
         },
-        max_health = 500,
+        max_health = 450,
         corpse = "big-remnants",
         dying_explosion = "medium-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["assembling-machine"],
+        circuit_connector = circuit_connector_definitions["aop-lumber-mill"],
         collision_box = {{-3.1, -3.1}, {3.1, 3.1}},
         selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
         --map_color = ei_data.colors.assembler,

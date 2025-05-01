@@ -6,6 +6,18 @@ local hit_effects = require("__base__/prototypes/entity/hit-effects")
 local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
+
+circuit_connector_definitions["aop-smeltery"] = circuit_connector_definitions.create_vector
+(
+  universal_connector_template,
+  {
+    { variation = 27, main_offset = util.by_pixel( 113.75, -19.75), shadow_offset = util.by_pixel( 113.75, -19.75), show_shadow = true }, 
+    { variation = 27, main_offset = util.by_pixel( 113.75, -19.75), shadow_offset = util.by_pixel( 113.75, -19.75), show_shadow = true }, 
+    { variation = 27, main_offset = util.by_pixel( 113.75, -19.75), shadow_offset = util.by_pixel( 113.75, -19.75), show_shadow = true }, 
+    { variation = 27, main_offset = util.by_pixel( 113.75, -19.75), shadow_offset = util.by_pixel( 113.75, -19.75), show_shadow = true }, 
+  }
+)
+
 local function animationLayer()
   return {
       priority = "high",
@@ -42,11 +54,11 @@ data:extend{
           mining_time = 0.5,
           results = {{type="item", name="aop-smeltery", amount=1}}
         },
-        max_health = 2000,
+        max_health = 1000,
         corpse = "big-remnants",
         dying_explosion = "big-explosion",
         circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
-        circuit_connector = circuit_connector_definitions["foundry"],
+        circuit_connector = circuit_connector_definitions["aop-smeltery"],
         collision_box = {{-3.6, -3.6}, {3.6, 3.6}},
         selection_box = {{-4, -4}, {4, 4}},
         --map_color = ei_data.colors.assembler,
