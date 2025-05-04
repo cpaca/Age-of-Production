@@ -68,6 +68,9 @@ data.raw.recipe["vgal-biter-egg-defender-capsule"].category = "organic-or-assemb
 data.raw.recipe["vgal-pentapod-egg-defender-capsule"].category = "organic-or-assembling-or-electromechanics"
 data.raw.recipe["vgal-holmium-plate-railgun-ammo"].category = "ammunition-or-crafting-with-fluid"
 data.raw.recipe["vgal-superconductor-railgun-ammo"].category = "ammunition-or-crafting"
+data.raw.recipe["vgal-ice-solid-fuel-ammonia"].category = "hydraulics-or-chemistry"
+data.raw.recipe["vgal-scrap-sulfuric-acid-holmium-solution"].category = "hydraulics-or-chemistry"
+data.raw.recipe["vgal-thruster-oxidizer-thruster-fuel-steam"].category = "hydraulics-or-chemistry-or-cryogenics"
 
 local tech = data.raw.technology["electronics"]
 for i, effect in ipairs(tech.effects) do
