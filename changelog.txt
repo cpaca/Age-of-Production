@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.14
+Date: 2025-05-12
+  Fixesful!:
+
+  Changes:
+    - Updated locales.
+
+  Fixes:
+    - Fixed certain assembling machines not being able to craft science packs in various mods.
+    - Fixed error in Moshinean Crushing recipe.
+---------------------------------------------------------------------------------------------------
 Version: 1.6.13
 Date: 2025-05-03
   Whoopsie:

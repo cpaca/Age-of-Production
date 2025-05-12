@@ -456,7 +456,7 @@ if mods["maraxsis"] then
             results = {
                 {type = "item", name = "sand", amount = 1, probability = 0.28},
                 {type = "item", name = "sulfur", amount = 1, probability = 0.6},
-                {type = "item", name = "copper-ore", amount = 1, probability = 0.08}, 
+                {type = "item", name = "iron-ore", amount = 1, probability = 0.08}, 
                 {type = "item", name = "copper-ore", amount = 1, probability = 0.09}, 
                 {type = "item", name = "coal", amount = 1, probability = 0.12}, 
                 {type = "item", name = "neodymium", amount = 32, probability = 0.01}, 

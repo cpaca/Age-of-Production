@@ -120,4 +120,12 @@ for _, recipe in pairs(data.raw.recipe) do
 end
 data.raw.recipe["vgal-bulk-inserter-chemical-science-pack"].category = "quantum-assembling-or-crafting-with-fluid-or-advanced-centrifuging"
 end
+
+if mods["bobassembly"] then 
+      add_crafting_categories("assembling-machine", "bob-burner-assembling-machine", {"centrifuging-or-electromechanics", "quantum-assembling-or-crafting-or-advanced-centrifuging"})
+      add_crafting_categories("assembling-machine", "bob-steam-assembling-machine", {"centrifuging-or-electromechanics", "quantum-assembling-or-crafting-or-advanced-centrifuging", "quantum-assembling-or-crafting-with-fluid-or-advanced-centrifuging"})
+    end
+if mods["aai-industry"] then
+  add_crafting_categories("assembling-machine", "burner-assembling-machine", {"centrifuging-or-electromechanics", "quantum-assembling-or-crafting-or-advanced-centrifuging"})
+end
 end
