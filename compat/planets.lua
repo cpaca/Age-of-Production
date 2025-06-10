@@ -227,7 +227,7 @@ if mods["maraxsis"] then
         {type = "item", name = "uranium-235", amount = 50},
         {type = "item", name = "biter-egg", amount = 5},
         {type = "item", name = "pentapod-egg", amount = 5},
-            {type = "item", name = "inhibitor-lamp", amount = 5},
+            {type = "item", name = "palusium-plate", amount = 25},
         }
     data.raw.item["aop-biochemical-facility"].default_import_location = "terrapalus"
     data.raw.planet["terrapalus"].surface_properties.density = 2200

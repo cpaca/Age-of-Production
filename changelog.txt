@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.19
+Date: 2025-06-10
+  What the hell are Palusian ratios vro:
+
+  Changes:
+    - Changed the Terra Palus compat recipe for Biochemical Facilities to use palusium plates instead of the crazy expensive inhibitor lamps.
+---------------------------------------------------------------------------------------------------
 Version: 1.6.18
 Date: 2025-06-03
   Coralmium fix:
