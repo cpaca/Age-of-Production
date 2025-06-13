@@ -29,3 +29,9 @@ end
   add_crafting_categories("assembling-machine", "aop-lumber-mill", {"organic-or-kiln-smelting"})
  end
 end
+
+if settings.startup["aop-prevent-loops"].value then
+    data.raw["recipe"]["ice-melting"].allow_productivity = false
+    data.raw["recipe"]["aop-calcite-synthesis"].allow_productivity = false
+    data.raw["recipe"]["aop-stone-synthesis"].allow_productivity = false
+    end

@@ -6,7 +6,7 @@ data:extend {{
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "water", amount = 20},
+        {type = "fluid", name = "water", amount = 25},
     },
     results = {
         {type = "item", name = "ice", amount = 1},
@@ -45,7 +45,7 @@ data:extend {{
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "stone",      amount = 5},
+        {type = "item", name = "stone",      amount = 8},
         {type = "item", name = "carbon", amount = 2},
         {type = "fluid", name = "water", amount = 50},
     },
@@ -74,7 +74,7 @@ data:extend {{
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "calcite",      amount = 2},
+        {type = "item", name = "calcite",      amount = 5},
         {type = "item", name = "carbon", amount = 2},
         {type = "fluid", name = "steam", amount = 50},
     },

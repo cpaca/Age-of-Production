@@ -1,3 +1,19 @@
+
+data:extend({
+  {
+      type = "bool-setting",
+      name = "aop-specialized-science",
+      setting_type = "startup",
+      default_value = true
+  },
+  {
+      type = "bool-setting",
+      name = "aop-prevent-loops",
+      setting_type = "startup",
+      default_value = true
+  },
+})
+
 if mods["maraxsis"] then
   data:extend({
     {
@@ -30,12 +46,3 @@ if mods["atan-nuclear-science"] then
     }
   })
 end
-
-data:extend({
-  {
-      type = "bool-setting",
-      name = "aop-specialized-science",
-      setting_type = "startup",
-      default_value = true
-  }
-})

@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.20
+Date: 2025-06-10
+  Fixed this, happy now?:
+
+  Additions:
+    - Added a setting (on by default) to disable infinite resource loops. If there are any I forgot inform me.
+
+  Changes:
+    - Changed ingredient amounts for synthesis recipes to also prevent base loops even if the setting is off.
+---------------------------------------------------------------------------------------------------
 Version: 1.6.19
 Date: 2025-06-10
   What the hell are Palusian ratios vro:
