@@ -513,3 +513,36 @@ if mods["maraxsis"] then
         add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-naufulglebunusiloan-crushing"})
         add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-naufulglebunusiloan-crushing", change = 0.05})
     end    
+if mods["tchekor"] then
+    -- Density is halfway between Vulcanus and Fulgora
+    data.raw.planet["tchekor"].surface_properties.density = 4550
+    data:extend {{
+        type = "recipe",
+        name = "aop-tchekoran-crushing",
+        icon = "__Age-of-Production-Graphics__/graphics/icons/tchekoran-crushing.png",
+        subgroup = "aop-core-mining",
+        enabled = false,
+        energy_required = 2,
+        ingredients = {
+            {type = "item", name = "aop-refined-mineral",      amount = 1},
+        },
+        results = {
+            {type = "item", name = "iron-ore", amount = 2, probability = 0.3},
+            {type = "item", name = "copper-ore", amount = 2, probability = 0.3}, 
+            {type = "item", name = "tungsten-ore", amount = 1, probability = 0.15}, 
+            {type = "item", name = "sulfur", amount = 1, probability = 0.15}, 
+            {type = "item", name = "coal", amount = 2, probability = 0.4}, 
+            {type = "item", name = "calcite", amount = 1, probability = 0.15},
+            {type = "item", name = "holmium-ore", amount = 1, probability = 0.05}, 
+            {type = "item", name = "scrap", amount = 2, probability = 0.01}, 
+        },
+        allow_productivity = true,
+        category = "crushing",
+        auto_recycle = false,
+        show_amount_in_title = false,
+        maximum_productivity = 1,
+        surface_conditions = {{property = "density", min = 4550, max = 4550}},
+    }}
+    add_tech_effect("aop-core-mining", {type = "unlock-recipe", recipe = "aop-tchekoran-crushing"})
+    add_tech_effect("aop-deep-mineral-refining-productivity", {type = "change-recipe-productivity", recipe = "aop-tchekoran-crushing", change = 0.05})
+end
